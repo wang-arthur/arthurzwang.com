@@ -2,7 +2,7 @@
 title: "Situation, Occasion, Encounter: Claudia Rankine's _Citizen_ and Lyric Theory in the Historical Present"
 collection: publications
 permalink: /publication/situation-occasion-encounter
-excerpt: 'Awarded the tenth <b>L.S. Dembo Prize</b> (best article published in <i>Contemporary Literature</i> in 2020)'
+excerpt: 'Awarded the tenth **L.S. Dembo Prize** (best article published in _Contemporary Literature_ in 2020)'
 date: 2020-12-21
 venue: 'Contemporary Literature'
 paperurl: 'https://doi.org/10.3368/cl.60.4.515'

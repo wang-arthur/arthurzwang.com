@@ -1,13 +1,10 @@
-<!-- ---
+---
 layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
+toc: true
 ---
-
-{% include base_path %}
 
 Academic Appointments
 ======
@@ -25,11 +22,14 @@ Education
 * M.St. in English and American Studies, University of Oxford, 2012
 * A.B. in English and Creative Writing, Princeton University, 2011
 
+
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<div class="publication_list">
+   <ul>{% for post in site.publications reversed %}
+      {% include archive-single.html short_excerpt=true %}
+    {% endfor %}</ul>
+</div>
 
 Manuscripts in Progress
 ======
@@ -37,21 +37,13 @@ Manuscripts in Progress
 - “Inventing Rape Ecology: Octavia E. Butler and the Sociobiology of Sexual Violence” (revising for resubmission to _PMLA_)
 - “Nothing but Mammals: Feminism, Pornography, and the Sociobiology of Sexual Violence" (under review at _Representations_)
 
-
-<!--
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
--->
-
 Teaching
 ======
-  {% assign teaching = site.teaching %}
-  <ul>{% for post in teaching reversed %}
-    {% include archive-single-cv.html %}
+<div class="teaching_list">
+ <ul>{% for post in site.teaching reversed %}
+    {% include archive-single.html short_excerpt=true %}
   {% endfor %}</ul>
+</div>
 
 Technologies and Tools
 ======
@@ -104,4 +96,3 @@ Awards and Honors
 - **Research Fellowship**, Beinecke Rare Book and Manuscript Library, Summer 2018
 - **Departmental Prize for Excellence in Coursework**, Yale English (best graduate student essay), 2016
 - **Phi Beta Kappa**, Princeton University, 2011
- -->

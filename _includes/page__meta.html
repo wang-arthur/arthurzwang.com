@@ -2,19 +2,19 @@
 
 <div class="page__meta">
   {% if document.type %}
-    {% include page__type.html document=document %}
+    {% include page__type.html %}
   {% endif %}
 
   {% if document.venue %}
-    {% include page__venue.html document=document %}
+    {% include page__venue.html %}
   {% endif %}
 
   {% if document.location %}
-    {% include page__location.html document=document %}
+    {% include page__location.html %}
   {% endif %}
 
   {% if document.date %}
-    {% include page__date.html document=document %}
+    {% include page__date.html %}
   {% endif %}
 
   {% if document.read_time or document.show_date %}

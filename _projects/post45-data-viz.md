@@ -21,7 +21,7 @@ Color scheme for the visualizations above: [Cheysson Palette](https://observable
 
 ## Post45 Submission Outcomes since 2020 (excluding special issues)
 <figure>
-	<object type="image/svg+xml" data="../images/outcomes_sankey.svg" class="fitvidsignore"></object>
+	<object type="image/svg+xml" data="../assets/images/outcomes_sankey.svg" class="fitvidsignore"></object>
 	<figcaption>
 		Image created with <a href="https://sankeymatic.com/build/">SankeyMATIC</a>
 	</figcaption>

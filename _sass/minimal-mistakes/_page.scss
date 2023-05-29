@@ -311,6 +311,12 @@ body {
   a {
     color: inherit;
   }
+  .page__venue {
+    .publication {
+      font-style: italic;
+    }
+  }
+
 }
 
 .page__meta-title {
@@ -575,5 +581,18 @@ body {
     @include breakpoint($x-large) {
       padding-right: 0;
     }
+  }
+}
+
+/*
+    cv page
+   ========================================================================== */
+.publication_list, .teaching_list {
+  h2 {
+    margin-top: 0;
+  }
+
+  .archive__item-excerpt {
+    font-size: $type-size-5;
   }
 }
