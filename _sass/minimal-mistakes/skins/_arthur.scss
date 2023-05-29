@@ -2,6 +2,30 @@
    Arthur's custom skin (based on contrast skin)
    ========================================================================== */
 
+/* system typefaces */
+$serif: le-monde-livre-std, Georgia, Times, serif !important;
+$sans-serif: acumin-pro, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+ 
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+$sans-serif-wide: acumin-pro-wide !default;
+
+/* serif typefaces */
+$georgia: Georgia, serif !default;
+$times: Times, serif !default;
+$bodoni: "Bodoni MT", serif !default;
+$calisto: "Calisto MT", serif !default;
+$garamond: Garamond, serif !default;
+
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $serif !default;
+
+
 /* Colors */
 $text-color: #3B3E40 !default;
 $muted-text-color: $text-color !default;
@@ -40,6 +64,10 @@ $base0f: #b18a3d !default;
   .notice--danger {
     color: $text-color;
   }
+}
+
+.masthead__menu {
+  font-family: $sans-serif-wide !default;
 }
 
 h4.nav__title {
