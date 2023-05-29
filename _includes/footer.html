@@ -1,4 +1,9 @@
 <div class="page__footer-follow">
+  {% if site.footer.description %}
+    <div class="page__footer-description">
+      {{ site.footer.description}}
+    </div>
+  {% endif %}
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>

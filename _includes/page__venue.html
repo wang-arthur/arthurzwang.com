@@ -1,0 +1,21 @@
+{% assign collection = site.collections | find: "label", document.collection %}
+
+{% assign icon = "fas fa-fw fa-square" %}
+{% if collection.venue-icon %}
+	{% assign icon = collection.venue-icon %}
+{% endif %}
+
+{% assign venue_schema = "https://schema.org/Thing" %}
+{% if collection.venue-schema %}
+	{% assign venue_schema = collection.venue-schema %}
+{% endif %} 
+
+{% assign venue_font_style = "" %}
+{% if venue_schema == "https://schema.org/publisher" %}
+	{% assign venue_font_style = "italic" %}
+{% endif %} 
+
+<p class="page__venue" itemprop="pageVenue" itemscope itemtype="{{venue_schema}}">
+	<i class="{{icon}}" aria-hidden="true"></i>
+	<span itemprop="name" class="p-locality" font-style="{{venue_font_style}}">{{document.venue}}</span>
+</p>

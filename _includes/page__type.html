@@ -1,0 +1,12 @@
+{% assign type = site.post_types | find: "name", document.type %}
+
+{% assign icon = "fas fa-fw fa-square" %}
+{% assign label = document.type %}
+{% if type %}
+	{% assign icon = type.icon %}
+	{% assign label = type.label %}	
+{% endif %}
+
+<p class="page__type">
+	<i class="{{icon}}" aria-hidden="true"></i> {{ label }}
+</p>

@@ -12,21 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Arthur Z. Wang"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "Contemporary American Literature, Media, and Feminist Science and Technology Studies" # site tagline that appears below site title in masthead
+name                     : "Arthur Z. Wang"
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "wang-arthur/personal-website-v2"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+future                   : true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -104,52 +105,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Arthur Z. Wang"
+  avatar           : "assets/images/wang-arthur-profile-pic.jpg"
+  bio              : ""
+  location         : "Philadelphia, PA and Crown Heights, NY"
+  employer         : "Annenberg School for Communication, University of Pennsylvania"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+      url: "mailto:arthurzw@upenn.edu"
+    - label: "Department Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.asc.upenn.edu/people/faculty/arthur-z-wang-phd"
 
 # Site Footer
 footer:
+  description: "<b>Provost's Postdoctoral Fellow</b>, Annenberg School for Communication, University of Pennsylvania"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/warthurw"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/wang-arthur"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=NL-ukr8AAAAJ&hl=en&inst=15561263346091999511"
+
 
 
 # Reading Files
@@ -276,6 +258,70 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+    venue-icon: "fas fa-fw fa-book-open"
+    venue-schema: "https://schema.org/publisher"
+    date-label: "Published:"
+    date-icon: "far fa-fw fa-calendar"
+  talks:
+    output: true
+    permalink: /:collection/:path/
+    venue-icon: "fa-classic fa-fw fa-building"
+    venue-schema: "https://schema.org/ResearchOrganization"
+    date-label: "Date:"
+    date-icon: "fas fa-fw fa-calendar-day"
+  projects:
+    output: true
+    permalink: /:collection/:path/
+    venue-icon: "fas fa-fw fa-square"
+    date-label: " "
+    date-icon: "far fa-fw fa-calendar" 
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+    venue-icon: "fas fa-fw fa-school"
+    venue-schema: "https://schema.org/CollegeOrUniversity"
+    date-label: "<span></span>"
+    date-icon: "far fa-fw fa-calendar" 
+
+# Post types
+post_types:
+  # _publications
+  - name: article
+    label: "Article"
+    icon: "fas fa-fw fa-file-lines"
+  - name: book
+    label: "Book"
+    icon: "fas fa-fw fa-book"
+  # _projects
+  - name: data-viz
+    label: "Data Visualization"
+    icon: "fas fa-fw fa-magnifying-glass-chart"
+  - name: web-app
+    label: "Web App"
+    icon: "fas fa-fw fa-laptop-code"
+  # _talks
+  - name: talk
+    label: "Talk"
+    icon: "fas fa-fw fa-person-chalkboard"
+  - name: invited-talk
+    label: "Invited Talk"
+    icon: "fas fa-fw fa-person-chalkboard"
+  # _teaching
+  - name: first-year-seminar
+    label: "First-Year Writing Seminar"
+    icon: "fas fa-fw fa-comments"
+  - name: junior-seminar
+    label: "Junior Seminar"
+    icon: "fas fa-fw fa-comments"
+  - name: teaching-fellow
+    label: "Teaching Fellow (lecture course)"
+    icon: "fas fa-fw fa-chalkboard-user"
+
 
 # Defaults
 defaults:
@@ -290,3 +336,44 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      date_format: "%Y"
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      date_format: "%Y"
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
