@@ -1,13 +1,13 @@
-{% assign collection = site.collections | find: "label", document.collection %}
+{% assign collection = site.collections | where: "label", document.collection | first %}
 
 {% assign icon = "fas fa-fw fa-square" %}
-{% if collection.venue-icon %}
-	{% assign icon = collection.venue-icon %}
+{% if collection.venue_icon %}
+	{% assign icon = collection.venue_icon %}
 {% endif %}
 
 {% assign venue_schema = "https://schema.org/Thing" %}
-{% if collection.venue-schema %}
-	{% assign venue_schema = collection.venue-schema %}
+{% if collection.venue_schema %}
+	{% assign venue_schema = collection.venue_schema %}
 {% endif %} 
 
 {% assign venue_class = "" %}
@@ -15,6 +15,7 @@
 	<!-- temporary: will need to adjust if this field gets used for book publisher, for example -->
 	{% assign venue_class = "publication" %}
 {% endif %} 
+
 
 <p class="page__venue" itemprop="pageVenue" itemscope itemtype="{{venue_schema}}">
 	<i class="{{icon}}" aria-hidden="true"></i>

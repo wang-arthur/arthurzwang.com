@@ -273,30 +273,30 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-    venue-icon: "fas fa-fw fa-book-open"
-    venue-schema: "https://schema.org/publisher"
-    date-label: "Published:"
-    date-icon: "far fa-fw fa-calendar"
+    venue_icon: "fas fa-fw fa-book-open"
+    venue_schema: "https://schema.org/publisher"
+    date_label: "Published:"
+    date_icon: "far fa-fw fa-calendar"
   talks:
     output: true
     permalink: /:collection/:path/
-    venue-icon: "fa-classic fa-fw fa-building"
-    venue-schema: "https://schema.org/ResearchOrganization"
-    date-label: "Date:"
-    date-icon: "fas fa-fw fa-calendar-day"
+    venue_icon: "fa-classic fa-fw fa-building"
+    venue_schema: "https://schema.org/ResearchOrganization"
+    date_label: "Date:"
+    date_icon: "fas fa-fw fa-calendar-day"
   projects:
     output: true
     permalink: /:collection/:path/
-    venue-icon: "fas fa-fw fa-square"
-    date-label: " "
-    date-icon: "far fa-fw fa-calendar" 
+    venue_icon: "fas fa-fw fa-square"
+    date_label: " "
+    date_icon: "far fa-fw fa-calendar" 
   teaching:
     output: true
     permalink: /:collection/:path/
-    venue-icon: "fas fa-fw fa-school"
-    venue-schema: "https://schema.org/CollegeOrUniversity"
-    date-label: "<span></span>"
-    date-icon: "far fa-fw fa-calendar" 
+    venue_icon: "fas fa-fw fa-school"
+    venue_schema: "https://schema.org/CollegeOrUniversity"
+    date_label: "<span></span>"
+    date_icon: "far fa-fw fa-calendar" 
 
 # Post types
 post_types:

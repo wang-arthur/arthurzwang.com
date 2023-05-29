@@ -1,14 +1,14 @@
 {% assign date_format = document.date_format or site.date_format | default: "%B %-d, %Y" %}
-{% assign collection = site.collections | find: "label", document.collection %}
+{% assign collection = site.collections | where: "label", document.collection | first %}
 
 {% assign date_label = site.data.ui-text[site.locale].date_label | default: "Published:" %}
-{% if collection.date-label %}
-  {% assign date_label = collection.date-label %}
+{% if collection.date_label %}
+  {% assign date_label = collection.date_label %}
 {% endif %}
 
 {% assign date_icon = "fas fa-fw fa-calendar-alt" %}
-{% if collection.date-icon %}
-  {% assign date_icon = collection.date-icon %}
+{% if collection.date_icon %}
+  {% assign date_icon = collection.date_icon %}
 {% endif %}
 
 {% if document.last_modified_at %}

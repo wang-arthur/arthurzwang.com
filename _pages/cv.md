@@ -64,7 +64,7 @@ Service
 
 ## Editorial
 - <a href="https://post45.org">_Post45_</a> (open-access, peer-reviewed journal)
-  - **Co-Editor**, beginning July 2023
+ - **Co-Editor**, beginning July 2023
   - **Managing Editor**, 2020–2023
   - **Associate Editor** and **Web Developer**, 2018–2019
 

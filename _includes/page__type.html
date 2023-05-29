@@ -1,4 +1,4 @@
-{% assign type = site.post_types | find: "name", document.type %}
+{% assign type = site.post_types | where: "name", document.type | first%}
 
 {% assign icon = "fas fa-fw fa-square" %}
 {% assign label = document.type %}
