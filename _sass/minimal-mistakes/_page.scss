@@ -586,15 +586,16 @@ body {
 /*
     cv page
    ========================================================================== */
-.publication_list, .teaching_list {
+.cv {
   h2 {
     margin-top: 0;
   }
-
   .archive__item-excerpt {
     font-size: $type-size-5;
   }
 }
+
+
 
 /*
     footer

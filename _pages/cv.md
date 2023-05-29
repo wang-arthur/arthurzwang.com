@@ -6,13 +6,19 @@ author_profile: true
 toc: true
 ---
 
-Academic Appointments
+<div class="cv" markdown="1">
+
+Employment
 ======
-* University of Pennsylvania
+## University of Pennsylvania
   - **Provost's Postdoctoral Fellow**, [Annenberg School for Communication](https://www.asc.upenn.edu/), 2022-present
   - **Postdoctoral Fellow** (by courtesy), [Program on Race, Science, & Society](https://prss.sas.upenn.edu/), 2023-present
-* Massachusetts Institute of Technology, Women's and Gender Studies Program
-  - **Visiting Scholar (Diversity Predoctoral Fellow)**, [School of Humanities, Arts, and Social Sciences](https://shass.mit.edu/academics/graduate/diversity-predoc/fellows), 2021–2022
+
+## Massachusetts Institute of Technology
+  - **Visiting Scholar (Diversity Predoctoral Fellow)**, Women's and Gender Studies Program, [School of Humanities, Arts, and Social Sciences](https://shass.mit.edu/academics/graduate/diversity-predoc/fellows), 2021–2022
+
+## Datadog <img class="icon" src="../assets/images/dd_icon_rgb.svg" />
+  - **Software Engineer** (web infrastructure monitoring, performance, and analytics), 2013–2015
 
 
 
@@ -45,34 +51,39 @@ Teaching
   {% endfor %}</ul>
 </div>
 
-Technologies and Tools
+Technologies, Tools, and Skills
 ======
-- **Programming Languages**: Python, PHP, Go, Java, Ruby
-- **Full Stack Web Development**: HTML/CSS/JS, React, Django, Pyramid, Rails, WordPress, Amazon Web Services
-- **Software Engineering and Collaboration**: git/GitHub, pair programming, test-driven development
+- **Programming Languages**: Python, PHP, Go, Java, Ruby, JS
+- **Full Stack Web Development**: React, Django, Pyramid, Rails, WordPress, Amazon Web Services
+- **Software Engineering and Collaboration**: git/GitHub, continuous integration, pair programming, test-driven development
 - **Other**: DevOps, server monitoring and management, technical support
 
 
-Service and Experience
+Service
 ======
-- Peer Reviewer, _Twentieth Century Literature_, _ISLE: Interdisciplinary Studies in Literature and Environment_, 2023
-- Member, Council of Editors of Learned Journals (CELJ), Modern Language Association, American Studies Association
-- <a href="https://post45.org">_Post45_</a> (journal)
+
+## Editorial
+- <a href="https://post45.org">_Post45_</a> (open-access, peer-reviewed journal)
   - **Co-Editor**, beginning July 2023
   - **Managing Editor**, 2020–2023
   - **Associate Editor** and **Web Developer**, 2018–2019
-- Post45 Collective
+
+- Peer Reviewer, _Twentieth Century Literature_, _ISLE: Interdisciplinary Studies in Literature and Environment_
+
+## Organizing and Convening
+- "[Rethinking Animal Comparison](https://call-for-papers.sas.upenn.edu/cfp/2023/02/09/mla-2024-rethinking-animal-comparison)," working group, MLA Convention, with Samantha Pergadia, January 2024 (under review)
+- “Like Rape: Coercion, Comparison and Sexual Harm” roundtable, ASAP/10, with Samantha Pergadia, October 2018
+- [Public Arts and Humanities Writing Workshop](https://call-for-papers.sas.upenn.edu/cfp/2018/08/21/asap10-public-humanities-writing-workshop), ASAP/10, with Kyle Frisina, October 2018
+- [Third Annual Post45 Graduate Symposium](https://post45.org/conferences/), Yale University, with Andrew Lanham, March 2018
+- Co-convener, Race, Gender, and Sexuality Studies Colloquium, Yale English, 2016–2018
+
+## Other Service
+- [Post45 Collective](https://post45.org/about)
   - **Board Member** (elected), 2022-2025
   - **Graduate Steering Committee** (elected), 2018–2020
 - Member, Yale English Anti-Racist Pedagogy Working Group, 2020–2022
-- Organizing and Convening
-  - "[Rethinking Animal Comparison](https://call-for-papers.sas.upenn.edu/cfp/2023/02/09/mla-2024-rethinking-animal-comparison)," working group, MLA Convention, with Samantha Pergadia, January 2024 (under review)
-  - “Like Rape: Coercion, Comparison and Sexual Harm” roundtable, ASAP/10, with Samantha Pergadia, October 2018
-  - Public Arts and Humanities Writing Workshop, ASAP/10, with Kyle Frisina, October 2018
-  - Third Annual Post45 Graduate Symposium, Yale English, with Andrew Lanham, March 2018
-  - Co-convener, Race, Gender, and Sexuality Studies Colloquium, Yale English, 2016–2018
 - Research Assistant, Amy Hungerford, 2017–2020
-- Software Engineer, Datadog <img class="icon" src="../images/dd_icon_rgb.svg" /> (web infrastructure monitoring, performance, and analytics), New York City, 2013–2015
+
 
 Additional Training
 ======
@@ -85,14 +96,19 @@ Additional Training
 
 Awards and Honors
 =====
+## Fellowships and Grants
 - **Mellon Seminar Research Fellowship**, Price Lab for Digital Humanities, University of Pennsylvania, 2023-2024
 - **Provost’s Postdoctoral Fellowship for Academic Diversity**, University of Pennsylvania, 2022–2025
 - **Society of Fellows** (declined), University of Southern California, 2022–2024
 - **Diversity Predoctoral Fellowship**, Women’s and Gender Studies Program, MIT School of Humanities, Arts, and Social Sciences (SHASS), 2021–2022
-- **L.S. Dembo Prize** for best essay published in _Contemporary Literature_, 2020
-- **Departmental Prize for Best Essay Accepted for Publication**, Yale English, 2020
 - **Mellon Summer Writing-in-Residence Dissertation Working Group**, Yale GSAS, 2019
 - **Research Grant**, Fund for Lesbian and Gay Studies (FLAGS), Yale LGBT Studies Program, 2018 and 2019
 - **Research Fellowship**, Beinecke Rare Book and Manuscript Library, Summer 2018
+
+## Awards
+- **L.S. Dembo Prize** for best essay published in _Contemporary Literature_, 2020
+- **Departmental Prize for Best Essay Accepted for Publication**, Yale English, 2020
 - **Departmental Prize for Excellence in Coursework**, Yale English (best graduate student essay), 2016
 - **Phi Beta Kappa**, Princeton University, 2011
+
+</div>
