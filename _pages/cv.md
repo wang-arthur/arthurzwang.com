@@ -64,7 +64,7 @@ Service
 
 ## Editorial
 - <a href="https://post45.org">_Post45_</a> (open-access, peer-reviewed journal)
- - **Co-Editor**, beginning July 2023
+  - **Co-Editor**, 2023-present
   - **Managing Editor**, 2020–2023
   - **Associate Editor** and **Web Developer**, 2018–2019
 
@@ -88,7 +88,7 @@ Service
 Additional Training
 ======
 - **Advanced Oral History Institute**, Oral History Center, UC Berkeley Bancroft Library (online), August 2023
-- **Our SHARED Future: Science, Humanities, Arts, Research Ethics, and Deliberation**, Jason Robery and Erica O'Neil, NEH Summer Institute, ASU Center for Biology and Society, June-July 2023
+- **Our SHARED Future: Science, Humanities, Arts, Research Ethics, and Deliberation**, Jason Robert and Erica O'Neil, NEH Summer Institute, ASU Center for Biology and Society, June-July 2023
 - **Oral History Training Institute**, David J. Caruso, Science History Institute, Philadelphia, PA (online), May 2023
 - **Literary Biography: Archives and Life Stories**, Karin Roffman, Beinecke Library Master Class, Yale University, May 2019
 - **Challenges of Media Anthropology**, Lorenz Engell and Thomas Y. Levin, Princeton-Weimar Summer School for Media Studies, IKKM, Bauhaus-Universität Weimar, Germany, June 2017
