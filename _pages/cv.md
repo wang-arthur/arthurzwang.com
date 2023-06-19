@@ -71,7 +71,7 @@ Service
 - Peer Reviewer, _Twentieth Century Literature_, _ISLE: Interdisciplinary Studies in Literature and Environment_
 
 ## Organizing and Convening
-- "[Rethinking Animal Comparison](https://call-for-papers.sas.upenn.edu/cfp/2023/02/09/mla-2024-rethinking-animal-comparison)," working group, MLA Convention, with Samantha Pergadia, January 2024 (under review)
+- "[Rethinking Animal Comparison](https://call-for-papers.sas.upenn.edu/cfp/2023/02/09/mla-2024-rethinking-animal-comparison)," working group, MLA Convention, with Samantha Pergadia, January 2024
 - “Like Rape: Coercion, Comparison and Sexual Harm” roundtable, ASAP/10, with Samantha Pergadia, October 2018
 - [Public Arts and Humanities Writing Workshop](https://call-for-papers.sas.upenn.edu/cfp/2018/08/21/asap10-public-humanities-writing-workshop), ASAP/10, with Kyle Frisina, October 2018
 - [Third Annual Post45 Graduate Symposium](https://post45.org/conferences/), Yale University, with Andrew Lanham, March 2018
