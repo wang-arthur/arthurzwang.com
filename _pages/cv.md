@@ -12,7 +12,7 @@ Employment
 ======
 ## University of Pennsylvania
   - **Provost's Postdoctoral Fellow**, [Annenberg School for Communication](https://www.asc.upenn.edu/), 2022-present
-  - **Postdoctoral Fellow** (by courtesy), [Program on Race, Science, & Society](https://prss.sas.upenn.edu/), 2023-present
+  - **Affiliate Postdoctoral Fellow**, [Program on Race, Science, & Society](https://prss.sas.upenn.edu/), 2023-present
 
 ## Massachusetts Institute of Technology
   - **Visiting Scholar (Diversity Predoctoral Fellow)**, Women's and Gender Studies Program, [School of Humanities, Arts, and Social Sciences](https://shass.mit.edu/academics/graduate/diversity-predoc/fellows), 2021–2022
@@ -41,7 +41,7 @@ Manuscripts in Progress
 ======
 - "Minor Theories of Everything: On Popular Science and Contemporary Fiction" (book manuscript)
 - “Inventing Rape Ecology: Octavia E. Butler and the Sociobiology of Sexual Violence” (revising for resubmission to _PMLA_)
-- “Nothing but Mammals: Feminism, Pornography, and the Sociobiology of Sexual Violence" (under review at _Representations_)
+- “Nothing but Mammals: Feminism, Pornography, and Sociobiology" (in preparation)
 
 Teaching
 ======
@@ -51,10 +51,28 @@ Teaching
   {% endfor %}</ul>
 </div>
 
+Awards and Honors
+=====
+## Fellowships and Grants
+- **Open Access Award**, Open Library of Humanities (grant supporting the inaugural _Post45_ Essay Prizes for Emerging and Contingent Scholars), 2023
+- **Mellon Seminar Research Fellowship**, Price Lab for Digital Humanities, University of Pennsylvania, 2023-2024
+- **Provost’s Postdoctoral Fellowship for Academic Diversity**, University of Pennsylvania, 2022–2025
+- **Society of Fellows** (declined), University of Southern California, 2022–2024
+- **Diversity Predoctoral Fellowship**, Women’s and Gender Studies Program, MIT School of Humanities, Arts, and Social Sciences (SHASS), 2021–2022
+- **Mellon Summer Writing-in-Residence Dissertation Working Group**, Yale GSAS, 2019
+- **Research Grant**, Fund for Lesbian and Gay Studies (FLAGS), Yale LGBT Studies Program, 2018 and 2019
+- **Research Fellowship**, Beinecke Rare Book and Manuscript Library, Summer 2018
+
+## Awards
+- **L.S. Dembo Prize** for best essay published in _Contemporary Literature_, 2020
+- **Departmental Prize for Best Essay Accepted for Publication**, Yale English, 2020
+- **Departmental Prize for Excellence in Coursework**, Yale English (best graduate student essay), 2016
+- **Phi Beta Kappa**, Princeton University, 2011
+
 Technologies, Tools, and Skills
 ======
 - **Programming Languages**: Python, PHP, Go, Java, Ruby, JS
-- **Full Stack Web Development**: React, Django, Pyramid, Rails, WordPress, Amazon Web Services
+- **Full Stack Web Development**: React, Django, Pyramid, Rails, WordPress, Amazon Web Services, Gatsby, TailwindCSS
 - **Software Engineering and Collaboration**: git/GitHub, continuous integration, pair programming, test-driven development
 - **Other**: DevOps, server monitoring and management, technical support
 
@@ -93,22 +111,5 @@ Additional Training
 - **Literary Biography: Archives and Life Stories**, Karin Roffman, Beinecke Library Master Class, Yale University, May 2019
 - **Challenges of Media Anthropology**, Lorenz Engell and Thomas Y. Levin, Princeton-Weimar Summer School for Media Studies, IKKM, Bauhaus-Universität Weimar, Germany, June 2017
 - **Feminist Digital Humanities: Theoretical, Social, and Material Engagements**, Elizabeth Losh and Jacqueline Wernimont, Digital Humanities Summer Institute, University of Victoria, Canada, June 2016
-
-Awards and Honors
-=====
-## Fellowships and Grants
-- **Mellon Seminar Research Fellowship**, Price Lab for Digital Humanities, University of Pennsylvania, 2023-2024
-- **Provost’s Postdoctoral Fellowship for Academic Diversity**, University of Pennsylvania, 2022–2025
-- **Society of Fellows** (declined), University of Southern California, 2022–2024
-- **Diversity Predoctoral Fellowship**, Women’s and Gender Studies Program, MIT School of Humanities, Arts, and Social Sciences (SHASS), 2021–2022
-- **Mellon Summer Writing-in-Residence Dissertation Working Group**, Yale GSAS, 2019
-- **Research Grant**, Fund for Lesbian and Gay Studies (FLAGS), Yale LGBT Studies Program, 2018 and 2019
-- **Research Fellowship**, Beinecke Rare Book and Manuscript Library, Summer 2018
-
-## Awards
-- **L.S. Dembo Prize** for best essay published in _Contemporary Literature_, 2020
-- **Departmental Prize for Best Essay Accepted for Publication**, Yale English, 2020
-- **Departmental Prize for Excellence in Coursework**, Yale English (best graduate student essay), 2016
-- **Phi Beta Kappa**, Princeton University, 2011
 
 </div>
