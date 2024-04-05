@@ -14,13 +14,13 @@ Throughout the course, each of you will design and compose a commonplace book ab
 ## What is a Commonplace Book?
 ### Commonplace
 > A passage of text considered to be generally relevant or appropriate, which may serve as the basis for a discourse or discussion; a topic suitable to the purpose of a rhetorician. historical after 17th cent.
->
-> Oxford English Dictionary, s.v. "[commonplace, n.², sense 1.a.](https://doi.org/10.1093/OED/5879808730)," July 2023.
+
+Oxford English Dictionary, s.v. "[commonplace, n.², sense 1.a.](https://doi.org/10.1093/OED/5879808730)," July 2023.
 
 ### Commonplace Book
 > a collection of commonplaces...a book or scrapbook into which interesting quotations, extracts, etc., are copied for personal reference.  
->
-> Oxford English Dictionary, s.v. "[commonplace book, n.](https://doi.org/10.1093/OED/6577905831)," July 2023.
+
+Oxford English Dictionary, s.v. "[commonplace book, n.](https://doi.org/10.1093/OED/6577905831)," July 2023.
 
 ## Why?
 -	Creating a commonplace book will give you space to refine and collate your interests; make connections across course materials, the rest of the world, and the rest of your life; and recall, organize, synthesize, and build on your ideas over time.
@@ -44,14 +44,14 @@ Ann Blair, "[Note Taking as an Art of Transmission](https://www.jstor.org/stable
 
 > Many stockpiled notes with the idea of helping not only themselves but also contemporaries and descendants. **Commonplace books especially were meant to be passed on** within a family.
 
-Ann Blair, _Too Much to Know: Managing Scholarly Information Before the Modern Age_ (New Haven: Yale University Press, 2011), 86.
+Ann Blair, _Too Much to Know: Managing Scholarly Information Before the Modern Age_ (New Haven: Yale University Press, 2011), 86.  
 <br>
 
 > In this method of reading (which I will call the method of commonplaces) one selects passages of interest for the rhetorical turns of phrase, the dialectical arguments, or the factual information they contain; one then copies them out in a note book, the commonplace book, kept handy for the purpose, **grouping them under appropriate headings to facilitate later retrieval and use**, notably in composing prose of one's own. (541)
 > 
 >	In sorting incoming information, the commonplace book offers opportunities for new critical confrontation of material; on the other hand the indefinite multiplication of separate headings can easily harbor contradictions which seem to belie the very critical faculties demonstrated elsewhere. As a tool for composition which opens many possibilities but requires none in particular, the commonplace book is  supremely tolerant of cognitive dissonance. (547-548)
 
-Ann Blair, "[Humanist Methods in Natural Philosophy: The Commonplace Book](https://www.jstor.org/stable/2709935)," _Journal of the History of Ideas_ 53, no. 4 (1992).
+Ann Blair, "[Humanist Methods in Natural Philosophy: The Commonplace Book](https://www.jstor.org/stable/2709935)," _Journal of the History of Ideas_ 53, no. 4 (1992).  
 <br>
 
 
@@ -59,9 +59,7 @@ Ann Blair, "[Humanist Methods in Natural Philosophy: The Commonplace Book](https
 > 
 > All the keepers of commonplace books, from Drake to Madan, read their way through life, picking up fragments of experience and fitting them into patterns. The underlying affinities that held those patterns together represented an attempt to get a grip on life, to make sense of it, not by elaborating theories but by imposing form on matter. Commonplacing was like quilting: it produced pictures, some more beautiful than others, but each of them interesting in its own way. The assembled texts reveal patterns of culture: the segments that went into it, the stitching that connected them, the tears that pulled them apart, and the common cloth of which they were composed.
 
-Robert Darnton, "[Extraordinary Commonplaces](https://www.nybooks.com/articles/2000/12/21/extraordinary-commonplaces/)," _New York Review of Books_, December 21, 2000.
-
-
+Robert Darnton, "[Extraordinary Commonplaces](https://www.nybooks.com/articles/2000/12/21/extraordinary-commonplaces/)," _New York Review of Books_, December 21, 2000.  
 
 # In-Class Exercise
 
@@ -76,7 +74,7 @@ Sarah Cowper, "[Contempt of Death](https://www.gender.amdigital.co.uk/Documents/
 > Friendship album compiled 1833-1856 by Philadelphia, middle-class, African American social activist Amy Matilda Cassey (1808-1856). Cassey was a member of the Philadelphia Female Antislavery Society, founder of the African American coeducation literary and scientific society the Gilbert Lyceum, and active in the temperance movement. Volume contains entries by men and women, most active in the anti-slavery movement, of original and transcribed poems, prose, and essays, and watercolors and pencil sketches. Topics range from abolitionism and slavery, to love and friendship, to female beauty and refinement, as well as motherhood, mortality, and death. Contributors include Frederick Douglass (1881-1895), William Lloyd Garrison (1805-1879), James McCune Smith (1813-1865), Lucy Stone (1818-1893), Sarah Forten Purvis (1814-1883), and Margaretta Forten (1815-1887).
 
 ![](/assets/images/teaching/cassey-album-p-9764-p25-2.jpg)
-Washington Irving, "[The Wife](https://lcpalbumproject.org/?page_id=283)," calligraphy by African American engraver Patrick Henry Reason, New York 1839 (see link for transcript).
+Washington Irving, "[The Wife](https://lcpalbumproject.org/?page_id=283)," calligraphy by African American engraver Patrick Henry Reason, New York 1839 (see link for transcript).  
 <br>
 
 ![](/assets/images/teaching/cassey-album-p-9764-p35-2.jpg)
