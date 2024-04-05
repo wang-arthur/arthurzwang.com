@@ -11,16 +11,14 @@ toc: true
 Employment
 ======
 ## University of Pennsylvania
-  - **Provost's Postdoctoral Fellow**, [Annenberg School for Communication](https://www.asc.upenn.edu/), 2022-present
-  - **Affiliate Postdoctoral Fellow**, [Program on Race, Science, & Society](https://prss.sas.upenn.edu/), 2023-present
+  - **Provost's Postdoctoral Fellow**, [Annenberg School for Communication](https://www.asc.upenn.edu/), 2022–present
+  - **Affiliate Postdoctoral Fellow**, [Program on Race, Science, & Society](https://prss.sas.upenn.edu/), 2023–present
 
 ## Massachusetts Institute of Technology
   - **Visiting Scholar (Diversity Predoctoral Fellow)**, Women's and Gender Studies Program, [School of Humanities, Arts, and Social Sciences](https://shass.mit.edu/academics/graduate/diversity-predoc/fellows), 2021–2022
 
 ## Datadog <img class="icon" src="../assets/images/dd_icon_rgb.svg" />
   - **Software Engineer** (web infrastructure monitoring, performance, and analytics), 2013–2015
-
-
 
 Education
 ======
@@ -31,17 +29,25 @@ Education
 
 Publications
 ======
+## Completed
+
 <div class="publication_list">
    <ul>{% for post in site.publications reversed %}
       {% include archive-single.html short_excerpt=true %}
     {% endfor %}</ul>
 </div>
 
-Manuscripts in Progress
-======
-- "Minor Theories of Everything: On Popular Science and Contemporary Fiction" (book manuscript)
-- “Inventing Rape Ecology: Octavia E. Butler and the Sociobiology of Sexual Violence” (revising for resubmission to _PMLA_)
-- “Nothing but Mammals: Feminism, Pornography, and Sociobiology" (in preparation)
+## In Progress
+
+- _Minor Theories of Everything: On Popular Science and Contemporary Fiction_ (preparing book manuscript)
+- “Escape Velocity: Black Scientists and Life Writing in Outer Space” (preparing article for submission to a special issue of _MELUS_ on “Black Speculation / Black Futures”)
+- “Inventing Rape Ecology: Octavia E. Butler and the Sociobiology of Sexual Violence” (revising article for resubmission to _PMLA_)
+- “Nothing but Mammals: Feminism, Pornography, and Sociobiology" (preparing article for submission)
+- “Elegiac Macrofauna: Mourning Large Animals in North America” (preparing article for submission)
+- review of Rebecca B. Clark, _American Graphic: Disgust and Data in Contemporary Literature_ (Stanford University Press, 2022) (preparing review for _Novel: A Forum on Fiction_)
+
+## Editorial
+Co-Editor, "Emerging Scholars: The 2024 Post45 Prize Essays," special issue of _Post45_, forthcoming in late 2024/early 2025
 
 Teaching
 ======
@@ -54,8 +60,9 @@ Teaching
 Awards and Honors
 =====
 ## Fellowships and Grants
+- **First Book Institute Fellowship** (FBI 12), Center for American Literary Studies, Penn State, June 2024.
 - **Open Access Award**, Open Library of Humanities (grant supporting the inaugural _Post45_ Essay Prizes for Emerging and Contingent Scholars), 2023
-- **Mellon Seminar Research Fellowship**, Price Lab for Digital Humanities, University of Pennsylvania, 2023-2024
+- **Mellon Seminar Research Fellowship**, Price Lab for Digital Humanities, University of Pennsylvania, 2023–2024
 - **Provost’s Postdoctoral Fellowship for Academic Diversity**, University of Pennsylvania, 2022–2025
 - **Society of Fellows** (declined), University of Southern California, 2022–2024
 - **Diversity Predoctoral Fellowship**, Women’s and Gender Studies Program, MIT School of Humanities, Arts, and Social Sciences (SHASS), 2021–2022
@@ -77,12 +84,13 @@ Technologies, Tools, and Skills
 - **Other**: DevOps, server monitoring and management, technical support
 
 
-Service
+Professional Experience and Service
 ======
 
 ## Editorial
-- <a href="https://post45.org">_Post45_</a> (open-access, peer-reviewed journal)
-  - **Co-Editor**, 2023-present
+- [_Post45_](https://post45.org">_Post45_) (open-access, peer-reviewed journal)
+  - **Co-Editor**, 2023–present
+  - Prize Committee, Inaugural Post45 Essay Prizes, 2023–2024
   - **Managing Editor**, 2020–2023
   - **Associate Editor** and **Web Developer**, 2018–2019
 
@@ -95,9 +103,10 @@ Service
 - [Third Annual Post45 Graduate Symposium](https://post45.org/conferences/), Yale University, with Andrew Lanham, March 2018
 - Co-convener, Race, Gender, and Sexuality Studies Colloquium, Yale English, 2016–2018
 
-## Other Service
-- [Post45 Collective](https://post45.org/about)
-  - **Board Member** (elected), 2022-2025
+## Service and Leadership
+- [Post45](https://post45.org/about) (organization)
+  - **Technology and Open Access Officer** (elected), 2023–present
+  - **Board Member** (elected), 2022–present
   - **Graduate Steering Committee** (elected), 2018–2020
 - Member, Yale English Anti-Racist Pedagogy Working Group, 2020–2022
 - Research Assistant, Amy Hungerford, 2017–2020
