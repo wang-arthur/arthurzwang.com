@@ -335,6 +335,9 @@ post_types:
   - name: teaching-fellow
     label: "Teaching Fellow (lecture course)"
     icon: "fas fa-fw fa-chalkboard-user"
+  - name: teaching-materials
+    label: "Teaching Materials"
+    icon: "fas fa-fw fa-book-bookmark"
 
 
 # Defaults
