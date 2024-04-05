@@ -329,6 +329,9 @@ post_types:
   - name: junior-seminar
     label: "Junior Seminar"
     icon: "fas fa-fw fa-comments"
+  - name: seminar
+    label: "Seminar"
+    icon: "fas fa-fw fa-comments"
   - name: teaching-fellow
     label: "Teaching Fellow (lecture course)"
     icon: "fas fa-fw fa-chalkboard-user"
