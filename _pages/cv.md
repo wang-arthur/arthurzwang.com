@@ -100,14 +100,15 @@ Professional Experience and Service
 - "[Rethinking Animal Comparison](https://call-for-papers.sas.upenn.edu/cfp/2023/02/09/mla-2024-rethinking-animal-comparison)," working group, MLA Convention, with Samantha Pergadia, January 2024
 - “Like Rape: Coercion, Comparison and Sexual Harm” roundtable, ASAP/10, with Samantha Pergadia, October 2018
 - [Public Arts and Humanities Writing Workshop](https://call-for-papers.sas.upenn.edu/cfp/2018/08/21/asap10-public-humanities-writing-workshop), ASAP/10, with Kyle Frisina, October 2018
-- [Third Annual Post45 Graduate Symposium](https://post45.org/conferences/), Yale University, with Andrew Lanham, March 2018
-- Co-convener, Race, Gender, and Sexuality Studies Colloquium, Yale English, 2016–2018
+- [Third Annual Post45 Graduate Symposium](https://post45.org/conferences/), Yale English, with Andrew Lanham, March 2018
+- Race, Gender, and Sexuality Studies Colloquium, Yale English, with Sam Huber, 2016–2018
 
 ## Service and Leadership
 - [Post45](https://post45.org/about) (organization)
   - **Technology and Open Access Officer** (elected), 2023–present
   - **Board Member** (elected), 2022–present
   - **Graduate Steering Committee** (elected), 2018–2020
+- Volunteer, Chat with an Editor, Council of Editors of Learned Journals (CELJ), MLA 2024
 - Member, Yale English Anti-Racist Pedagogy Working Group, 2020–2022
 - Research Assistant, Amy Hungerford, 2017–2020
 
