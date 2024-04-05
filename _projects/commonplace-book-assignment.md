@@ -60,3 +60,49 @@ Throughout the course, each of you will design and compose a commonplace book ab
 > All the keepers of commonplace books, from Drake to Madan, read their way through life, picking up fragments of experience and fitting them into patterns. The underlying affinities that held those patterns together represented an attempt to get a grip on life, to make sense of it, not by elaborating theories but by imposing form on matter. Commonplacing was like quilting: it produced pictures, some more beautiful than others, but each of them interesting in its own way. The assembled texts reveal patterns of culture: the segments that went into it, the stitching that connected them, the tears that pulled them apart, and the common cloth of which they were composed.
 >
 > Robert Darnton, "[Extraordinary Commonplaces](https://www.nybooks.com/articles/2000/12/21/extraordinary-commonplaces/)," _New York Review of Books_, December 21, 2000.
+
+
+
+# In-Class Exercise
+
+## Part 1: Full-Class Discussion of Commonplace Book Examples
+
+### [Sarah Cowper's Commonplace Book](https://www.gender.amdigital.co.uk/Documents/Detail/sarah-cowpers-commonplace-book/35353) (1673), Hertfordshire Archive and Local Studies
+
+![](/assets/images/teaching/cowper-17.jpg)
+Sarah Cowper, "[Contempt of Death](https://www.gender.amdigital.co.uk/Documents/Detail/sarah-cowpers-commonplace-book/35353?item=35368)" (1673)
+
+### Amy Matilda Cassey, [Library Company of Philadelphia Friendship Album Project](https://lcpalbumproject.org/)
+> Friendship album compiled 1833-1856 by Philadelphia, middle-class, African American social activist Amy Matilda Cassey (1808-1856). Cassey was a member of the Philadelphia Female Antislavery Society, founder of the African American coeducation literary and scientific society the Gilbert Lyceum, and active in the temperance movement. Volume contains entries by men and women, most active in the anti-slavery movement, of original and transcribed poems, prose, and essays, and watercolors and pencil sketches. Topics range from abolitionism and slavery, to love and friendship, to female beauty and refinement, as well as motherhood, mortality, and death. Contributors include Frederick Douglass (1881-1895), William Lloyd Garrison (1805-1879), James McCune Smith (1813-1865), Lucy Stone (1818-1893), Sarah Forten Purvis (1814-1883), and Margaretta Forten (1815-1887).
+
+![](/assets/images/teaching/cassey-album-p-9764-p25-2.jpg)
+Washington Irving, "[The Wife](https://lcpalbumproject.org/?page_id=283)," calligraphy by African American engraver Patrick Henry Reason, New York 1839 (see link for transcript).
+<br>
+
+![](/assets/images/teaching/cassey-album-p-9764-p35-2.jpg)
+[Note from Frederick Douglass](https://lcpalbumproject.org/?page_id=339), Philadelphia 1850 (see link for transcript).
+
+
+## Part 2: Small Group Discussion
+### Instructions
+- Break students into groups of 3-4
+- Assign commonplace examples (below)
+- Ask them to take 3-4 minutes to browse the commonplace book
+- Ask them to discuss the questions below with their groups
+- Reconvene students for a full-class discussion
+  - Each group presents their commonplace book & shares what they discussed
+  - Follow-up questions: differences between commonplace books? Which of these (if any) would you be interested in reading from beginning to end? Which would you prefer to flip through? What are some advantages/disadvantages to a physical vs. digital commonplace book? For physical commonplace books, what strategies could you use to: organize notes using some system other than sequential, dated entries; allocate blank space for future notes; deal with running out of space in a section; avoid chaos?
+
+### Discussion Questions
+- How are the notes organized? Are there ways to find entries without flipping through every page?
+  - Recall Ann Blair's four _S_s: **storing, sorting, summarizing, and selecting**
+- What are some potential uses for these notes?
+
+### Commonplace Book Examples (one per group)
+- [Lewis Carroll (Charles Dodgson)](https://sites.utexas.edu/ransomcentermagazine/2015/06/09/social-media-nothing-new-commonplace-books-as-predecessor-to-pinterest/), UT Austin
+-	[H.P. Lovecraft](https://repository.library.brown.edu/studio/item/bdr:425485/) (published 1938), Brown University
+-	Sei Shonagon, The Pillow Book (1002 AD, more of a miscellany than a commonplace book), trans. Ivan Morris (New York: Penguin, 1971), sections 29, 43, 44, 47, 63, 64 (pdf provided)
+- Digital Commonplace Books
+  - Gordon Brander, [notes](https://gordonbrander.com/pattern)
+  - Nikita Voloboev, [Everything I Know (free)](https://wiki.nikiv.dev/free)
+  - Buster Benson, [notes](https://busterbenson.com/)
