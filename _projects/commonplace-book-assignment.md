@@ -36,7 +36,7 @@ Oxford English Dictionary, s.v. "[commonplace book, n.](https://doi.org/10.1093/
 
 ## Scholarly Characterizations of Commonplace Books
 > Notes can take many forms—oral, written, or electronic. At its deepest level, whatever the medium, note taking involves variations on and combinations of a few basic maneuvers, which I propose to identify as **the four Ss: storing, sorting, summarizing, and selecting**. (85)
->
+
 > Francis Bacon outlined the two principal methods of note taking [ . . . ] The first method, epitome or abridgment, entails summarizing or paraphrasing the original text or texts. These notes, generally presented in the order of the text from which they were produced, are often called adversaria. **The second method is to select passages of interest for their content or their style, which are copied and sorted under a thematic or topical heading to facilitate retrieval.** These categories and the notes that correspond to them are usually called commonplaces. Bacon favored the latter as "of far more profit, and use." (87)
 
 Ann Blair, "[Note Taking as an Art of Transmission](https://www.jstor.org/stable/10.1086/427303)," _Critical Inquiry_ 31, No. 1 (2004).  
@@ -48,15 +48,14 @@ Ann Blair, _Too Much to Know: Managing Scholarly Information Before the Modern A
 <br>
 
 > In this method of reading (which I will call the method of commonplaces) one selects passages of interest for the rhetorical turns of phrase, the dialectical arguments, or the factual information they contain; one then copies them out in a note book, the commonplace book, kept handy for the purpose, **grouping them under appropriate headings to facilitate later retrieval and use**, notably in composing prose of one's own. (541)
-> 
->	In sorting incoming information, the commonplace book offers opportunities for new critical confrontation of material; on the other hand the indefinite multiplication of separate headings can easily harbor contradictions which seem to belie the very critical faculties demonstrated elsewhere. As a tool for composition which opens many possibilities but requires none in particular, the commonplace book is  supremely tolerant of cognitive dissonance. (547-548)
+
+> In sorting incoming information, the commonplace book offers opportunities for new critical confrontation of material; on the other hand the indefinite multiplication of separate headings can easily harbor contradictions which seem to belie the very critical faculties demonstrated elsewhere. As a tool for composition which opens many possibilities but requires none in particular, the commonplace book is  supremely tolerant of cognitive dissonance. (547-548)
 
 Ann Blair, "[Humanist Methods in Natural Philosophy: The Commonplace Book](https://www.jstor.org/stable/2709935)," _Journal of the History of Ideas_ 53, no. 4 (1992).  
 <br>
 
-
 > Unlike modern readers, who follow the flow of a narrative from beginning to end, early modern Englishmen read in fits and starts and jumped from book to book. They broke texts into fragments and assembled them into new patterns by transcribing them in different sections of their notebooks. Then they reread the copies and rearranged the patterns while adding more excerpts. **Reading and writing were therefore inseparable activities. They belonged to a continuous effort to make sense of things, for the world was full of signs: you could read your way through it; and by keeping an account of your readings, you made a book of your own, one stamped with your personality.**
-> 
+
 > All the keepers of commonplace books, from Drake to Madan, read their way through life, picking up fragments of experience and fitting them into patterns. The underlying affinities that held those patterns together represented an attempt to get a grip on life, to make sense of it, not by elaborating theories but by imposing form on matter. Commonplacing was like quilting: it produced pictures, some more beautiful than others, but each of them interesting in its own way. The assembled texts reveal patterns of culture: the segments that went into it, the stitching that connected them, the tears that pulled them apart, and the common cloth of which they were composed.
 
 Robert Darnton, "[Extraordinary Commonplaces](https://www.nybooks.com/articles/2000/12/21/extraordinary-commonplaces/)," _New York Review of Books_, December 21, 2000.  
