@@ -3,8 +3,8 @@
    ========================================================================== */
 
 /* system typefaces */
-$serif: le-monde-livre-std, Georgia, Times, serif !important;
-$sans-serif: acumin-pro, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: schoolbook, Georgia, Times, serif !important;
+$sans-serif: nimbus-sans, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
  
@@ -12,7 +12,7 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
-$sans-serif-wide: acumin-pro-wide !default;
+$sans-serif-wide: nimbus-sans-extended !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
@@ -22,16 +22,18 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
-$caption-font-family: $serif !default;
+$header-font-family: $sans-serif-wide !default;
+$caption-font-family: $sans-serif !default;
 
 
 /* Colors */
 $text-color: #3B3E40 !default;
 $muted-text-color: $text-color !default;
-$primary-color: #D8EAEB !default;
+$primary-color: #e2e1dd !default;
 $border-color: mix(#fff, $text-color, 75%) !default;
-$footer-background-color: #E0E8D6 !default;
+$background-color: #f2f1ed !default;
+$header-background-color: $primary-color !default;
+$footer-background-color: $primary-color !default;
 $link-color: #515999 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;

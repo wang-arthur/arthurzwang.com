@@ -10,6 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: $header-background-color;
 
   &__inner-wrap {
     @include clearfix;
@@ -49,7 +50,7 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: bold;
+  font-weight: normal;
   // z-index: 20;
 }
 

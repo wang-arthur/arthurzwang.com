@@ -23,7 +23,7 @@ name                     : "Arthur Z. Wang"
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "wang-arthur/personal-website-v2"
+repository               : "wang-arthur/arthurzwang.com"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -111,10 +111,8 @@ author:
   bio              : ""
   location         : "Philadelphia, PA and Crown Heights, NY"
   employer         : "Annenberg School for Communication, University of Pennsylvania"
+  email            : "arthurzw@upenn.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arthurzw@upenn.edu"
     - label: "Department Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.asc.upenn.edu/people/faculty/arthur-z-wang-phd"
@@ -348,7 +346,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
@@ -359,14 +357,14 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _publications
   - scope:
       path: ""
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       date_format: "%Y"
   # _talks
@@ -375,7 +373,7 @@ defaults:
       type: talks
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
   # _teaching
   - scope:
@@ -392,5 +390,5 @@ defaults:
       type: projects
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
