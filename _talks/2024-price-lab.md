@@ -1,11 +1,15 @@
 ---
 title: "Open but not Discoverable"
 collection: talks
+excerpt: ""
 type: talk
 permalink: /talks/2024-price-lab
 venue: "Price Lab Seminar"
 date: 2024-03-11
 location: "UPenn"
+header:
+  overlay_image: /assets/images/background/tri-pentagon-albers-dark-blue-green.png
+  show_overlay_excerpt: false
 ---
 
 
