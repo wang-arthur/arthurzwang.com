@@ -6,6 +6,9 @@ permalink: /teaching/2023-media-medicine-arts-mortality
 venue: "University of Pennsylvania, Annenberg School for Communication"
 date: 2023-09-01
 location: "Philadelphia, PA"
+header:
+  overlay_image: /assets/images/background/tri-pentagon-albers-prismatic-red-green-blue.png
+  show_overlay_excerpt: false
 ---
 
 

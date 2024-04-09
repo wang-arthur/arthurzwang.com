@@ -6,6 +6,10 @@ permalink: /teaching/2024-media-adulthood-aging
 venue: "University of Pennsylvania, Annenberg School for Communication"
 date: 2024-01-22
 location: Philadelphia
+header:
+  overlay_image: /assets/images/teaching/im-baby.jpg
+  overlay_filter: 0.5
+  show_overlay_excerpt: false
 ---
 
 This seminar course examines how mass media reflect and resist norms of adulthood and aging. Frequently defined as an endpoint -- a biological inevitability, a completion of development, an achievement of maturity -- adulthood is neither simple nor static. Media for children and adolescents, for example, often depict adulthood as a paradox: both exciting and boring; free of oversight and burdened by responsibility; the beginning of real life and a kind of death. Students will learn interdisciplinary and multimodal humanistic methods for understanding the mediated history of adulthood. Topics include the emergence of young adulthood as a life stage, a key demographic in consumer culture, and a popular genre; fantasies of nonlinear aging like intergenerational body-swaps, aging backward, and agelessness; quarter-life, midlife, and end-of-life crises; infantilization and other discriminatory exclusions from adulthood; gender and rhetorics of proper aging; and failures and refusals to age appropriately, from the man-child to the _Golden Girls_.

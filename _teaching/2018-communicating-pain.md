@@ -6,6 +6,11 @@ permalink: /teaching/2018-communicating-pain
 venue: "Yale University, Department of English"
 date: 2018-09-01
 location: "New Haven, CT"
+header:
+  overlay_image: /assets/images/teaching/sharits-spasmatic-pain.jpg
+  overlay_filter: 0.25
+  caption: "Image: <b>Paul Sharits</b>, <i>Spasmatic Pain I (Boulder Community Hospital)</i>, 1981"
+  show_overlay_excerpt: false
 ---
 
 
