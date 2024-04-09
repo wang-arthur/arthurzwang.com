@@ -2,8 +2,9 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 toc: true
+toc_sticky: true
 ---
 
 <div class="cv" markdown="1">
@@ -33,7 +34,7 @@ Publications
 
 <div class="publication_list">
    <ul>{% for post in site.publications reversed %}
-      {% include archive-single.html short_excerpt=true %}
+      {% include archive-single.html short_excerpt=true no_overlay_header=true %}
     {% endfor %}</ul>
 </div>
 
@@ -47,13 +48,13 @@ Publications
 - review of Rebecca B. Clark, _American Graphic: Disgust and Data in Contemporary Literature_ (Stanford University Press, 2022) (preparing review for _Novel: A Forum on Fiction_)
 
 ## Editorial
-Co-Editor, "Emerging Scholars: The 2024 Post45 Prize Essays," special issue of _Post45_, forthcoming in late 2024/early 2025
+- Co-Editor, "Emerging Scholars: The 2024 Post45 Prize Essays," special issue of _Post45_, forthcoming in late 2024/early 2025
 
 Teaching
 ======
 <div class="teaching_list">
  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single.html short_excerpt=true %}
+    {% include archive-single.html short_excerpt=true no_overlay_header=true %}
   {% endfor %}</ul>
 </div>
 
