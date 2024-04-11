@@ -10,7 +10,7 @@ citation: 'Arthur Z. Wang, "Situation, Occasion, Encounter: Claudia Rankine’s 
 type: article
 
 header:
-  overlay_image: /assets/images/background/tri-pentagon-albers-prismatic-blues.png
+  overlay_image: /assets/images/background/tri-pentagon-albers-prismatic-greens.svg
 ---
 <img src="../assets/images/publications/CL-award.jpeg" />
 <img src="../assets/images/publications/CL-article-first-page.png" />

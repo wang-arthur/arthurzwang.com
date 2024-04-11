@@ -7,7 +7,7 @@ venue: "Yale University, Departments of English and Film and Media Studies"
 date: 2017-09-01
 location: "New Haven, CT"
 header:
-  overlay_image: /assets/images/background/tri-pentagon-albers-dark-blue-green.png
+  overlay_image: /assets/images/background/tri-pentagon-albers-V5b-1.svg
   show_overlay_excerpt: false
 ---
 

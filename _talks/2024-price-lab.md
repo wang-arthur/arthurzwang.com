@@ -4,11 +4,11 @@ collection: talks
 excerpt: ""
 type: talk
 permalink: /talks/2024-price-lab
-venue: "Price Lab Seminar"
+venue: "Mellon Seminar, Price Lab For Digital Humanities"
 date: 2024-03-11
 location: "UPenn"
 header:
-  overlay_image: /assets/images/background/tri-pentagon-albers-dark-blue-green.png
+  overlay_image: /assets/images/background/tri-pentagon-albers-teal-peach-lime.svg
   show_overlay_excerpt: false
 ---
 
@@ -35,7 +35,7 @@ Paul K. Saint-Amour, "[Counterfactual States of America: On Parllel Worlds and L
 
 ## Special Issue Database
 - Problem: lack of transparency/observability around special issues (disciplinary history & CFPs)
-- Bad: _PMLA_
+- Bad browsing: _PMLA_
   - [PMLA on JSTOR](https://jstor.org/journal/pmla)
   - [PMLA / Publications of the Modern Language Association of America](https://www.cambridge.org/core/journals/pmla/all-issues)
 - Better but still bad: *Representations*
@@ -46,7 +46,7 @@ Paul K. Saint-Amour, "[Counterfactual States of America: On Parllel Worlds and L
 - [Preliminary sketch for special issue app (October 2022)](https://wang-arthur.github.io/special-issues/)
 
 
-## (If there's time) DH Project End-of-Life / Postmortem
+<!-- ## (If there's time) DH Project End-of-Life / Postmortem
 - Failing gracefully: [best practices from the Linux Foundation: "Winding Down an Open Source Project"](https://www.linuxfoundation.org/resources/open-source-guides/winding-down-an-open-source-project)
 - From 6- and 7-figure funding to abandonware
 - Example 1: $300K NSF Grant
@@ -57,4 +57,4 @@ Paul K. Saint-Amour, "[Counterfactual States of America: On Parllel Worlds and L
 - Example 2: Foundation with $2.9M grant funding, $1.6M specifically for open source software/platform
   - <img src="../assets/images/talks/abandonware2-grants.png"/>
   - <img src="../assets/images/talks/abandonware2-2018-mellon.png"/>
-  - <img src="../assets/images/talks/abandonware2-2020-mellon.png"/>
+  - <img src="../assets/images/talks/abandonware2-2020-mellon.png"/> -->

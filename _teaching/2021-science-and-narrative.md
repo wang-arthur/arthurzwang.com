@@ -8,7 +8,7 @@ date: 2021-02-01
 location: "New Haven, CT and online"
 
 header:
-  overlay_image: /assets/images/background/tri-pentagon-albers-prismatic-greens.png
+  overlay_image: /assets/images/background/tri-pentagon-albers-teal-purple-shadow.svg
   show_overlay_excerpt: false
 ---
 
