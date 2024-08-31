@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV (updated April 2024)"
 permalink: /cv/
 author_profile: false
 toc: true
