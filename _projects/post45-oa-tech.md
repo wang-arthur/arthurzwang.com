@@ -4,6 +4,7 @@ collection: projects
 type: tech
 permalink: /project/post45-oa-tech
 excerpt: ''
+date: 2024-09-01
 ---
 
 As Post45's Technology and Open Access Officer, I am working on a number of projects to expand the accessibility, discoverability, quality, reputation, and impact of the organization's publications.

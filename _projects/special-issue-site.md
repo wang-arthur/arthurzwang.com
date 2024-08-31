@@ -1,9 +1,10 @@
 ---
-title: "Special Issue Repository"
+title: "Special Issue Repository Web App"
 collection: projects
 type: tech
 permalink: /project/special-issue-site
 excerpt: ''
+date: 2024-09-01
 ---
 
 # (Details coming soon)

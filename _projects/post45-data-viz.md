@@ -4,6 +4,7 @@ collection: projects
 type: data-viz
 permalink: /project/post45-data-viz
 excerpt: ''
+date: 2023-05-01
 ---
 
 Data visualizations for a 2023 report to the Post45 Board of Directors about the journal's activities. Created with Observable (D3.js) and SankeyMATIC.

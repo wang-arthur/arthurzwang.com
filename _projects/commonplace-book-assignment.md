@@ -4,6 +4,7 @@ collection: projects
 type: teaching-materials
 permalink: /project/commonplace-book-assignment
 excerpt: ''
+date: 2023-09-01
 ---
 
 Originally assigned in COMM 3011: "[Media, Medicine, and the Arts of Mortality](/teaching/2023-media-medicine-arts-mortality)" (Fall 2023) at the Annenberg School for Communication
