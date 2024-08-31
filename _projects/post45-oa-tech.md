@@ -46,4 +46,4 @@ More information on indexing and discoverability projects, please see the Indexi
 (in progress)
 
 - Customize and launch a self-hosted submissions site using the Public Knowledge Project's open source software, [Open Journal Systems](https://pkp.sfu.ca/software/ojs/), to handle *Post45*'s peer review process. I tested the software with submissions for the [prize competition](projects/post45-prizes/) & am in the process of migrating the site from Amazon Web Services to Microsoft Azure (which has given us a nonprofit grant).
-- Redesign Post45.org. Move the site from legacy WordPress to modern web technologies (e.g. Next.js, React, Typescript, Payload CMS, Tailwind CSS) to improve developer experience and the interface for readers and editors, and to improve performance (reduce load times) by using server side rendering and static site generation.
+- Redesign Post45.org. Move the site from legacy WordPress to modern web technologies (e.g. Next.js, React, Typescript, Payload CMS, Tailwind CSS) to improve developer experience, interface for readers and editors, and site performance (reduce load times) by using server side rendering and static site generation.
