@@ -310,9 +310,12 @@ post_types:
   - name: data-viz
     label: "Data Visualization"
     icon: "fas fa-fw fa-magnifying-glass-chart"
-  - name: web-app
-    label: "Web App"
+  - name: tech
+    label: "Technology and Open Access"
     icon: "fas fa-fw fa-laptop-code"
+  - name: editorial
+    label: "Editorial"
+    icon: "fas fa-fw fa-file-pen"
   # _talks
   - name: talk
     label: "Talk"

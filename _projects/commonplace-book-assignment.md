@@ -103,3 +103,7 @@ Washington Irving, "[The Wife](https://lcpalbumproject.org/?page_id=283)," calli
   - Gordon Brander, [notes](https://gordonbrander.com/pattern)
   - Nikita Voloboev, [Everything I Know (free)](https://wiki.nikiv.dev/free)
   - Buster Benson, [notes](https://busterbenson.com/)
+
+
+# Examples of Student Work
+Coming soon (pending student permission)

@@ -1,10 +1,12 @@
 ---
-title: "Post45 Data Visualizations"
+title: "<i>Post45</i> Data Visualizations"
 collection: projects
 type: data-viz
 permalink: /project/post45-data-viz
 excerpt: ''
 ---
+
+Data visualizations for a 2023 report to the Post45 Board of Directors about the journal's activities. Created with Observable (D3.js) and SankeyMATIC.
 
 ## Number of Articles Published by Post45
 
@@ -19,7 +21,7 @@ excerpt: ''
 
 Color scheme for the visualizations above: [Cheysson Palette](https://observablehq.com/@tomshanley/cheysson-color-palettes) licensed under ISC License (ISC) Copyright 2021 [Tom Shanley](https://observablehq.com/@tomshanley)
 
-## Post45 Submission Outcomes since 2020 (excluding special issues)
+## Post45 Submission Outcomes, 2020-2023 (excluding special issues)
 <figure>
 	<object type="image/svg+xml" data="../assets/images/outcomes_sankey.svg" class="fitvidsignore"></object>
 	<figcaption>
