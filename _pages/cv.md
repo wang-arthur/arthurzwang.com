@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV (updated April 2024)"
+title: "CV (updated September 2024)"
 permalink: /cv/
 author_profile: false
 toc: true
@@ -40,15 +40,15 @@ Publications
 
 ## In Progress
 
-- _Minor Theories of Everything: On Popular Science and Contemporary Fiction_ (preparing book manuscript)
-- “Escape Velocity: Black Scientists and Life Writing in Outer Space” (preparing article for submission to a special issue of _MELUS_ on “Black Speculation / Black Futures”)
-- “Inventing Rape Ecology: Octavia E. Butler and the Sociobiology of Sexual Violence” (revising article for resubmission to _PMLA_)
-- “Nothing but Mammals: Feminism, Pornography, and Sociobiology" (preparing article for submission)
-- “Elegiac Macrofauna: Mourning Large Animals in North America” (preparing article for submission)
-- review of Rebecca B. Clark, _American Graphic: Disgust and Data in Contemporary Literature_ (Stanford University Press, 2022) (preparing review for _Novel: A Forum on Fiction_)
+- _Minor Theories of Everything: On Popular Science and Contemporary Fiction_ (book manuscript)
+- “Inventing Rape Ecology: Octavia E. Butler and the Sociobiology of Sexual Violence” (invited to revise and resubmit at _PMLA_)
+- “Nothing but Mammals: Feminism, Pornography, and Sociobiology" (article manuscript)
+- “Elegiac Macrofauna: Mourning Large Animals in North America” (article manuscript)
+- “Escape Velocity: Black Scientists and Life Writing in Outer Space” (article draft)
+- "Why Not Both?" review of Rebecca B. Clark, _American Graphic: Disgust and Data in Contemporary Literature_ (Stanford University Press, 2022) (book review for _Novel: A Forum on Fiction_)
 
 ## Editorial
-- Co-Editor, "Emerging Scholars: The 2024 Post45 Prize Essays," special issue of _Post45_, forthcoming in late 2024/early 2025
+- Co-Editor, "2024 Post45 Prize Essays," special issue of _Post45_ forthcoming in late 2024/early 2025
 
 Teaching
 ======
@@ -61,10 +61,10 @@ Teaching
 Awards and Honors
 =====
 ## Fellowships and Grants
-- **First Book Institute Fellowship** (FBI 12), Center for American Literary Studies, Penn State, June 2024.
-- **Open Access Award**, Open Library of Humanities (grant supporting the inaugural _Post45_ Essay Prizes for Emerging and Contingent Scholars), 2023
-- **Mellon Seminar Research Fellowship**, Price Lab for Digital Humanities, University of Pennsylvania, 2023–2024
-- **Provost’s Postdoctoral Fellowship for Academic Diversity**, University of Pennsylvania, 2022–2025
+- [**First Book Institute Fellowship**](https://cals.la.psu.edu/programs-series/first-book-institute/previous-years-first-book-institute/) (FBI 12), Center for American Literary Studies, Penn State, June 2024.
+- [**Open Access Award**](https://www.openlibhums.org/news/658/), Open Library of Humanities (grant supporting the inaugural _Post45_ Essay Prizes for Emerging and Contingent Scholars), 2023
+- [**Mellon Seminar Research Fellowship**](https://pricelab.sas.upenn.edu/fellows/wang-arthur), Price Lab for Digital Humanities, University of Pennsylvania, 2023–2024
+- [**Provost’s Postdoctoral Fellowship for Academic Diversity**](https://postdocs.upenn.edu/fellow/arthur-wang/), University of Pennsylvania, 2022–2025
 - **Society of Fellows** (declined), University of Southern California, 2022–2024
 - **Diversity Predoctoral Fellowship**, Women’s and Gender Studies Program, MIT School of Humanities, Arts, and Social Sciences (SHASS), 2021–2022
 - **Mellon Summer Writing-in-Residence Dissertation Working Group**, Yale GSAS, 2019
@@ -72,26 +72,26 @@ Awards and Honors
 - **Research Fellowship**, Beinecke Rare Book and Manuscript Library, Summer 2018
 
 ## Awards
-- **L.S. Dembo Prize** for best essay published in _Contemporary Literature_, 2020
+- [**L.S. Dembo Prize**](https://www.facebook.com/universityofwisconsinpress/posts/congratulations-to-arthur-z-wang-whose-article-on-claudia-rankines-citizen-has-w/10159039504097552/) for best essay published in _Contemporary Literature_, 2020
 - **Departmental Prize for Best Essay Accepted for Publication**, Yale English, 2020
 - **Departmental Prize for Excellence in Coursework**, Yale English (best graduate student essay), 2016
 - **Phi Beta Kappa**, Princeton University, 2011
 
 Technologies, Tools, and Skills
 ======
-- **Programming Languages**: Python, PHP, Go, Java, Ruby, JS
-- **Full Stack Web Development**: React, Django, Pyramid, Rails, WordPress, Amazon Web Services, Gatsby, TailwindCSS
-- **Software Engineering and Collaboration**: git/GitHub, continuous integration, pair programming, test-driven development
-- **Other**: DevOps, server monitoring and management, technical support
+- **Programming Languages**: Python, Javascript, PHP, Go, Java, Ruby
+- **Full Stack Web Development**: HTML/CSS, React, D3, Django, Pyramid, Rails, NextJS, WordPress, Amazon Web Services, Microsoft Azure
+- **Software Engineering and Collaboration**: version control, code review, and collaboration (git/GitHub); pair programming, test-driven development
+- **Other**: project management, DevOps, server monitoring and management, technical support
 
 
 Professional Experience and Service
 ======
 
 ## Editorial
-- [_Post45_](https://post45.org">_Post45_) (open-access, peer-reviewed journal)
+- [_Post45_](https://post45.org/journal) (open-access, peer-reviewed journal)
   - **Co-Editor**, 2023–present
-  - Prize Committee, Inaugural Post45 Essay Prizes, 2023–2024
+  - **Prize Committee**, Inaugural Post45 Essay Prizes, 2023–2024
   - **Managing Editor**, 2020–2023
   - **Associate Editor** and **Web Developer**, 2018–2019
 
@@ -122,5 +122,11 @@ Additional Training
 - **Literary Biography: Archives and Life Stories**, Karin Roffman, Beinecke Library Master Class, Yale University, May 2019
 - **Challenges of Media Anthropology**, Lorenz Engell and Thomas Y. Levin, Princeton-Weimar Summer School for Media Studies, IKKM, Bauhaus-Universität Weimar, Germany, June 2017
 - **Feminist Digital Humanities: Theoretical, Social, and Material Engagements**, Elizabeth Losh and Jacqueline Wernimont, Digital Humanities Summer Institute, University of Victoria, Canada, June 2016
+- **Computer Science and Software Engineering Coursework**: Introductory Computer Science (Princeton), Algorithms and Data Structures (Coursera, Princeton), Algorithms: Design and Analysis (Coursera, Stanford), Programming Languages (Coursera, University of Washington), Introductory Data Science (Coursera, University of Washington), Computer Networks (Coursera, University of Washington), Web Development (Udacity), Software as a Service (EdX, UC Berkeley), 2011-2013
+
+
+References
+======
+*Available on Request*
 
 </div>
