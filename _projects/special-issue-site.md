@@ -5,6 +5,9 @@ type: tech
 permalink: /project/special-issue-site
 excerpt: ''
 date: 2024-09-01
+header:
+  overlay_image: /assets/images/projects/special-issue-dash.png
+  overlay_filter: .2
 ---
 
 # (Details coming soon)
