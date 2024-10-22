@@ -1,7 +1,7 @@
 ---
 title: "Special Issue Repository Web App"
 collection: projects
-type: tech
+type: ["tech", "service"]
 permalink: /project/special-issue-site
 excerpt: ''
 date: 2024-09-01
@@ -23,8 +23,6 @@ header:
 - [Sketch](#sketch)
   - [Screenshots](#screenshots)
 - [Editorial Project: The Special Issue Special Issue](#editorial-project-the-special-issue-special-issue)
-
-
 
 # The Problem
 Publishing in special issues can be beneficial, particularly for junior scholars, but the publication process is opaque.

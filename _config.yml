@@ -316,6 +316,9 @@ post_types:
   - name: editorial
     label: "Editorial"
     icon: "fas fa-fw fa-file-pen"
+  - name: service
+    label: "Service"
+    icon: "fas fa-fw fa-clipboard-check"
   # _talks
   - name: talk
     label: "Talk"
