@@ -1,8 +1,8 @@
 ---
-title: "ENGL 114: Communicating Pain (Fall 2018)"
-collection: teaching
+title: "ENGL 114: Communicating Pain (Fall 2018 and Spring 2019)"
+collection: courses
 type: first-year-seminar
-permalink: /teaching/2018-communicating-pain
+permalink: /teaching/courses/2018-2019-communicating-pain
 venue: "Yale University, Department of English"
 date: 2018-09-01
 location: "New Haven, CT"

@@ -1,8 +1,8 @@
 ---
 title: "ENGL 188 / FMS 210: Philosophy of Digital Media (Fall 2017)"
-collection: teaching
+collection: courses
 type: teaching-fellow
-permalink: /teaching/2017-philosophy-digital-media
+permalink: /teaching/courses/2017-philosophy-digital-media
 venue: "Yale University, Departments of English and Film and Media Studies"
 date: 2017-09-01
 location: "New Haven, CT"

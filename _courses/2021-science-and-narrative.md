@@ -1,8 +1,8 @@
 ---
 title: "ENGL 260 / HUMS 222: Science and Narrative (Spring 2021)"
-collection: teaching
+collection: courses
 type: junior-seminar
-permalink: /teaching/2021-science-and-narrative
+permalink: /teaching/courses/2021-science-and-narrative
 venue: "Yale University, Departments of English and Humanities"
 date: 2021-02-01
 location: "New Haven, CT and online"

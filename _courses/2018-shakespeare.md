@@ -1,8 +1,8 @@
 ---
 title: "ENGL 201: Shakespeare: Histories and Tragedies (Spring 2018)"
-collection: teaching
+collection: courses
 type: teaching-fellow
-permalink: /teaching/2018-shakespeare
+permalink: /teaching/courses/2018-shakespeare
 venue: "Yale University, Department of English"
 date: 2018-02-01
 location: "New Haven, CT"

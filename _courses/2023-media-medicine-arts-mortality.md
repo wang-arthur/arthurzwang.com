@@ -1,8 +1,8 @@
 ---
 title: "COMM 3011: Media, Medicine, and the Arts of Mortality (Fall 2023)"
-collection: teaching
+collection: courses
 type: seminar
-permalink: /teaching/2023-media-medicine-arts-mortality
+permalink: /teaching/courses/2023-media-medicine-arts-mortality
 venue: "University of Pennsylvania, Annenberg School for Communication"
 date: 2023-09-01
 location: "Philadelphia, PA"

@@ -300,13 +300,27 @@ collections:
     venue_icon: "fas fa-fw fa-square"
     date_label: " "
     date_icon: "far fa-fw fa-calendar" 
-  teaching:
+  teaching-materials:
     output: true
-    permalink: /:collection/:path/
+    permalink: /teaching/:collection/:path/
+    venue_icon: "fas fa-fw fa-chalkboard-user"
+    venue_schema: "https://schema.org/Course"
+    date_label: "<span></span>"
+    date_icon: "far fa-fw fa-calendar"
+  courses:
+    output: true
+    permalink: /teaching/:collection/:path/
     venue_icon: "fas fa-fw fa-school"
     venue_schema: "https://schema.org/CollegeOrUniversity"
     date_label: "<span></span>"
-    date_icon: "far fa-fw fa-calendar" 
+    date_icon: "far fa-fw fa-calendar"
+  student-work:
+    output: true
+    permalink: /teaching/:collection/:path/
+    venue_icon: "fas fa-fw fa-person-chalkboard"
+    venue_schema: "https://schema.org/Course"
+    date_label: "<span></span>"
+    date_icon: "far fa-fw fa-calendar"
 
 # Post types
 post_types:
@@ -392,15 +406,46 @@ defaults:
       layout: single
       # author_profile: false
       share: false
-  # _teaching
+  # _pages/teaching
   - scope:
-      path: ""
-      type: teaching
+      path: "_pages/teaching"
+      type: pages
     values:
       layout: single
-      # author_profile: false
+      sidebar:
+        nav: "teaching"
+  # teaching/courses
+  - scope:
+      path: ""
+      type: courses
+    values:
+      layout: single
       share: false
       date_format: "%Y"
+      sidebar:
+        nav: "teaching"
+  # teaching/teaching-materials
+  - scope:
+      path: ""
+      type: teaching-materials
+    values:
+      layout: single
+      share: false
+      date_format: "%Y"
+      sidebar:
+        nav: "teaching"
+  # teaching/student-work
+  - scope:
+      path: ""
+      type: student-work
+    values:
+      layout: single
+      share: false
+      date_format: "%Y"
+      sidebar:
+        nav: "teaching"
+
+    
   # _projects
   - scope:
       path: ""

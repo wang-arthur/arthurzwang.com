@@ -1,8 +1,8 @@
 ---
 title: "COMM 3012: Media, Adulthood, and Aging in Modern America (Spring 2024)"
-collection: teaching
+collection: courses
 type: seminar
-permalink: /teaching/2024-media-adulthood-aging
+permalink: /teaching/courses/2024-media-adulthood-aging
 venue: "University of Pennsylvania, Annenberg School for Communication"
 date: 2024-01-22
 location: Philadelphia
