@@ -4,6 +4,24 @@
       {{ site.footer.description}}
     </div>
   {% endif %}
+  <ul class="contact-icons">
+    <li><strong>Contact: </strong></li>
+    {% if site.footer.contact %}
+      {% for link in site.footer.contact %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if site.footer.email %}
+      <li>
+        <a href="mailto:{{ site.footer.email }}" rel="me" class="u-email">
+          <meta itemprop="email" content="{{ site.footer.email }}" />
+          <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
