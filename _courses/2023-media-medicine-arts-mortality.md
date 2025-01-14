@@ -15,6 +15,20 @@ header:
 This seminar explores how death has shaped and been shaped by modern communication, healthcare, and the arts. We’ll examine the politics, ethics, and aesthetics of mortality in film, television, journalism, digital media, and literature. Our methodological approach will build on insights from media studies and medical humanities. Topics may include the emergence of the “end-of-life” as a life stage in popular culture and medical care; protest, activism, and other political movements against deadly injustice; and the creation of knowledge, media, and art in the wake of mourning and loss.
 
 
+## Whiteboard Images
+### Discussing Freud's "Mourning and Melancholia"
+![](/assets/images/teaching/board/comm3011-mourning-melancholia.jpeg)
+
+### Listing obstacles to effective end-of-life care and planning
+![](/assets/images/teaching/board/comm3011-EOL-obstacles.jpeg)
+![](/assets/images/teaching/board/comm3011-EOL-obstacles2.jpeg)
+
+### Brainstorming for a COVID Memorial
+![](/assets/images/teaching/board/comm3011-covid-memorial.jpeg)
+
+### Outlining the structure of Amia Srinivasan's "On Not Sleeping With Your Students"
+![](/assets/images/teaching/board/comm3011-srinivasan.jpeg)
+
 ## Syllabus
 
 <div id="adobe-dc-view" style="width: 800px; box-shadow: 1px 1px 10px 1px #dadada;"></div>
