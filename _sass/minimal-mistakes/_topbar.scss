@@ -15,7 +15,17 @@
     -webkit-animation-delay: 0.15s;
     animation-delay: 0.15s;
     z-index: 20;
-    background-color: $header-background-color;
+    background-color: $subheader-background-color;
+
+    .nav__list {
+        margin-bottom: 0;
+    }
+    .nav__items {
+        margin: 0 1em;
+    }
+    label {
+        margin-top: 3px;
+    }
 
     &__inner-wrap {
         @include clearfix;
