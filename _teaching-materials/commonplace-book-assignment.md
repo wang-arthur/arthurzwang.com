@@ -1,10 +1,14 @@
 ---
 title: "Commonplace Book Assignment"
-collection: projects
-type: teaching-materials
-permalink: /project/commonplace-book-assignment
+collection: teaching-materials
+type: assignment
+permalink: /teaching/materials/commonplace-book-assignment
 excerpt: ''
+venue: true
+venue_collection: courses
+venue_permalink: /teaching/courses/2023-media-medicine-arts-mortality
 date: 2023-09-01
+toc: true
 header:
   overlay_image: /assets/images/teaching/cassey-album-p-9764-p25-2.jpg
   overlay_filter: .2
@@ -110,4 +114,13 @@ Washington Irving, "[The Wife](https://lcpalbumproject.org/?page_id=283)," calli
 
 
 # Examples of Student Work
-Coming soon (pending student permission)
+
+{% assign examples = site.student-work | where: "assignment_permalink", page.permalink %}
+
+{%- for post in examples -%}
+  {%- unless post.hidden -%}
+    {% include archive-single.html type=entries_layout no_toc=true %}
+  {%- endunless -%}
+{%- endfor -%}
+
+
