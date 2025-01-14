@@ -4,6 +4,7 @@
 {% assign page_excerpt = include.page_excerpt | default: page.excerpt %}
 {% assign page_tagline = include.page_tagline | default: page.tagline %}
 {% assign page_url = include.page_url %}
+{% assign no_toc = include.no_toc %}
 
 {% capture overlay_img_path %}{{ page_header.overlay_image | relative_url }}{% endcapture %}
 
@@ -31,7 +32,11 @@
 >
   {% if page_header.overlay_color or page_header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
+      {% assign page_title_class = "page__title" %}
+      {% if no_toc %}
+        {% assign page_title_class = page_title_class | append: " no_toc" %}
+      {% endif %}
+      <h1 id="page-title" class="{{ page_title_class }}" itemprop="headline">
         {% capture title %}
           {% if paginator and site.paginate_show_page_num %}
             {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}

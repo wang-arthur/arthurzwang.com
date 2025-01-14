@@ -65,6 +65,9 @@ $base0f: #b18a3d !default;
   .notice--success,
   .notice--danger {
     color: $text-color;
+    font-size: 1em !important;
+    margin: 0 0 1em 1em !important;
+    padding: .5em !important;
   }
 }
 
@@ -78,4 +81,11 @@ h4.nav__title {
 .page__footer-follow .social-icons i,
 .page__footer-follow .social-icons .svg-inline--fa  {
   color: inherit;
+}
+
+
+.page__hero {
+  &--overlay {
+    padding: 1.5em 0 !important;
+  }
 }

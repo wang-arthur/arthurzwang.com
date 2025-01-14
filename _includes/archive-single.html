@@ -21,7 +21,7 @@
     {% endif %}
 
     {% if has_overlay_header %}
-      {% include page__hero.html page_header = post.header page_title = post.title page_excerpt = post.excerpt page_tagline = post.tagline page_url = post.url %}
+      {% include page__hero.html page_header = post.header page_title = post.title page_excerpt = post.excerpt page_tagline = post.tagline page_url = post.url no_toc = include.no_toc %}
     {% elsif post.header.video.id and post.header.video.provider %}
       {% include page__hero_video.html %}
     {% endif %}

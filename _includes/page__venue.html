@@ -16,8 +16,19 @@
 	{% assign venue_class = "publication" %}
 {% endif %} 
 
+{% assign venue = document.venue %}
+{% if document.venue_collection && document.venue_permalink %}
+	{% assign venue = site[document.venue_collection] | where: "permalink", document.venue_permalink | map: "title" | first %}
+{% endif %}
+
 
 <p class="page__venue" itemprop="pageVenue" itemscope itemtype="{{venue_schema}}">
 	<i class="{{icon}}" aria-hidden="true"></i>
-	<span itemprop="name" class="p-locality  {{venue_class}}">{{document.venue}}</span>
+	<span itemprop="name" class="p-locality  {{venue_class}}">
+		{% if document.venue_permalink %}
+			<a href="{{document.venue_permalink}}">{{venue}}</a>
+		{% else %}
+			{{venue}}
+		{% endif %}
+	</span>
 </p>
