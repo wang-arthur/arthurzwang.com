@@ -17,7 +17,7 @@ teaching:
     children:
       - title: <i class="fas fa-fw fa-chalkboard-user" aria-hidden="true"></i> Courses
         url: /teaching/courses
-      - title: <i class="fas fa-fw fa-book-open" aria-hidden="true"></i> Materials
+      - title: <i class="fas fa-fw fa-book-bookmark" aria-hidden="true"></i> Materials
         url: /teaching/materials
       - title: <i class="fas fa-fw fa-user-graduate" aria-hidden="true"></i> Student Work
         url: /teaching/student-work

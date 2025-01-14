@@ -367,7 +367,22 @@ post_types:
   - name: teaching-materials
     label: "Teaching Materials"
     icon: "fas fa-fw fa-book-bookmark"
-
+  - name: assignment
+    label: "Assignment"
+    icon: "fas fa-fw fa-pen-to-square"
+  - name: work-in-progress
+    label: "Work In Progress"
+    icon: "fas fa-fw fa-spinner"
+  # _student-work
+  - name: public-humanities-project
+    label: "Public Humanities Project"
+    icon: "fas fa-fw fa-tower-broadcast"
+  - name: commonplace-book
+    label: "Commonplace Book"
+    icon: "fas fa-fw fa-book-bookmark"
+  - name: podcast
+    label: "Podcast"
+    icon: "fas fa-fw fa-podcast"
 
 # Defaults
 defaults:
