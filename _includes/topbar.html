@@ -1,0 +1,42 @@
+{% if page.topbar %}
+  <div class="topbar">
+  {% for s in page.topbar %}
+    {% if s.image %}
+      <img src="{{ s.image | relative_url }}"
+            alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+    {% endif %}
+    {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+    {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+  {% endfor %}
+  {% if page.topbar.nav %}
+    {% include nav_list nav=page.topbar.nav %}
+  {% endif %}
+  
+  </div>
+
+
+<!-- convert masthead instead of sidebar! -->
+ <!-- 
+  <div class="topbar">
+    <div class="topbar__inner-wrap">
+      <div class="topbar__menu">
+        <nav id="topbar-nav" class="greedy-nav">
+          <ul class="visible-links">
+            {%- for link in site.data.navigation.main -%}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {%- endfor -%}
+          </ul>
+          <button class="greedy-nav__toggle hidden" type="button">
+            <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+            <div class="navicon"></div>
+          </button>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
+    </div>
+  </div> -->
+  
+{% endif %}

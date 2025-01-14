@@ -427,7 +427,7 @@ defaults:
       type: pages
     values:
       layout: single
-      sidebar:
+      topbar:
         nav: "teaching"
   # teaching/courses
   - scope:
@@ -447,7 +447,7 @@ defaults:
       layout: single
       share: false
       date_format: "%Y"
-      sidebar:
+      topbar:
         nav: "teaching"
   # teaching/student-work
   - scope:
@@ -457,7 +457,7 @@ defaults:
       layout: single
       share: false
       date_format: "%Y"
-      sidebar:
+      topbar:
         nav: "teaching"
 
     
