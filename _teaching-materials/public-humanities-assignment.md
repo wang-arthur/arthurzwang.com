@@ -10,8 +10,7 @@ venue_permalink: /teaching/courses/2023-media-medicine-arts-mortality
 date: 2023-09-01
 toc: true
 header:
-  overlay_image: /assets/images/teaching/cassey-album-p-9764-p25-2.jpg
-  overlay_filter: .2
+  overlay_image: /assets/images/background/tri-pentagon-albers-roses.svg
 ---
 
 Originally assigned in COMM 3011: "[Media, Medicine, and the Arts of Mortality](/teaching/2023-media-medicine-arts-mortality)" (Fall 2023) at the Annenberg School for Communication
