@@ -12,90 +12,9 @@ toc: true
 
 <div></div>
 
-# Introduction to Graduate Studies: Genres of Academic Work and Life (Proseminar)
-
-This course is an introduction to graduate studies in the humanities that aims to fill gaps in graduate education, ensure that no one falls through the cracks, and prepare you for academic life beyond your home institution during and after graduate school.
-
-Some proseminars / introductory graduate seminars are organized as a whirlwind tour of the profession or department, a survey of theoretical schools or major directions in the field. 
-
-Much-maligned genre of self-help -- let's call it semi-independent learning
-
-This one focuses on professional genres that are crucial for success as a graduate student, academic job-seeker, and junior faculty member, but are rarely taught in graduate seminars
-- seminar papers
-- prospectus
-- dissertation
-- research
-  - reading, summarizing, synthesizing, critiquing articles, chapters, and books
-
-Some of the most important genres of academic life in the profession are:
-- writing
-  - journal article
-  - academic monograph
-  - book chapter
-  - conference paper
-  - reader's report
-- feedback (informal, verbal, written)
-- job talk
-- questions (during Q&A)
-- syllabus
-- emails
-- cover letter (various purposes)
-- proposal
-- non-academic writing
-- introduction
-- teaching
-  - lecture
-  - lesson plan
-- research (archives)
-- research (cognate methods from other humanities, social science, and quantitative disciplines, like programming, natural language processing, statistics and data science, ethnography, oral history)
-- acknowledgments
-
-Skills and Habits:
-- Developing a realistic, sustainable, and productive writing process
-- How and when to ask for and offer help, support, and care
-- Finding mentors and colleagues
-- Work/life balance, avoiding burnout
-- Developing resilience, avoiding defensiveness, integrating critique, feedback
-
-## Assignments
-- Weekly work and writing
-  - include reading in and about these genres, reflecting on & practicing these genres. The ultimate goal is not for you to produce any document in particular, but rather, to develop an awareness and understanding of these forms, a sense of how you relate to them, a plan for developing your knowledge about them (semi-independently -- don't assume you'll be guided through them step by step in your graduate education or by your advisors).
-  - I.e., I don't expect you to complete this course with a polished journal article draft or complete knowledge of how to write and publish a journal article. However, you should leave this course with a clear sense of how you might organize your writing process, whose help you might seek, and how you might find out what you still don't know about writing and publishing journal articles.
-- No seminar/term paper
-
-## Topics and Sources
-- Histories of Academic Cultures and Institutions
-  - Two Cultures
-  - Michael Warner, "Styles of Intellectual Publics"
-  - Mary McCarthy, *Groves of Academe* or Gerald Graff, *Professing Literature*
-  - *The Chair* (Netflix)
-  - excerpt from Fred Moten and Stefano Harney, *The Undercommons: Fugitive Planning & Black Study* (Autonomedia / Minor Compositions, 2013).
-  - Edward W. Said, "On the University," *Alif: Journal of Comparative Poetics* 25 (2005), 26-36.
-- Politics, Activism, and Academic Freedom
-  - Excerpt from Steven Salaita, *An Honest Living: A Memoir of Peculiar Itineraries* (Fordham University Press, 2024).
-  - Eve Tuck and K. Wayne Yang, "Decolonization is not a metaphor," *Decolonization: Indigeneity, Education, & Society* 1, no. 1 (2012), 1-40.
-  - Katrina L. Rogers, *Putting the Humanities PhD to Work: Thriving in and beyond the Classroom* (Duke University Press, 2020)
-- Genres
-  - [Key Forms Working Group](https://keyforms.bham.ac.uk/), *Postmodern Culture*, "[The Forms of Academic Work](https://call-for-papers.sas.upenn.edu/cfp/2023/08/21/the-forms-of-academic-work)" Special Issue CFP
-  - Hayot, *The Elements of Academic Style*
-- Misconduct and Bad Behavior, Whisper Networks and Gossip (Soft Plagiarism, Idea Theft)
-  - Yasmin Nair, "[Don't Share Your Book Proposal](https://yasminnair.com/dont-share-your-book-proposal/)," YasminNair.com, August 15, 2023.
-  - Jordan Alexander Stein, "[How Intellectual Property Theft Feels](https://capaciousjournal.com/)," *Capacious* 3, no. 2 (2024).
-
-- non-academic writing
-  - Browse *Public Books*, *Parapraxis*, *LARB*, 
-  - Lili Loofbourow and Phillip Maciak, "The Semipublic Intellectual: Academia, Criticism, and the Internet Age," special section, "The Changing Profession." *PMLA* 130, no. 2 (2015)
-
-## Tools and Strategies
-- Citation Management
-- Note-Taking
-
-![A meme based on the box for Cap'N Crunch's "Oops! All Berries" Cereal, reading "Oops! All H idden Curriculum"](/assets/images/teaching/hidden-curriculum-meme.png)
-
-
-
 # Thinking Software
-*Histories, Theories, and Practices of Programming and Artificial Intelligence*
+**Histories, Theories, and Practices of Programming and Artificial Intelligence**
+## Course Description
 
 What do computing and thinking have in common? Can computer programs
 understand, learn, and exercise creativity? How and when does software
@@ -148,6 +67,8 @@ What Do Programmers Think They're Doing? Who Do They Think They Are?
 
 
 # Recent Feminist Futures 
+
+## Course Description
 
 This course examines science fiction as part of a feminist and queer tradition of forecasting, anticipating, and imagining other worlds: worlds without patriarchy and with alternative configurations of race, gender, sexuality, and power. We’ll consider feminist and queer utopias, dystopias, and heterotopias, with a special focus on the work of minoritized writers, artists, and intellectuals who have responded to histories of dehumanization not by asserting their essential humanity and claim to human rights, but by developing rich appropriations and transformations of animality, automatism, alienness, and deviance. 
 
@@ -202,78 +123,9 @@ We will read feminist science fiction as lessons in reading science and fiction 
       7.  Nnedi Okorafor
       8.  Joan Slonczewski
 
-
-# Afrofuturism and Astroculture in American Media
-
-# Science, Technology, Folklore
-
-Stage: preliminary planning
-
-![Screenshot of a social media post by the American Folklore Society in 2020, reading "With the release of Taylor Swift’s new album, Folklore, many people are asking, what is folklore? Come learn about folklore and folklore studies at: http://whatisfolklore.org/"](/assets/images/teaching/american-folklore-society-swift.png)
-
-
-Bringing together a [dying(?) academic discipline](https://almanac.upenn.edu/archive/v46/n01/folkclose.html) and  science, technology, and digital media's speculative orientation toward the future, this course proposes **folklore** as a powerful approach for the humanistic study of science, technology, and digital media. 
-
-internet cultures, rhetorics of science and technology, technology hype, and the cultures of technological change.
-
-Key terms: gossip, rumor, hype, meme
-
-
-## References
-### Science, Technology, and Folklore
-- Bruce Jackson, "'The Greatest Mathematician in the World': Norbert Wiener Stories," *Western Folklore* 31, no. 1 (1972): 1-22.
-- D.K. Wilgus, “More Norbert Wiener Stories,” *Western Folklore* 31, no. 1 (1972): 23-25.
-- Carolyn F. Gilkey, “The Physicist, the Mathematician and the Engineer: Scientists and the Professional Slur,” *Western Folklore* 49, no. 2 (1990): 215-220.
-- Paul Renteln and Alan Dundes, “Foolproof: A Sampling of Mathematical Folk Humor,” *Notices of the AMS* 52, no. 1 (2005): 24-34
-- American Folklore Society, Folklore and Science Section, https://americanfolkloresociety.org/our-community/sections/folklore-and-science/.
-- Keith Weber, “Mathematical Humor: Jokes That Reveal How We Think About Mathematics and Why We Enjoy It,” *The Mathematical Intelligencer* 38, no. 4 (2016): 56–61, https://doi.org/10.1007/s00283-016-9676-8.
-- Loren Graham, “The Power of Names: In Culture and in Mathematics,” *Proceedings of the American Philosophical Society* 157, no. 2 (2013): 229–34
-- Donald Braid, "'Doing Good Physics': Narrative and Innovation in Research," *Journal of Folklore Research* 43, no. 2 (2006): 149–73, https://doi.org/10.1353/jfr.2006.0012
-- Robert K. Merton, “The Matthew Effect in Science,” *Science* 159, no. 3810 (1968): 56–63, https://doi.org/10.1126/science.159.3810.56
-- Gregory Schrempp, “Folklore and Science: Inflections of ‘Folk’ in Cognitive Research,” *Journal of Folklore Research* 33, no. 3 (1996): 191–206
-- Gregory Schrempp, *The Science of Myths and Vice Versa* (Prickly Paradigm Press, 2016)
-- Stephen M. Stigler, “Stigler’s Law of Eponymy*,” *Transactions of the New York Academy of Sciences* 39, no. 1 Series II (1980): 147–57, https://doi.org/10.1111/j.2164-0947.1980.tb02775.x
-- Michael Taft, “The Absentminded Professor: A Case Study of an Academic Legend Cycle,” *Voices* 33, no. 1/2 (Spring 2007): 10–13
-- Thomas C. Sutton and Marilyn Sutton, “Science Fiction as Mythology,” *Western Folklore* 28, no. 4 (1969): 230–37, https://doi.org/10.2307/1499217
-- Undo Uus, “Science and Folk Sentiments,” *Folklore: Electronic Journal of Folklore* 15 (2000): 7–23, https://doi.org/10.7592/FEJF2000.15.science
-
-### Folklore, Media, and Modernity
-- Alan Dundes, "Folkloreistics in the Twenty-First Century," The Journal of American Folklore 118, no. 470 (2005): 385-408.
-- Timothy R. Tangherlini, “The Folklore Macroscope: Challenges for a Computational Folkloristics,” *Western Folklore* 72, no. 1 (2013): 7–27. http://www.jstor.org/stable/24550905.
-- UNESCO Intangible Cultural Heritage Section, https://ich.unesco.org/en/home.
-- John Patrick Leary, "[Why Politicians Can't Stop Talking About 'Folks](https://newrepublic.com/article/156807/politicians-always-talking-folks-obama-biden),'" *The New Republic*, Marcy 27, 2020.
-- Trevor J. Blank, "Folklore and the Internet: The Challenge of an Ephemeral Landscape1" *Humanities* 7, no. 2(2018): 50, https://doi.org/10.3390/h7020050
-
-### Folklore Studies Foundations
-- William R. Bascom, “Four Functions of Folklore,” *The Journal of American Folklore* 67, no. 266 (1954): 333–49, https://doi.org/10.2307/536411.
-- Peter Bogatyrëv and Roman Jakobson, "Folklore as a Special Form of Creativity," *The Prague School: Selected Writings, 1929-1946*, ed. Peter Steiner (University of Texas Press, 1982), 32-46, https://doi.org/10.7560/780439-003
-- Claude Lévi-Strauss, “The Structural Study of Myth,” *The Journal of American Folklore* 68, no. 270 (1955): 428–44, https://doi.org/10.2307/536768.
-- Roland Barthes, *Mythologies*
-- Zora Neale Hurston, *Mules and Men*
-- Archer Taylor, "The Place of Folklore," *PMLA* 67,  no. 1 (1952): 59-66.
-- Stith Thompson, "The Challenge of Folklore," *PMLA* 79, no. 4 (1964): 357-365.
-- Bert O. States, “The Persistence of the Archetype,” *Critical Inquiry* 7, no. 2 (December 1980): 333–44, https://doi.org/10.1086/448102
-- Vladimir Propp, *Morphology of the Folktale* (University of Texas Press, 1968)
-- Vladimir Propp, *Theory and History of Folklore*, ed. Anatoly Liberman (Minneapolis: University of Minnesota Press, 1984)
-- Robin D. G. Kelley, "Notes on Deconstructing 'The Folk,'" *The American Historical Review* 97, no. 5 (1992): 1400–1408, https://doi.org/10.2307/2165942
-
-
-
-
-# Queer Natures, Queer Lives
-
-In fall 2023, Kew Gardens in London faced some unusual backlash against their annual autumn festival. Celebrating the “diversity of art, plants and fungi,” the Gardens chose the theme of “Queer Nature,” linking ecological biodiversity to the diversity of human gender and sexuality. 
-
-What can plants, animals, fungi, and other organisms contribute to queer theory and queer liberation? Is sexuality genetically determined? Is queer, trans, and nonbinary life natural? Does queerness have an evolutionary basis and function? Are sexual violence, genocide, and war uniquely human evils or do they also occur among nonhuman animals? Are nature and biology productive foundations for queer activism and critique? This course confronts these questions by considering the relationship between queer art, literature, and theory and scientific and other forms of knowledge production about the natural world. We’ll examine both rejections and celebrations of the idea of queerness as natural, along with feminist and queer of color revisions and deconstructions of distinctions between nature, culture, and technology and between the human and the nonhuman.
-
-Artists and authors might include Karen Barad, Joshua Bennett, Octavia E. Butler, Charles Darwin, Samuel R. Delany, Anne Fausto-Sterling, Greta Gaard, Donna Haraway, Zakiyyah Iman Jackson, Robin Wall Kimmerer, Greta LaFleur, Daniel Lee, Melissa K. Nelson, Richard Prum, Isabella Rossellini, Catriona Sandilands, Sam See, Nicole Seymour, Banu Subramaniam, Kim Tallbear, and James Tiptree Jr.
-
-
-# On Bios: Life Writing, Life Sciences, and Biotechnology
-(*Coming Soon*)
-
 # Theory, Violence, and Consent
-(Drafted in 2021)
+## Course Description
+
 This course surveys theories *of* sexual violence interrogating the relationship between theory *and* sexual violence. How does theory -- literary, critical, media, feminist, critical race, queer, film -- subtend, develop, or trouble the concepts and frameworks we depend on to adjudicate sexual violence? In this seminar, we will consider how the constellation of heterogeneous intellectual formations called "theory" have shaped and challenged contemporary discourses of sexual violence. We begin by considering how challenges and revisions to the ideas of the human and the subject demonstrate the affordances and limitations of consent as a demarcation of sexual harm. We then consider how mediation represents and perpetuates harm through feminist media, literary, and film theory. Finally, we explore alternatives to legalistic and carceral justice, and the challenges of imagining and representing recovery and reparation following world-destroying acts of violence in the macro-scales of war and trauma.
 
 ## Course Content Note
@@ -369,9 +221,9 @@ In order to maintain an inclusive academic environment, I ask that survivors of 
 14. **Restorative Justice**
     -   Alexandra Brodsky, *Sexual Justice* (2021)
 
-
 # The Humanities and the Human Sciences
 
+## Course Description
 What is human nature? And to whom does this question belong: biologists or philosophers? Readers or computer scientists? This seminar will consider the organization of intellectual inquiry and its histories. We'll approach fundamental questions about the human by examining and experimenting with boundaries, crossings, collaborations, and occasional antagonisms between and among the humanities and the sciences. Approaches will include literary theory, anthropology, sociology,
 philosophy, economics, feminism, biology and evolutionary theory, neuroscience, and computation. Thinkers we'll engage with include: Anne Fausto-Sterling, Michel Foucault, Clifford Geertz, Erving Goffman, Donna Haraway, Paul Ricoeur, Edward Said, and E. O. Wilson.
 
@@ -462,3 +314,139 @@ philosophy, economics, feminism, biology and evolutionary theory, neuroscience, 
 12. **Digital Humanities, Empiricism and Reproducibility**
     -   Laura B. McGrath, "Comping White" (2019)
     -   Andrew Piper, *Enumerations: Data and Literary Study* (2018)
+
+# Preliminary / In-Progress
+
+## Introduction to Graduate Studies: Genres of Academic Work and Life (Proseminar)
+### Course Description
+This introduction to graduate studies in the humanities aims to fill gaps in graduate education, ensuring that no one falls through the cracks. The course will prepare you for both graduate school and academic life beyond this institution. While some Some proseminars/introductory graduate seminars survey theoretical schools or major directions in a field, instead of introducing any particular subject, this seminar focuses on equipping you with the skills, habits, and practices you'll need to navigate academic life and work.
+
+This seminar will introduce you to professional genres, formats, and conventions that are crucial for success as an academic, but that graduate students are often expected to acquire through osmosis, from one-on-one mentoring, or by other semi-independent means. As a matter of equity, this course aims to provide all graduate students with access to this knowledge.
+
+[notes/draft-in-progress below]
+
+- Graduate School Genres
+  - seminar paper
+  - thesis/dissertation prospectus/proposal
+  - thesis/dissertation
+
+- Academic Genres Beyond Graduate School
+  - journal article
+  - academic monograph
+  - book chapter
+  - conference paper
+  - reader's report
+  - feedback on work by colleagues, friends, and students (informal, verbal, written)
+  - job talk
+  - question during Q&A
+  - syllabus
+  - emails
+  - cover letter (various purposes)
+  - grand/funding proposal
+  - "non-academic writing"
+  - lecture
+  - lesson plan
+  - acknowledgments
+
+Skills and Habits:
+- Developing a realistic, sustainable, and productive writing process
+- How and when to ask for and offer help, support, and care
+- Finding mentors and colleagues
+- Work/life balance, avoiding burnout
+- Developing resilience, avoiding defensiveness, being generous
+
+### Assignments
+- Weekly work and writing will include reading in and about these genres, as well as practicing writing in these genres. The ultimate goal is not for you to produce any document in particular, but rather, to develop an awareness and understanding of these forms & a sense of how you will approach them (and find the support you need to do so). In other words, I don't expect you to complete this course with, for instance, a polished journal article draft. However, you should leave this course with plan for organizing your writing process, seeking feedback, and finding out anything you don't yet know about academic writing and publishing.
+- No seminar paper
+
+### Topics and Sources
+- Histories of Academic Cultures and Institutions
+  - Two Cultures
+  - Michael Warner, "Styles of Intellectual Publics"
+  - Mary McCarthy, *Groves of Academe* or Gerald Graff, *Professing Literature*
+  - *The Chair* (Netflix)
+  - excerpt from Fred Moten and Stefano Harney, *The Undercommons: Fugitive Planning & Black Study* (Autonomedia / Minor Compositions, 2013).
+  - Edward W. Said, "On the University," *Alif: Journal of Comparative Poetics* 25 (2005), 26-36.
+- Politics, Activism, and Academic Freedom
+  - Excerpt from Steven Salaita, *An Honest Living: A Memoir of Peculiar Itineraries* (Fordham University Press, 2024).
+  - Eve Tuck and K. Wayne Yang, "Decolonization is not a metaphor," *Decolonization: Indigeneity, Education, & Society* 1, no. 1 (2012), 1-40.
+  - Katrina L. Rogers, *Putting the Humanities PhD to Work: Thriving in and beyond the Classroom* (Duke University Press, 2020)
+- Genres
+  - [Key Forms Working Group](https://keyforms.bham.ac.uk/), *Postmodern Culture*, "[The Forms of Academic Work](https://call-for-papers.sas.upenn.edu/cfp/2023/08/21/the-forms-of-academic-work)" Special Issue CFP
+  - Hayot, *The Elements of Academic Style*
+- Misconduct and Bad Behavior, Whisper Networks and Gossip (Soft Plagiarism, Idea Theft)
+  - Yasmin Nair, "[Don't Share Your Book Proposal](https://yasminnair.com/dont-share-your-book-proposal/)," YasminNair.com, August 15, 2023.
+  - Jordan Alexander Stein, "[How Intellectual Property Theft Feels](https://capaciousjournal.com/)," *Capacious* 3, no. 2 (2024).
+
+- non-academic writing
+  - Browse *Public Books*, *Parapraxis*, *LARB*, 
+  - Lili Loofbourow and Phillip Maciak, "The Semipublic Intellectual: Academia, Criticism, and the Internet Age," special section, "The Changing Profession." *PMLA* 130, no. 2 (2015)
+
+### Tools and Strategies
+- Citation Management
+- Note-Taking
+
+![A meme based on the box for Cap'N Crunch's "Oops! All Berries" Cereal, reading "Oops! All H idden Curriculum"](/assets/images/teaching/hidden-curriculum-meme.png)
+
+## Queer Natures, Queer Lives
+### Course Description
+In fall 2023, Kew Gardens in London faced some unusual backlash against their annual autumn festival. Celebrating the “diversity of art, plants and fungi,” the Gardens chose the theme of “Queer Nature,” linking ecological biodiversity to the diversity of human gender and sexuality. 
+
+What can plants, animals, fungi, and other organisms contribute to queer theory and queer liberation? Is sexuality genetically determined? Is queer, trans, and nonbinary life natural? Does queerness have an evolutionary basis and function? Are sexual violence, genocide, and war uniquely human evils or do they also occur among nonhuman animals? Are nature and biology productive foundations for queer activism and critique? This course confronts these questions by considering the relationship between queer art, literature, and theory and scientific and other forms of knowledge production about the natural world. We’ll examine both rejections and celebrations of the idea of queerness as natural, along with feminist and queer of color revisions and deconstructions of distinctions between nature, culture, and technology and between the human and the nonhuman.
+
+Artists and authors might include Karen Barad, Joshua Bennett, Octavia E. Butler, Charles Darwin, Samuel R. Delany, Anne Fausto-Sterling, Greta Gaard, Donna Haraway, Zakiyyah Iman Jackson, Robin Wall Kimmerer, Greta LaFleur, Daniel Lee, Melissa K. Nelson, Richard Prum, Isabella Rossellini, Catriona Sandilands, Sam See, Nicole Seymour, Banu Subramaniam, Kim Tallbear, and James Tiptree Jr.
+
+## Asian American Literature On Campus
+### Course Description
+The category of "Asian American" has been closely associated with the college campus since coalitions of student activists demanded the formation of Asian American and other ethnic studies programs in the 1960s. At the same time, recent attacks on affirmative action have exposed how vexed the presence of Asian America on campus and in university curricula remains: are Asian Americans under- or over-represented in higher education? Is “Asian American” still a useful category, or does it obscure significant demographic and cultural diversity? Must the association between Asian Americans and higher education feed the model minority stereotype? This course considers the relationship between literature and the political and cultural category “Asian American” through canonical works of Asian American literature, fiction about Asian Americans on campus, and literature by college students and teachers. Authors may include Anne Anlin Cheng, Susan Choi, Mohsin Hamid, Cathy Park Hong, R.O. Kwon, Viet Thanh Nguyen, Jia Tolentino, Weike Wang, Karen Tei Yamashita, Jenny Zhang.
+
+## Science, Technology, and Folklore
+
+![Screenshot of a social media post by the American Folklore Society in 2020, reading "With the release of Taylor Swift’s new album, Folklore, many people are asking, what is folklore? Come learn about folklore and folklore studies at: http://whatisfolklore.org/"](/assets/images/teaching/american-folklore-society-swift.png)
+
+Bringing together a [dying(?) academic discipline](https://almanac.upenn.edu/archive/v46/n01/folkclose.html) and science, technology, and digital media's speculative orientation toward the future, this course proposes **folklore** as a powerful approach for the humanistic study of science, technology, and digital media.
+
+Topics may include internet cultures, rhetorics of science and technology, technology hype, and models cultures of technological change, and genres like gossip, rumor, hype, meme, copypasta, myth, legend, and joke.
+
+### Folklore and Science
+- Bruce Jackson, "'The Greatest Mathematician in the World': Norbert Wiener Stories," *Western Folklore* 31, no. 1 (1972): 1-22.
+- D.K. Wilgus, “More Norbert Wiener Stories,” *Western Folklore* 31, no. 1 (1972): 23-25.
+- Carolyn F. Gilkey, “The Physicist, the Mathematician and the Engineer: Scientists and the Professional Slur,” *Western Folklore* 49, no. 2 (1990): 215-220.
+- Paul Renteln and Alan Dundes, “Foolproof: A Sampling of Mathematical Folk Humor,” *Notices of the AMS* 52, no. 1 (2005): 24-34
+- American Folklore Society, Folklore and Science Section, https://americanfolkloresociety.org/our-community/sections/folklore-and-science/.
+- Keith Weber, “Mathematical Humor: Jokes That Reveal How We Think About Mathematics and Why We Enjoy It,” *The Mathematical Intelligencer* 38, no. 4 (2016): 56–61, https://doi.org/10.1007/s00283-016-9676-8.
+- Loren Graham, “The Power of Names: In Culture and in Mathematics,” *Proceedings of the American Philosophical Society* 157, no. 2 (2013): 229–34
+- Donald Braid, "'Doing Good Physics': Narrative and Innovation in Research," *Journal of Folklore Research* 43, no. 2 (2006): 149–73, https://doi.org/10.1353/jfr.2006.0012
+- Robert K. Merton, “The Matthew Effect in Science,” *Science* 159, no. 3810 (1968): 56–63, https://doi.org/10.1126/science.159.3810.56
+- Gregory Schrempp, “Folklore and Science: Inflections of ‘Folk’ in Cognitive Research,” *Journal of Folklore Research* 33, no. 3 (1996): 191–206
+- Gregory Schrempp, *The Science of Myths and Vice Versa* (Prickly Paradigm Press, 2016)
+- Stephen M. Stigler, “Stigler’s Law of Eponymy*,” *Transactions of the New York Academy of Sciences* 39, no. 1 Series II (1980): 147–57, https://doi.org/10.1111/j.2164-0947.1980.tb02775.x
+- Michael Taft, “The Absentminded Professor: A Case Study of an Academic Legend Cycle,” *Voices* 33, no. 1/2 (Spring 2007): 10–13
+- Thomas C. Sutton and Marilyn Sutton, “Science Fiction as Mythology,” *Western Folklore* 28, no. 4 (1969): 230–37, https://doi.org/10.2307/1499217
+- Undo Uus, “Science and Folk Sentiments,” *Folklore: Electronic Journal of Folklore* 15 (2000): 7–23, https://doi.org/10.7592/FEJF2000.15.science
+
+### Folklore, Media, and Modernity
+- Alan Dundes, "Folkloreistics in the Twenty-First Century," The Journal of American Folklore 118, no. 470 (2005): 385-408.
+- Timothy R. Tangherlini, “The Folklore Macroscope: Challenges for a Computational Folkloristics,” *Western Folklore* 72, no. 1 (2013): 7–27. http://www.jstor.org/stable/24550905.
+- UNESCO Intangible Cultural Heritage Section, https://ich.unesco.org/en/home.
+- John Patrick Leary, "[Why Politicians Can't Stop Talking About 'Folks](https://newrepublic.com/article/156807/politicians-always-talking-folks-obama-biden),'" *The New Republic*, Marcy 27, 2020.
+- Trevor J. Blank, "Folklore and the Internet: The Challenge of an Ephemeral Landscape1" *Humanities* 7, no. 2(2018): 50, https://doi.org/10.3390/h7020050
+
+### Folklore Studies Foundations
+- William R. Bascom, “Four Functions of Folklore,” *The Journal of American Folklore* 67, no. 266 (1954): 333–49, https://doi.org/10.2307/536411.
+- Peter Bogatyrëv and Roman Jakobson, "Folklore as a Special Form of Creativity," *The Prague School: Selected Writings, 1929-1946*, ed. Peter Steiner (University of Texas Press, 1982), 32-46, https://doi.org/10.7560/780439-003
+- Claude Lévi-Strauss, “The Structural Study of Myth,” *The Journal of American Folklore* 68, no. 270 (1955): 428–44, https://doi.org/10.2307/536768.
+- Roland Barthes, *Mythologies*
+- Zora Neale Hurston, *Mules and Men*
+- Archer Taylor, "The Place of Folklore," *PMLA* 67,  no. 1 (1952): 59-66.
+- Stith Thompson, "The Challenge of Folklore," *PMLA* 79, no. 4 (1964): 357-365.
+- Bert O. States, “The Persistence of the Archetype,” *Critical Inquiry* 7, no. 2 (December 1980): 333–44, https://doi.org/10.1086/448102
+- Vladimir Propp, *Morphology of the Folktale* (University of Texas Press, 1968)
+- Vladimir Propp, *Theory and History of Folklore*, ed. Anatoly Liberman (Minneapolis: University of Minnesota Press, 1984)
+- Robin D. G. Kelley, "Notes on Deconstructing 'The Folk,'" *The American Historical Review* 97, no. 5 (1992): 1400–1408, https://doi.org/10.2307/2165942
+
+# Coming Soon
+
+## Afrofuturism and Astroculture in American Media
+## Alien, Animal, Robot: Imagining Techno-Orientalism
+## On Bios: Life Writing, Life Sciences, and Biotechnology
