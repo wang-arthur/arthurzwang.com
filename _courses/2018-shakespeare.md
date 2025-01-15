@@ -13,4 +13,4 @@ header:
 
 A study of Shakespeare's histories and tragedies, focusing on attentive reading of the play texts and consideration of the theatrical, literary, intellectual, political, and social worlds in which the plays were written, performed, and experienced.
 
-<img src="../assets/images/teaching/othello-posters.png" />
+<img src="/assets/images/teaching/othello-posters.png" />
