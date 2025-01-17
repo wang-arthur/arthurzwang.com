@@ -143,10 +143,6 @@ In order to maintain an inclusive academic environment, I ask that survivors of 
         *Sex and Harm in the Age of Consent* (2016)
     -   Carole Pateman, "Contracting In," in *The Sexual
         Contract* (1988)
-    -   *Optional*
-        1.  Janet Halley, "The Move to Affirmative Consent" (2016)
-        2.  Douglas Husak, "The Complete Guide to Consent to Sex: Alan
-            Wertheimer's 'Consent to Sexual Relations'" (2006)
 2.  **Keywords**
     -   Raymond Williams, selections from *Keywords: a Vocabulary of
         Culture and Society* (1976): "Aesthetic," "Exploitation,"
@@ -192,24 +188,21 @@ In order to maintain an inclusive academic environment, I ask that survivors of 
     -   Julian Dibbell, "A Rape in Cyberspace" (1993)
     -   Excerpt from N. Katherine Hayles, *How We Became
         Posthuman* (1999)
-
 9.  **Narrative, Media, and Literary History**
     -   Frances Ferguson, "Rape and the Rise of the Novel" (1987)
     -   Harriet Jacobs, *Incidents in the Life of a Slave Girl* (1861)
     -   Sarah Banet-Weiser and Kathryn Claire Higgins, *Believability:
         Sexual Violence, Media, and the Politics of Doubt* (2023)
-
-10.  **Film Theory, Spectatorship, and the Gaze**
-    -   Michael Haneke, *The Piano Teacher* (2001)
-    -   Vivian C. Sobchack, "*No Lies*: Direct Cinema as Rape" (1977)
-    -   Moira Weigel, "*The Piano Teacher*: Bad Romances" (2017)
+10.  **Film Theory, Spectatorship, and the Gaze** 
+     -   Michael Haneke, *The Piano Teacher* (2001)
+     -   Vivian C. Sobchack, "*No Lies*: Direct Cinema as Rape" (1977)
+     -   Moira Weigel, "*The Piano Teacher*: Bad Romances" (2017)
 
 ## Unit 3: Trauma and Reparation
 11. **Trauma and Testimony**
     -   Cathy Carruth, "Introduction: Trauma and Experience" and
         "Introduction: Recapturing the Past," in *Trauma: Explorations
         in Memory* (1995)
-
     -   Edouard Louis, *History of Violence* (2016)
 12. **\#MeToo, Life Writing, and Truth Telling**
     -   Leigh Gilmore, *The \#MeToo Effect: What Happens When We Believe
