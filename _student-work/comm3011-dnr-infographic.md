@@ -7,7 +7,8 @@ tagline: By Lex
 venue: true
 venue_collection: courses
 venue_permalink: /teaching/courses/2023-media-medicine-arts-mortality
-date: 2023-12-01
+assignment_permalink: /teaching/materials/public-humanities-project
+date: 2023-12-05
 header:
   overlay_image: /assets/images/teaching/comm3011-dnr-cover.png
   overlay_filter: 0.6

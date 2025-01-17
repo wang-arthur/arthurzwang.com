@@ -7,9 +7,10 @@ tagline: By Chloe and Ella
 venue: true
 venue_collection: courses
 venue_permalink: /teaching/courses/2023-media-medicine-arts-mortality
-date: 2023-12-01
+assignment_permalink: /teaching/materials/public-humanities-project
+date: 2023-12-05
 header:
-  overlay_image: /assets/images/background/tri-pentagon-albers-V5b-1.svg
+  overlay_image: assets/images/background/tri-pentagon-albers-teal-purple-shadow.svg
   show_overlay_excerpt: false
 ---
 

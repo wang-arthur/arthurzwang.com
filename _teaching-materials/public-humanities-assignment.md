@@ -185,3 +185,13 @@ following criteria. The project:
     apparent in your project how you used these sources, please add a
     1-2 page explanation of how your research informed the design and
     execution of the project.
+
+# Examples of Student Work
+
+{% assign examples = site.student-work | where: "assignment_permalink", page.permalink %}
+
+{%- for post in examples -%}
+  {%- unless post.hidden -%}
+    {% include archive-single.html type=entries_layout no_toc=true %}
+  {%- endunless -%}
+{%- endfor -%}

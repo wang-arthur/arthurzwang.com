@@ -7,4 +7,4 @@ sort_by: date
 sort_order: reverse
 ---
 
-Note: All student work has been posted with permission. Rights remain with the authors & students are free to withdraw their permission anytime.
+This page features some excellent work students have produced in my classes (a non-exhaustive collection!). All projects have been posted with permission. Rights remain with the students, who are free to withdraw their permission anytime.
