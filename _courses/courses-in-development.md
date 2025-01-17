@@ -8,6 +8,8 @@ header:
   overlay_image: /assets/images/background/tri-pentagon-albers-prismatic-greens.svg
   show_overlay_excerpt: false
 toc: true
+toc_label: Courses
+toc_icon: chalkboard-user
 ---
 
 <div></div>
@@ -74,7 +76,7 @@ This course examines science fiction as part of a feminist and queer tradition o
 
 We will read feminist science fiction as lessons in reading science and fiction as feminists.
 
-## Animal, Robot, Alien: Gender Beyond the Human
+## Gender Beyond the Human
 1. Introduction
    - Joanna Russ, “The Image of Women in SF” (1970)
    - Sheree Renee Thomas and Walidah Imarisha, Foreword and Introduction to *Octavia’s Brood: Science Fiction Stories from Social Justice Movements* (2015)
@@ -87,7 +89,7 @@ We will read feminist science fiction as lessons in reading science and fiction 
    - Geoff Ryman et al. “The Mundane Manifesto” (2004)
    - Susan Stryker, “My Words to Victor Frankenstein above the Village of Chamounix” (1994)
 
-## Consent, Love, Sex, and Justice
+## Love, Sex, Justice, and Consent
 1. Seduction and Coercion
    - Octavia E. Butler, *Dawn* (1987)
 2. Queer Sexuality
@@ -317,11 +319,11 @@ philosophy, economics, feminism, biology and evolutionary theory, neuroscience, 
 
 # Preliminary / In-Progress
 
-## Introduction to Graduate Studies: Genres of Academic Work and Life (Proseminar)
+## Introduction to Graduate Studies: Genres of Academic Work and Life (PhD Proseminar, could be adapted for MA)
 ### Course Description
-This introduction to graduate studies in the humanities aims to fill gaps in graduate education, ensuring that no one falls through the cracks. The course will prepare you for both graduate school and academic life beyond this institution. While some Some proseminars/introductory graduate seminars survey theoretical schools or major directions in a field, instead of introducing any particular subject, this seminar focuses on equipping you with the skills, habits, and practices you'll need to navigate academic life and work.
+This introduction to graduate studies in the humanities aims to fill common gaps in graduate education, ensuring that no one falls through the cracks. The course will prepare students for both graduate school and academic life beyond this institution. While some proseminars survey schools, methods, theories, or major directions in a field, this seminar dispenses with content and focuses instead on equipping students with essential skills, habits, and practices for navigating academic life and work.
 
-This seminar will introduce you to professional genres, formats, and conventions that are crucial for success as an academic, but that graduate students are often expected to acquire through osmosis, from one-on-one mentoring, or by other semi-independent means. As a matter of equity, this course aims to provide all graduate students with access to this knowledge.
+This seminar will introduce professional genres, shibboleths, and conventions that are crucial for academic survival and success, but that graduate students are often expected to acquire by osmosis, from one-on-one mentoring, or through other informal and semi-independent means. As a matter of equity, this course aims to provide all graduate students with access to this knowledge.
 
 [notes/draft-in-progress below]
 
@@ -350,14 +352,16 @@ This seminar will introduce you to professional genres, formats, and conventions
 
 Skills and Habits:
 - Developing a realistic, sustainable, and productive writing process
-- How and when to ask for and offer help, support, and care
+- Knowing how and when to ask for and offer help, support, and care
 - Finding mentors and colleagues
-- Work/life balance, avoiding burnout
-- Developing resilience, avoiding defensiveness, being generous
+- Protecting Work/life balance, avoiding burnout
+- Developing resilience, avoiding defensiveness, and being generous without sacrificing values, integrity, or boundaries
+- Organizing notes and citations (potentially with software like Zotero, Endnote, Mendeley, Notion, OneNote, Obsidian, Scrivener)
 
 ### Assignments
-- Weekly work and writing will include reading in and about these genres, as well as practicing writing in these genres. The ultimate goal is not for you to produce any document in particular, but rather, to develop an awareness and understanding of these forms & a sense of how you will approach them (and find the support you need to do so). In other words, I don't expect you to complete this course with, for instance, a polished journal article draft. However, you should leave this course with plan for organizing your writing process, seeking feedback, and finding out anything you don't yet know about academic writing and publishing.
+- Weekly reading, writing exercises, and presentations
 - No seminar paper
+- Informal but serious final essay that's both reflective and proleptic: a statement of intellectual, personal, and professional values, goals, and plans you can return to and revise in moments of uncertainty or indecision for at least the next few years.
 
 ### Topics and Sources
 - Histories of Academic Cultures and Institutions
@@ -377,22 +381,16 @@ Skills and Habits:
 - Misconduct and Bad Behavior, Whisper Networks and Gossip (Soft Plagiarism, Idea Theft)
   - Yasmin Nair, "[Don't Share Your Book Proposal](https://yasminnair.com/dont-share-your-book-proposal/)," YasminNair.com, August 15, 2023.
   - Jordan Alexander Stein, "[How Intellectual Property Theft Feels](https://capaciousjournal.com/)," *Capacious* 3, no. 2 (2024).
-
-- non-academic writing
   - Browse *Public Books*, *Parapraxis*, *LARB*, 
   - Lili Loofbourow and Phillip Maciak, "The Semipublic Intellectual: Academia, Criticism, and the Internet Age," special section, "The Changing Profession." *PMLA* 130, no. 2 (2015)
-
-### Tools and Strategies
-- Citation Management
-- Note-Taking
 
 ![A meme based on the box for Cap'N Crunch's "Oops! All Berries" Cereal, reading "Oops! All H idden Curriculum"](/assets/images/teaching/hidden-curriculum-meme.png)
 
 ## Queer Natures, Queer Lives
 ### Course Description
-In fall 2023, Kew Gardens in London faced some unusual backlash against their annual autumn festival. Celebrating the “diversity of art, plants and fungi,” the Gardens chose the theme of “Queer Nature,” linking ecological biodiversity to the diversity of human gender and sexuality. 
+In fall 2023, Kew Gardens in London faced some unusual backlash against their annual autumn festival. Celebrating the “diversity of art, plants and fungi,” the Gardens chose the theme of “Queer Nature,” linking ecological biodiversity to the diversity of human gender and sexuality.
 
-What can plants, animals, fungi, and other organisms contribute to queer theory and queer liberation? Is sexuality genetically determined? Is queer, trans, and nonbinary life natural? Does queerness have an evolutionary basis and function? Are sexual violence, genocide, and war uniquely human evils or do they also occur among nonhuman animals? Are nature and biology productive foundations for queer activism and critique? This course confronts these questions by considering the relationship between queer art, literature, and theory and scientific and other forms of knowledge production about the natural world. We’ll examine both rejections and celebrations of the idea of queerness as natural, along with feminist and queer of color revisions and deconstructions of distinctions between nature, culture, and technology and between the human and the nonhuman.
+What can plants, animals, fungi, and other organisms contribute to queer theory and queer liberation? Is queer, trans, and nonbinary life natural? Does queerness have an evolutionary basis and function? Are nature and biology productive foundations or distractions for queer activism and critique? This course confronts these questions by considering the relationship between queer art, literature, and theory and scientific and other forms of knowledge production about the natural world. We’ll examine both rejections and celebrations of the idea of queerness as natural, along with feminist and queer of color revisions and deconstructions of distinctions between nature, culture, and technology and between the human and the nonhuman.
 
 Artists and authors might include Karen Barad, Joshua Bennett, Octavia E. Butler, Charles Darwin, Samuel R. Delany, Anne Fausto-Sterling, Greta Gaard, Donna Haraway, Zakiyyah Iman Jackson, Robin Wall Kimmerer, Greta LaFleur, Daniel Lee, Melissa K. Nelson, Richard Prum, Isabella Rossellini, Catriona Sandilands, Sam See, Nicole Seymour, Banu Subramaniam, Kim Tallbear, and James Tiptree Jr.
 
@@ -404,9 +402,9 @@ The category of "Asian American" has been closely associated with the college ca
 
 ![Screenshot of a social media post by the American Folklore Society in 2020, reading "With the release of Taylor Swift’s new album, Folklore, many people are asking, what is folklore? Come learn about folklore and folklore studies at: http://whatisfolklore.org/"](/assets/images/teaching/american-folklore-society-swift.png)
 
-Bringing together a [dying(?) academic discipline](https://almanac.upenn.edu/archive/v46/n01/folkclose.html) and science, technology, and digital media's speculative orientation toward the future, this course proposes **folklore** as a powerful approach for the humanistic study of science, technology, and digital media.
+Bringing together a [dying(?)](https://almanac.upenn.edu/archive/v46/n01/folkclose.html) academic discipline and science, technology, and contemporary technoculture's speculative orientation toward the future, this course proposes **folklore** as an unlikely but powerful approach to the study of science, technology, and digital media.
 
-Topics may include internet cultures, rhetorics of science and technology, technology hype, and models cultures of technological change, and genres like gossip, rumor, hype, meme, copypasta, myth, legend, and joke.
+Topics may include internet communities, cultures, subcultures, and countercultures; rhetorics of science and technology; technology hype; digital heritage and preservation; and models of technological change, and genres may include folk science, lay theories, academic gossip, rumor, hype, meme, myth, legend, and joke.
 
 ### Folklore and Science
 - Bruce Jackson, "'The Greatest Mathematician in the World': Norbert Wiener Stories," *Western Folklore* 31, no. 1 (1972): 1-22.
@@ -450,3 +448,5 @@ Topics may include internet cultures, rhetorics of science and technology, techn
 ## Afrofuturism and Astroculture in American Media
 ## Alien, Animal, Robot: Imagining Techno-Orientalism
 ## On Bios: Life Writing, Life Sciences, and Biotechnology
+## Histories of Automation
+## Playing and Being Played: Arts and Sciences of Games, Gaming, and Gamification
