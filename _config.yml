@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "arthur" # "air", "aqua", "contrast", "dark", "dirt",
 locale                   : "en-US"
 title                    : "Arthur Z. Wang"
 title_separator          : "-"
-subtitle                 : "Contemporary American Literature, Media, and Feminist Science and Technology Studies" # site tagline that appears below site title in masthead
+subtitle                 : "" #"Contemporary American Literature, Media, and Feminist Science and Technology Studies" # site tagline that appears below site title in masthead
 name                     : "Arthur Z. Wang"
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
