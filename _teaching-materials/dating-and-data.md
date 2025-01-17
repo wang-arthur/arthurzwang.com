@@ -166,7 +166,7 @@ of people with shared interests.
         also weird. Allowing users to block an unlimited number of
         profiles: feasible but not necessarily profitable.
 
-### Part 4: Extra Credit [outline]
+### Part 4: Extra Credit [draft/outline]
 
 Ethics and privacy review of a dating app or dating app dataset.
 
@@ -174,7 +174,7 @@ In 2016, social science researchers scraped a large amount of user data from OkC
 found in the dataset are or were already publicly available, so
 releasing this dataset merely presents it in a more useful form" (2). Criticism followed.
 
-In this part of the assignment, you will review some ethics and privacy analysis of dating apps and dating app data, and produce your own brief report on either a dating app's privacy protections OR outline principles and guidelines for publishing dating app data (or derivatives of dating app data)
+In this part of the assignment, you will review some ethics and privacy analysis of dating apps and dating app data, and produce either a brief report on a dating app's current privacy policies and protections OR outline principles and guidelines for publishing dating app data (or derivatives of dating app data).
 
 #### Readings: 
 - Tiffany Xiao and Yifan Ma, “A Letter to the *Journal of Statistics and Data Science Education* — A Call for Review of ‘OkCupid Data for Introductory Statistics and Data Science Courses’ by Albert Y. Kim and Adriana Escobedo-Land,” *Journal of Statistics and Data Science Education 29*, no. 2 (August 6, 2021): 214–15, https://doi.org/10.1080/26939169.2021.1930812.
