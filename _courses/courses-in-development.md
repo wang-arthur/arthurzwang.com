@@ -317,10 +317,11 @@ philosophy, economics, feminism, biology and evolutionary theory, neuroscience, 
     -   Laura B. McGrath, "Comping White" (2019)
     -   Andrew Piper, *Enumerations: Data and Literary Study* (2018)
 
-# Preliminary / In-Progress
+# Introduction to Graduate Studies: Genres of Academic Work and Life 
 
-## Introduction to Graduate Studies: Genres of Academic Work and Life (PhD Proseminar, could be adapted for MA)
-### Course Description
+**PhD Proseminar, could be adapted for MA**
+
+## Course Description
 This introduction to graduate studies in the humanities aims to fill common gaps in graduate education, ensuring that no one falls through the cracks. The course will prepare students for both graduate school and academic life beyond this institution. While some proseminars survey schools, methods, theories, or major directions in a field, this seminar dispenses with content and focuses instead on equipping students with essential skills, habits, and practices for navigating academic life and work.
 
 This seminar will introduce professional genres, shibboleths, and conventions that are crucial for academic survival and success, but that graduate students are often expected to acquire by osmosis, from one-on-one mentoring, or through other informal and semi-independent means. As a matter of equity, this course aims to provide all graduate students with access to this knowledge.
@@ -358,12 +359,12 @@ Skills and Habits:
 - Developing resilience, avoiding defensiveness, and being generous without sacrificing values, integrity, or boundaries
 - Organizing notes and citations (potentially with software like Zotero, Endnote, Mendeley, Notion, OneNote, Obsidian, Scrivener)
 
-### Assignments
+## Assignments
 - Weekly reading, writing exercises, and presentations
 - No seminar paper
 - Informal but serious final essay that's both reflective and proleptic: a statement of intellectual, personal, and professional values, goals, and plans you can return to and revise in moments of uncertainty or indecision for at least the next few years.
 
-### Topics and Sources
+## Topics and Sources
 - Histories of Academic Cultures and Institutions
   - Two Cultures
   - Michael Warner, "Styles of Intellectual Publics"
@@ -386,27 +387,29 @@ Skills and Habits:
 
 ![A meme based on the box for Cap'N Crunch's "Oops! All Berries" Cereal, reading "Oops! All H idden Curriculum"](/assets/images/teaching/hidden-curriculum-meme.png)
 
-## Queer Natures, Queer Lives
-### Course Description
+# Queer Natures, Queer Lives
+## Course Description
 In fall 2023, Kew Gardens in London faced some unusual backlash against their annual autumn festival. Celebrating the “diversity of art, plants and fungi,” the Gardens chose the theme of “Queer Nature,” linking ecological biodiversity to the diversity of human gender and sexuality.
 
 What can plants, animals, fungi, and other organisms contribute to queer theory and queer liberation? Is queer, trans, and nonbinary life natural? Does queerness have an evolutionary basis and function? Are nature and biology productive foundations or distractions for queer activism and critique? This course confronts these questions by considering the relationship between queer art, literature, and theory and scientific and other forms of knowledge production about the natural world. We’ll examine both rejections and celebrations of the idea of queerness as natural, along with feminist and queer of color revisions and deconstructions of distinctions between nature, culture, and technology and between the human and the nonhuman.
 
 Artists and authors might include Karen Barad, Joshua Bennett, Octavia E. Butler, Charles Darwin, Samuel R. Delany, Anne Fausto-Sterling, Greta Gaard, Donna Haraway, Zakiyyah Iman Jackson, Robin Wall Kimmerer, Greta LaFleur, Daniel Lee, Melissa K. Nelson, Richard Prum, Isabella Rossellini, Catriona Sandilands, Sam See, Nicole Seymour, Banu Subramaniam, Kim Tallbear, and James Tiptree Jr.
 
-## Asian American Literature On Campus
-### Course Description
+# Asian American Literature On Campus
+## Course Description
 The category of "Asian American" has been closely associated with the college campus since coalitions of student activists demanded the formation of Asian American and other ethnic studies programs in the 1960s. At the same time, recent attacks on affirmative action have exposed how vexed the presence of Asian America on campus and in university curricula remains: are Asian Americans under- or over-represented in higher education? Is “Asian American” still a useful category, or does it obscure significant demographic and cultural diversity? Must the association between Asian Americans and higher education feed the model minority stereotype? This course considers the relationship between literature and the political and cultural category “Asian American” through canonical works of Asian American literature, fiction about Asian Americans on campus, and literature by college students and teachers. Authors may include Anne Anlin Cheng, Susan Choi, Mohsin Hamid, Cathy Park Hong, R.O. Kwon, Viet Thanh Nguyen, Jia Tolentino, Weike Wang, Karen Tei Yamashita, Jenny Zhang.
 
-## Science, Technology, and Folklore
+# Science, Technology, and Folklore
 
 ![Screenshot of a social media post by the American Folklore Society in 2020, reading "With the release of Taylor Swift’s new album, Folklore, many people are asking, what is folklore? Come learn about folklore and folklore studies at: http://whatisfolklore.org/"](/assets/images/teaching/american-folklore-society-swift.png)
+
+## Course Description
 
 Bringing together a [dying(?)](https://almanac.upenn.edu/archive/v46/n01/folkclose.html) academic discipline and science, technology, and contemporary technoculture's speculative orientation toward the future, this course proposes **folklore** as an unlikely but powerful approach to the study of science, technology, and digital media.
 
 Topics may include internet communities, cultures, subcultures, and countercultures; rhetorics of science and technology; technology hype; digital heritage and preservation; and models of technological change, and genres may include folk science, lay theories, academic gossip, rumor, hype, meme, myth, legend, and joke.
 
-### Folklore and Science
+## Folklore and Science
 - Bruce Jackson, "'The Greatest Mathematician in the World': Norbert Wiener Stories," *Western Folklore* 31, no. 1 (1972): 1-22.
 - D.K. Wilgus, “More Norbert Wiener Stories,” *Western Folklore* 31, no. 1 (1972): 23-25.
 - Carolyn F. Gilkey, “The Physicist, the Mathematician and the Engineer: Scientists and the Professional Slur,” *Western Folklore* 49, no. 2 (1990): 215-220.
@@ -423,14 +426,14 @@ Topics may include internet communities, cultures, subcultures, and countercultu
 - Thomas C. Sutton and Marilyn Sutton, “Science Fiction as Mythology,” *Western Folklore* 28, no. 4 (1969): 230–37, https://doi.org/10.2307/1499217
 - Undo Uus, “Science and Folk Sentiments,” *Folklore: Electronic Journal of Folklore* 15 (2000): 7–23, https://doi.org/10.7592/FEJF2000.15.science
 
-### Folklore, Media, and Modernity
+## Folklore, Media, and Modernity
 - Alan Dundes, "Folkloreistics in the Twenty-First Century," The Journal of American Folklore 118, no. 470 (2005): 385-408.
 - Timothy R. Tangherlini, “The Folklore Macroscope: Challenges for a Computational Folkloristics,” *Western Folklore* 72, no. 1 (2013): 7–27. http://www.jstor.org/stable/24550905.
 - UNESCO Intangible Cultural Heritage Section, https://ich.unesco.org/en/home.
 - John Patrick Leary, "[Why Politicians Can't Stop Talking About 'Folks](https://newrepublic.com/article/156807/politicians-always-talking-folks-obama-biden),'" *The New Republic*, Marcy 27, 2020.
 - Trevor J. Blank, "Folklore and the Internet: The Challenge of an Ephemeral Landscape1" *Humanities* 7, no. 2(2018): 50, https://doi.org/10.3390/h7020050
 
-### Folklore Studies Foundations
+## Folklore Studies Foundations
 - William R. Bascom, “Four Functions of Folklore,” *The Journal of American Folklore* 67, no. 266 (1954): 333–49, https://doi.org/10.2307/536411.
 - Peter Bogatyrëv and Roman Jakobson, "Folklore as a Special Form of Creativity," *The Prague School: Selected Writings, 1929-1946*, ed. Peter Steiner (University of Texas Press, 1982), 32-46, https://doi.org/10.7560/780439-003
 - Claude Lévi-Strauss, “The Structural Study of Myth,” *The Journal of American Folklore* 68, no. 270 (1955): 428–44, https://doi.org/10.2307/536768.
