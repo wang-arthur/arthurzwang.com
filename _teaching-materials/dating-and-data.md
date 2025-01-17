@@ -11,7 +11,7 @@ header:
 ---
 <div></div>
 
-# Sample Assignment: Dating and Data (Quantitative Analysis)
+# Sample Assignment (Quantitative Analysis)
 
 ## Assigned Texts
 -   Lydia Davis, "[Break It
@@ -176,7 +176,7 @@ releasing this dataset merely presents it in a more useful form" (2). Criticism 
 
 In this part of the assignment, you will review some ethics and privacy analysis of dating apps and dating app data, and produce either a brief report on a dating app's current privacy policies and protections OR outline principles and guidelines for publishing dating app data (or derivatives of dating app data).
 
-#### Readings: 
+#### Readings
 - Tiffany Xiao and Yifan Ma, “A Letter to the *Journal of Statistics and Data Science Education* — A Call for Review of ‘OkCupid Data for Introductory Statistics and Data Science Courses’ by Albert Y. Kim and Adriana Escobedo-Land,” *Journal of Statistics and Data Science Education 29*, no. 2 (August 6, 2021): 214–15, https://doi.org/10.1080/26939169.2021.1930812.
 - Jen Caltrider, Misha Rykov, and Zoë MacDonald, “[Data-Hungry Dating Apps Are Worse Than Ever for Your Privacy](https://foundation.mozilla.org/en/privacynotincluded/articles/data-hungry-dating-apps-are-worse-than-ever-for-your-privacy/),” Mozilla Foundation, *Privacy Not Included*.
 
