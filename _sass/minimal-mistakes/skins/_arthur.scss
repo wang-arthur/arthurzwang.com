@@ -71,6 +71,25 @@ $base0f: #b18a3d !default;
     margin: 0 0 1em 1em !important;
     padding: .5em !important;
   }
+  h1 {
+    font-weight: bold;
+    &:not(:first-of-type) {
+      padding-top: 1em;
+      border-top: 3px dashed $border-color;
+    }
+  }
+  h2, h3, h4 {
+    margin: 1em 0 .5em .5em;
+  }
+  ul li, ol li {
+    margin-bottom: .25em;
+  }
+  li ul, li ol {
+    margin-top: .25em;
+  }
+  p {
+    margin: 0 0 1.3em 1em !important;
+  }
 }
 
 .masthead__menu {
@@ -80,11 +99,11 @@ $base0f: #b18a3d !default;
 h4.nav__title {
   color: $text-color !important; // override
 }
+
 .page__footer-follow .social-icons i,
 .page__footer-follow .social-icons .svg-inline--fa  {
   color: inherit;
 }
-
 
 .page__hero {
   &--overlay {
