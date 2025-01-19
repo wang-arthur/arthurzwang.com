@@ -130,11 +130,12 @@ Example data for one user:
     more responses than first messages with a length less than or
     equal to 100 characters?
 
-#### Open-ended questions
+#### Open-Ended Questions (one paragraph each)
 1.  Summarize the demographics of users in this data set
-2.  Based on the dataset, what can you deduce or guess about how this app works? Keep in mind that the absence of a data field, e.g., height, could indicate that the app does not record, display, or use height in any way, but this data could also have been removed by the Datr scientists.
-3.  Select one visualization from *Dataclysm* and create an analogous one for this dataset.
-4.  What additional data would you want to collect to develop further insights into user behavior on this app? Do you anticipate any ethical concerns or tradeoffs with Datr collecting, using, or sharing the data you would need for this analysis?
+2.  Based on the format of the dataset and any patterns you've observed in the data, what can you deduce or guess about how this app works? Keep in mind that the absence of a data field, e.g., `username` or `number_of_pets`, *could* indicate that the app does not record, display, or use a username or pet data in any way, but this data could also have been removed by the Datr scientists.
+3.  Select one visualization from *Dataclysm* and create an analogous one for this dataset. How does this data compare to OkCupid's?
+4.  Create another visualization that demonstrates a pattern or trend you find compelling or surprising. Explain in 2-3 sentences.
+5.  What additional data would you want to collect to develop further insights into user behavior on this app? Do you anticipate any ethical concerns or tradeoffs with Datr collecting, using, or sharing the data you would need for this analysis?
 
 ### Part 3: Design Exercise
 
@@ -149,40 +150,24 @@ or---if you have less experience or interest in dating apps---apps for
 meeting new friends or activity partners or apps for assembling groups
 of people with shared interests.
 
-1.  Describe one feature or element of digitally-mediated matchmaking
-    that you believe needs improvement (or invention, if it does not
-    exist yet). The issue you identify could be broad or specific,
-    serious or light.
-
+1.  Describe one feature or element of digitally-mediated matchmaking that you believe needs improvement (or invention, if it does not exist yet). The issue you identify could be broad or specific, serious or light.
 2.  In 2-3 pages, pitch an app, a change to an existing app, or if you prefer, an entirely offline mechanism or procedure that would address the limitation, problem, or shortcoming you've identified. Some guidelines and suggested questions to address:
     1.  Be specific about how your concept would address the issue. For example, instead of a vague statement like "my update would eliminate the phenomenon of dating app users matching but never talking," describe how you would achieve this change (banning users who frequently match but never talk? Rewarding more active users?).
     2.  Do you anticipate any potential side effects or negative consequences of your proposal? For example, some dating apps have tried to mitigate racial discrimination by eliminating race filters, but received complaints from users of color who argued that their preferences for intraracial dating were grounded in avoiding racism rather than excluding minorities.
     3.  How would you measure and evaluate the success of your intervention? What data or information would you want to collect and how would you analyze it?
-    4.  Note that your proposed solution, feature, or interaction should be
-        feasible but need not be monetizable or profitable. For example,
-        following each user for a week and recording everything they say
-        and do, then using a machine learning algorithm with this data
-        to suggest better matches: infeasible, likely unprofitable, and
-        also weird. Allowing users to block an unlimited number of
-        profiles: feasible but not necessarily profitable.
+    4.  Note that your proposed solution, feature, or interaction should be feasible but need not be monetizable or profitable. For example, following each user for a week and recording everything they say and do, then using a machine learning algorithm with this data to suggest better matches: infeasible, likely unprofitable, and also weird. Allowing users to block an unlimited number of profiles: feasible but not necessarily profitable.
 
-### Part 4: Extra Credit [draft/outline]
+### Part 4: Extra Credit: Ethics and Privacy Review (draft/outline)
 
-Ethics and privacy review of a dating app or dating app dataset.
+In 2016, social science researchers scraped and published a large amount of user data from OkCupid, including potentially identifying information (https://openpsych.net/paper/46/), noting that "Some may object to the ethics of gathering and releasing this data. However, all the data found in the dataset are or were already publicly available, so releasing this dataset merely presents it in a more useful form" (2). Criticism followed.
 
-In 2016, social science researchers scraped a large amount of user data from OkCupid, including potentially identifying information (usernames) and published it (https://openpsych.net/paper/46/), noting that "Some may object to the ethics of gathering and releasing this data. However, all the data
-found in the dataset are or were already publicly available, so
-releasing this dataset merely presents it in a more useful form" (2). Criticism followed.
-
-In this part of the assignment, you will review some ethics and privacy analysis of dating apps and dating app data, and produce either a brief report on a dating app's current privacy policies and protections OR outline principles and guidelines for publishing dating app data (or derivatives of dating app data).
+In this part of the assignment, you will review ethics and privacy analyses of dating app data policies and dating app datasets, and produce brief report (2-3 pargraphs) on a dating app's current privacy protections OR outline guidelines for publishing dating app data (or derivatives of dating app data).
 
 #### Readings
-- Tiffany Xiao and Yifan Ma, “A Letter to the *Journal of Statistics and Data Science Education* — A Call for Review of ‘OkCupid Data for Introductory Statistics and Data Science Courses’ by Albert Y. Kim and Adriana Escobedo-Land,” *Journal of Statistics and Data Science Education 29*, no. 2 (August 6, 2021): 214–15, https://doi.org/10.1080/26939169.2021.1930812.
-- Jen Caltrider, Misha Rykov, and Zoë MacDonald, “[Data-Hungry Dating Apps Are Worse Than Ever for Your Privacy](https://foundation.mozilla.org/en/privacynotincluded/articles/data-hungry-dating-apps-are-worse-than-ever-for-your-privacy/),” Mozilla Foundation, *Privacy Not Included*.
+- Tiffany Xiao and Yifan Ma, “[A Letter to the *Journal of Statistics and Data Science Education* — A Call for Review of ‘OkCupid Data for Introductory Statistics and Data Science Courses’ by Albert Y. Kim and Adriana Escobedo-Land](https://doi.org/10.1080/26939169.2021.1930812),” *Journal of Statistics and Data Science Education 29*, no. 2 (August 6, 2021): 214–15
+- Jen Caltrider, Misha Rykov, and Zoë MacDonald, “[Data-Hungry Dating Apps Are Worse Than Ever for Your Privacy](https://foundation.mozilla.org/en/privacynotincluded/articles/data-hungry-dating-apps-are-worse-than-ever-for-your-privacy/),” Mozilla Foundation, *Privacy Not Included*
 
-
-
-
+# Notes
 [^1]: Michael J. Rosenfeld, Reuben J. Thomas, and Sonia Hausen, “Disintermediating Your Friends: How Online Dating in the United States Displaces Other Ways of Meeting,” *Proceedings of the National Academy of Sciences* 116, no. 36 (September 3, 2019): 17753–58. Rosenfeld et al. survey only heterosexual couples in this study, but other research suggests that LGBTQ couples meet online at even higher rates.
 
 
