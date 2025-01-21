@@ -8,27 +8,8 @@ date: 2024-12-01
 header:
   overlay_image: /assets/images/projects/special-issue-dash.png
   overlay_filter: .2
+toc: true
 ---
-
-# Sections <!-- omit in toc -->
-- [Project Overview](#project-overview)
-  - [Three Anecdotes about Special Issues](#three-anecdotes-about-special-issues)
-  - [Need](#need)
-    - [Opacity of Special Issue Publishing and History](#opacity-of-special-issue-publishing-and-history)
-    - [Benefits of Publishing in Special Issues](#benefits-of-publishing-in-special-issues)
-    - [Barriers to Publishing in Special Issues](#barriers-to-publishing-in-special-issues)
-  - [Purpose](#purpose)
-  - [Audience](#audience)
-  - [Project Director](#project-director)
-- [Draft Work Plan](#draft-work-plan)
-  - [Tasks](#tasks)
-    - [Completed](#completed)
-    - [Future](#future)
-- [Site Features (in progress)](#site-features-in-progress)
-  - [Primary interfaces](#primary-interfaces)
-  - [Tech Stack](#tech-stack)
-- [Existing resources / "Competition"](#existing-resources--competition)
-- [Notes](#notes)
 
 # Project Overview
 ## Three Anecdotes about Special Issues
@@ -54,20 +35,14 @@ header:
     published special issue of *American Literature* on "Critical AI: A
     Field in Formation." This publication announcement was the first I'd
     heard of the issue, though I'd been working on an article related to
-    that topic. I am privileged to have access to various academic
-    networks and affiliations with well-resourced institutions and
-    organizations, and I have also follow the journal closely, having
-    published an article in one of its special issues just the previous
-    year, subscribing for email updates, and later participating in a
-    small weeklong workshop with the journal's longtime editor. Even
-    with all these access points, I was caught unaware of the special
-    issue until it was already complete.
+    the topic. I'm privileged to have access to various academic
+    networks and organizations, and I also follow the journal closely, but even with these access points, I was caught unaware of the special
+    issue until it was already published.
 
-3.  While compiling submissions data for *Post45 Journal, an open-access
-    peer-reviewed journal I now co-edit, I found a troubling discrepancy
+3.  While compiling submissions data for *Post45 Journal*, an open-access
+    peer-reviewed journal I now co-edit, I found a troubling gulf
     between the journal's historical acceptance rates for single
-    articles (around 15%) and articles appearing in special issues (over
-    90%). Although some gap between these rates might be justifiable (or
+    articles and articles appearing in special issues. Although some gap between these rates might be justifiable (or
     at least explainable) due to varying demographics and circumstances
     of submission (authors in special issues tend to be more senior;
     they also receive more thorough pre-peer review editing by guest
