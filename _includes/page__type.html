@@ -8,6 +8,10 @@
 		{% assign label = document.type %}
 	{% endif %}
 	<p class="page__type">
-		<i class="{{icon}}" aria-hidden="true"></i> {{ label }}
+    	{% if document.assignment_permalink contains type and document.assignment_permalink != page.url %}
+		<i class="{{icon}}" aria-hidden="true"></i> <a href="{{ document.assignment_permalink }}">{{ label }}</a>
+		{% else %}
+			<i class="{{icon}}" aria-hidden="true"></i> {{ label }}
+		{% endif %}
 	</p>
 {% endfor %}
