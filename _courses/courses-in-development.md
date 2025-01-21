@@ -312,7 +312,7 @@ philosophy, economics, feminism, biology and evolutionary theory, neuroscience, 
 
 # Introduction to Graduate Studies: Genres of Academic Work and Life 
 
-**PhD Proseminar, could be adapted for MA**
+*PhD Proseminar, could be adapted for MA*
 
 ## Course Description
 This introduction to graduate studies in the humanities aims to fill common gaps in graduate education, ensuring that no one falls through the cracks. The course will prepare students for both graduate school and academic life beyond this institution. While some proseminars survey schools, methods, theories, or major directions in a field, this seminar dispenses with content and focuses instead on equipping students with essential skills, habits, and practices for navigating academic life and work.
@@ -370,12 +370,13 @@ Skills and Habits:
   - Eve Tuck and K. Wayne Yang, "Decolonization is not a metaphor," *Decolonization: Indigeneity, Education, & Society* 1, no. 1 (2012), 1-40.
   - Katrina L. Rogers, *Putting the Humanities PhD to Work: Thriving in and beyond the Classroom* (Duke University Press, 2020)
 - Genres
+  - Eric Hayot, *The Elements of Academic Style*
   - [Key Forms Working Group](https://keyforms.bham.ac.uk/), *Postmodern Culture*, "[The Forms of Academic Work](https://call-for-papers.sas.upenn.edu/cfp/2023/08/21/the-forms-of-academic-work)" Special Issue CFP
-  - Hayot, *The Elements of Academic Style*
 - Misconduct and Bad Behavior, Whisper Networks and Gossip (Soft Plagiarism, Idea Theft)
-  - Yasmin Nair, "[Don't Share Your Book Proposal](https://yasminnair.com/dont-share-your-book-proposal/)," YasminNair.com, August 15, 2023.
-  - Jordan Alexander Stein, "[How Intellectual Property Theft Feels](https://capaciousjournal.com/)," *Capacious* 3, no. 2 (2024).
-  - Browse *Public Books*, *Parapraxis*, *LARB*, 
+  - Yasmin Nair, "[Don't Share Your Book Proposal](https://yasminnair.com/dont-share-your-book-proposal/)," YasminNair.com, August 15, 2023
+  - Jordan Alexander Stein, "[How Intellectual Property Theft Feels](https://capaciousjournal.com/)," *Capacious* 3, no. 2 (2024)
+- "Non-Academic" Writing
+  - Browse *Bookforum*, *LitHub*, *Los Angeles Review of Books*, *N+1*, *Parapraxis*, *Public Books*
   - Lili Loofbourow and Phillip Maciak, "The Semipublic Intellectual: Academia, Criticism, and the Internet Age," special section, "The Changing Profession." *PMLA* 130, no. 2 (2015)
 
 ![A meme based on the box for Cap'N Crunch's "Oops! All Berries" Cereal, reading "Oops! All H idden Curriculum"](/assets/images/teaching/hidden-curriculum-meme.png)
@@ -403,41 +404,42 @@ Bringing together a [dying(?)](https://almanac.upenn.edu/archive/v46/n01/folkclo
 Topics may include internet communities, cultures, subcultures, and countercultures; rhetorics of science and technology; technology hype; digital heritage and preservation; and models of technological change, and genres may include folk science, lay theories, academic gossip, rumor, hype, meme, myth, legend, and joke.
 
 ## Folklore and Science
-- Bruce Jackson, "'The Greatest Mathematician in the World': Norbert Wiener Stories," *Western Folklore* 31, no. 1 (1972): 1-22.
-- D.K. Wilgus, “More Norbert Wiener Stories,” *Western Folklore* 31, no. 1 (1972): 23-25.
-- Carolyn F. Gilkey, “The Physicist, the Mathematician and the Engineer: Scientists and the Professional Slur,” *Western Folklore* 49, no. 2 (1990): 215-220.
-- Paul Renteln and Alan Dundes, “Foolproof: A Sampling of Mathematical Folk Humor,” *Notices of the AMS* 52, no. 1 (2005): 24-34
-- American Folklore Society, Folklore and Science Section, https://americanfolkloresociety.org/our-community/sections/folklore-and-science/.
-- Keith Weber, “Mathematical Humor: Jokes That Reveal How We Think About Mathematics and Why We Enjoy It,” *The Mathematical Intelligencer* 38, no. 4 (2016): 56–61, https://doi.org/10.1007/s00283-016-9676-8.
+- American Folklore Society, [Folklore and Science Section](https://americanfolkloresociety.org/our-community/sections/folklore-and-science/)
+- Donald Braid, "['Doing Good Physics': Narrative and Innovation in Research](https://doi.org/10.1353/jfr.2006.0012)," *Journal of Folklore Research* 43, no. 2 (2006): 149–73
+- Carolyn F. Gilkey, “The Physicist, the Mathematician and the Engineer: Scientists and the Professional Slur,” *Western Folklore* 49, no. 2 (1990): 215-220
 - Loren Graham, “The Power of Names: In Culture and in Mathematics,” *Proceedings of the American Philosophical Society* 157, no. 2 (2013): 229–34
-- Donald Braid, "'Doing Good Physics': Narrative and Innovation in Research," *Journal of Folklore Research* 43, no. 2 (2006): 149–73, https://doi.org/10.1353/jfr.2006.0012
-- Robert K. Merton, “The Matthew Effect in Science,” *Science* 159, no. 3810 (1968): 56–63, https://doi.org/10.1126/science.159.3810.56
+- Bruce Jackson, "'The Greatest Mathematician in the World': Norbert Wiener Stories," *Western Folklore* 31, no. 1 (1972): 1-22
+- Robert K. Merton, “[The Matthew Effect in Science](https://doi.org/10.1126/science.159.3810.56),” *Science* 159, no. 3810 (1968): 56–63
+- Paul Renteln and Alan Dundes, “Foolproof: A Sampling of Mathematical Folk Humor,” *Notices of the AMS* 52, no. 1 (2005): 24-34
 - Gregory Schrempp, “Folklore and Science: Inflections of ‘Folk’ in Cognitive Research,” *Journal of Folklore Research* 33, no. 3 (1996): 191–206
 - Gregory Schrempp, *The Science of Myths and Vice Versa* (Prickly Paradigm Press, 2016)
-- Stephen M. Stigler, “Stigler’s Law of Eponymy*,” *Transactions of the New York Academy of Sciences* 39, no. 1 Series II (1980): 147–57, https://doi.org/10.1111/j.2164-0947.1980.tb02775.x
+- Stephen M. Stigler, “[Stigler’s Law of Eponymy](https://doi.org/10.1111/j.2164-0947.1980.tb02775.x),” *Transactions of the New York Academy of Sciences* 39, no. 1 Series II (1980): 147–57
 - Michael Taft, “The Absentminded Professor: A Case Study of an Academic Legend Cycle,” *Voices* 33, no. 1/2 (Spring 2007): 10–13
-- Thomas C. Sutton and Marilyn Sutton, “Science Fiction as Mythology,” *Western Folklore* 28, no. 4 (1969): 230–37, https://doi.org/10.2307/1499217
-- Undo Uus, “Science and Folk Sentiments,” *Folklore: Electronic Journal of Folklore* 15 (2000): 7–23, https://doi.org/10.7592/FEJF2000.15.science
+- Thomas C. Sutton and Marilyn Sutton, “[Science Fiction as Mythology](https://doi.org/10.2307/1499217),” *Western Folklore* 28, no. 4 (1969): 230–37
+- Undo Uus, “[Science and Folk Sentiments](https://doi.org/10.7592/FEJF2000.15.science),” *Folklore: Electronic Journal of Folklore* 15 (2000): 7–23
+- Keith Weber, [“Mathematical Humor: Jokes That Reveal How We Think About Mathematics and Why We Enjoy It](https://doi.org/10.1007/s00283-016-9676-8),” *The Mathematical Intelligencer* 38, no. 4 (2016): 56–61
+- D.K. Wilgus, “More Norbert Wiener Stories,” *Western Folklore* 31, no. 1 (1972): 23-25
 
 ## Folklore, Media, and Modernity
-- Alan Dundes, "Folkloreistics in the Twenty-First Century," The Journal of American Folklore 118, no. 470 (2005): 385-408.
-- Timothy R. Tangherlini, “The Folklore Macroscope: Challenges for a Computational Folkloristics,” *Western Folklore* 72, no. 1 (2013): 7–27. http://www.jstor.org/stable/24550905.
-- UNESCO Intangible Cultural Heritage Section, https://ich.unesco.org/en/home.
-- John Patrick Leary, "[Why Politicians Can't Stop Talking About 'Folks](https://newrepublic.com/article/156807/politicians-always-talking-folks-obama-biden),'" *The New Republic*, Marcy 27, 2020.
-- Trevor J. Blank, "Folklore and the Internet: The Challenge of an Ephemeral Landscape1" *Humanities* 7, no. 2(2018): 50, https://doi.org/10.3390/h7020050
+- Trevor J. Blank, "[Folklore and the Internet: The Challenge of an Ephemeral Landscape](https://doi.org/10.3390/h7020050)" *Humanities* 7, no. 2(2018): 50
+- Alan Dundes, "Folkloreistics in the Twenty-First Century," The Journal of American Folklore 118, no. 470 (2005): 385-408
+- John Patrick Leary, "[Why Politicians Can't Stop Talking About 'Folks](https://newrepublic.com/article/156807/politicians-always-talking-folks-obama-biden),'" *The New Republic*, Marcy 27, 2020
+- Timothy R. Tangherlini, “[The Folklore Macroscope: Challenges for a Computational Folkloristics](http://www.jstor.org/stable/24550905),” *Western Folklore* 72, no. 1 (2013): 7–27
+- [UNESCO Intangible Cultural Heritage Section](https://ich.unesco.org/en/home)
+
 
 ## Folklore Studies Foundations
-- William R. Bascom, “Four Functions of Folklore,” *The Journal of American Folklore* 67, no. 266 (1954): 333–49, https://doi.org/10.2307/536411.
-- Peter Bogatyrëv and Roman Jakobson, "Folklore as a Special Form of Creativity," *The Prague School: Selected Writings, 1929-1946*, ed. Peter Steiner (University of Texas Press, 1982), 32-46, https://doi.org/10.7560/780439-003
-- Claude Lévi-Strauss, “The Structural Study of Myth,” *The Journal of American Folklore* 68, no. 270 (1955): 428–44, https://doi.org/10.2307/536768.
 - Roland Barthes, *Mythologies*
+- William R. Bascom, “[Four Functions of Folklore](https://doi.org/10.2307/536411),” *The Journal of American Folklore* 67, no. 266 (1954): 333–49
+- Peter Bogatyrëv and Roman Jakobson, "[Folklore as a Special Form of Creativity](https://doi.org/10.7560/780439-003)," *The Prague School: Selected Writings, 1929-1946*, ed. Peter Steiner (University of Texas Press, 1982), 32-46
 - Zora Neale Hurston, *Mules and Men*
-- Archer Taylor, "The Place of Folklore," *PMLA* 67,  no. 1 (1952): 59-66.
-- Stith Thompson, "The Challenge of Folklore," *PMLA* 79, no. 4 (1964): 357-365.
-- Bert O. States, “The Persistence of the Archetype,” *Critical Inquiry* 7, no. 2 (December 1980): 333–44, https://doi.org/10.1086/448102
+- Robin D. G. Kelley, "[Notes on Deconstructing 'The Folk,'](https://doi.org/10.2307/2165942)" *The American Historical Review* 97, no. 5 (1992): 1400–1408
+- Claude Lévi-Strauss, “[The Structural Study of Myth](https://doi.org/10.2307/536768),” *The Journal of American Folklore* 68, no. 270 (1955): 428–44
 - Vladimir Propp, *Morphology of the Folktale* (University of Texas Press, 1968)
 - Vladimir Propp, *Theory and History of Folklore*, ed. Anatoly Liberman (Minneapolis: University of Minnesota Press, 1984)
-- Robin D. G. Kelley, "Notes on Deconstructing 'The Folk,'" *The American Historical Review* 97, no. 5 (1992): 1400–1408, https://doi.org/10.2307/2165942
+- Bert O. States, “[The Persistence of the Archetype](https://doi.org/10.1086/448102),” *Critical Inquiry* 7, no. 2 (December 1980): 333–44
+- Archer Taylor, "The Place of Folklore," *PMLA* 67,  no. 1 (1952): 59-66.
+- Stith Thompson, "The Challenge of Folklore," *PMLA* 79, no. 4 (1964): 357-365.
 
 # Coming Soon
 
