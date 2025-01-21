@@ -6,54 +6,82 @@
    Default
    ========================================================================== */
 
-
-.topbar {
+   .topbar {
     position: relative;
-    z-index: 0;
+    z-index: 10;
     border-bottom: 1px solid $border-color;
+    background-color: $subheader-background-color;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.15s;
     animation-delay: 0.15s;
-    background-color: $subheader-background-color;
-
-    .nav__list {
-        margin-bottom: 0;
-    }
-    .nav__items {
-        margin: 0 1em;
-    }
-    label {
-        margin-top: 3px;
-    }
-
-    &__inner-wrap {
-        @include clearfix;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1em;
-        max-width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        font-family: $sans-serif-narrow;
-
-        @include breakpoint($x-large) {
+  
+    .topbar__inner-wrap {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1em;
+      max-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-family: $sans-serif-narrow;
+  
+      @include breakpoint($x-large) {
         max-width: $max-width;
-        }
-
-        nav {
-        z-index: 10;
-        }
-
-        a {
-        text-decoration: none;
-        }
+      }
     }
-}
+  
+    .simple-nav {
+      display: flex;
+      align-items: center;
+      width: 100%;
+  
+      &__list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex: 1;
+        justify-content: flex-end;
+  
+        li {
+          margin: 0 1em;
+        }
+  
+        a {
+          text-decoration: none;
+          color: $masthead-link-color;
+          transition: none;
+  
+          &:hover {
+            color: $masthead-link-color-hover;
+          }
+
+          &.active {
+            background-color: $background-color;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 0 0 8px $background-color; // Create a button-like effect
+          }
+        }
+      }
+  
+      &.vertical {
+        flex-direction: column;
+        align-items: flex-start;
+  
+        & > .simple-nav__list {
+          flex-direction: column;
+          width: auto;
+  
+          li {
+            margin: 0.5em 0;
+          }
+        }
+      }
+    }
+  }
+
+
 
 .topbar__menu {
     float: left;

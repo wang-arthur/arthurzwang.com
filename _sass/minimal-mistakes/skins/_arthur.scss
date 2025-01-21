@@ -38,7 +38,7 @@ $subheader-background-color: $secondary-color !default;
 $footer-background-color: $primary-color !default;
 $link-color: #515999 !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$masthead-link-color-hover: mix(#fff, $text-color, 40%) !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 /* contrast syntax highlighting (base16) */

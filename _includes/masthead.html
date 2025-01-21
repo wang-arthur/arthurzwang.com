@@ -13,8 +13,13 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
+            {% assign page_url_substring = page.url | slice: 0, link.url.size - 1 %}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url | relative_url }}"
+                {% if page_url_substring == link.url %}
+                  class="active"
+                {% endif %}
+                {% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
