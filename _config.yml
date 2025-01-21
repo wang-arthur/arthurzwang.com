@@ -437,7 +437,7 @@ defaults:
       layout: single
       share: false
       date_format: "%Y"
-      sidebar:
+      topbar:
         nav: "teaching"
   # teaching/teaching-materials
   - scope:
