@@ -29,6 +29,10 @@
   a[rel="permalink"] {
     position: static;
   }
+
+  .page__meta p {
+    margin: 0 !important;
+  }
 }
 
 .archive__subtitle {
