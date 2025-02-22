@@ -142,15 +142,15 @@ footer:
     - label: "Bluesky"
       icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/arthurzw.bsky.social"
-    - label: "Twitter (X)"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://X.com/warthurw"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wang-arthur"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=NL-ukr8AAAAJ&hl=en&inst=15561263346091999511"
+    - label: "ORCID"
+      icon: "fa-brands fa-orcid"
+      url: "https://orcid.org/0009-0004-3145-2568"
 
 
 
