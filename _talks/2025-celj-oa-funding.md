@@ -48,6 +48,9 @@ Talk on funding models for [<i class="fa-regular fa-gem" aria-hidden="true"></i>
 - Examples:
   - Fully Diamond OA: [*Post45 Journal*](https://post45.org/journal/), [*liquid blackness*](https://liquidblackness.com/lb-journal)
   - Sections / Issues: [*Modernism/modernity Print Plus*](https://modernismmodernity.org/) & *Journal of Cinema and Media Studies* (*JCMS*)'s "[Fifth Issue](https://quod.lib.umich.edu/j/jcms/oa-issue/)"
+- Shift to OA
+  - Biden White House (led by scholar Alondra Nelson, then Deputy Director for Science and Society) announced that federally-funded research papers must be published open access beginning in 2026 (policy now wiped from whitehouse.gov, but available on the [Internet Archive](https://web.archive.org/web/20230307093527/https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf)), though not necessarily diamond OA.
+  - [cOAlition S and Plan S](https://www.coalition-s.org/) and Science Europe's [Action Plan for Diamond Open Access](https://www.scienceeurope.org/our-resources/action-plan-for-diamond-open-access/)
 
 # Diamond OA Funding Models
 ## Individual Sponsorships
