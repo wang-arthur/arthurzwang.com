@@ -11,6 +11,8 @@ header:
 toc: true
 ---
 
+***For some preliminary data visualization sketches for this project, please see [ClearReview.org](https://clearreview.org)***
+
 # Project Overview
 ## Three Anecdotes about Special Issues
 
