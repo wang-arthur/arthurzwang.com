@@ -1,8 +1,8 @@
 ---
-title: "Narrative and Information"
+title: "Narrative and Information (Graduate Seminar)"
 collection: courses
 type: ["work-in-progress"]
-permalink: /teaching/courses/narrative-and-information
+permalink: /teaching/courses/narrative-and-information-graduate
 date: 2025-02-01
 header:
   overlay_image: /assets/images/background/tri-pentagon-albers-yellow-orange-headache.svg

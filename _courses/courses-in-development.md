@@ -14,6 +14,15 @@ toc_icon: chalkboard-user
 
 <div></div>
 
+
+<script>
+// initialize SVG.js
+var draw = SVG().addTo('body')
+
+// draw pink square
+draw.rect(100, 100).move(100, 50).fill('#f06')
+</script>
+
 # Thinking Software
 **Histories, Theories, and Practices of Programming and Artificial Intelligence**
 ## Course Description
@@ -49,23 +58,37 @@ including both programming exercises and writing and design prompts. No
 prior programming experience is required.
 
 ## Sample Readings
-What Do Programmers Think They're Doing? Who Do They Think They Are?
-
--   Ted Chiang, "The Lifecycle of Software Objects." *Exhalation:
-    Stories* (New York: Alfred A. Knopf, 2019), 62--172.
--   Miriam Posner, "[JavaScript Is for
-    Girls](https://logicmag.io/intelligence/javascript-is-for-girls/),"
-    Logic(s) Magazine, March 15, 2017.
--   Richard Sennett, "The Modern Hephaestus: Ancient Weavers and Linux
-    Programmers," *The Craftsman* (New Haven: Yale University Press,
-    2008), 21--27.
--   Excerpts from Ben Tarnoff and Moira Weigel, eds., *Voices from the
-    Valley: Tech Workers Talk about What They Do\--and How They Do It*
-    (New York: Farrar, Straus and Giroux, 2020)
--   Fred Turner, "The Shifting Politics of the Computational Metaphor,"
-    *From Counterculture to Cyberculture: Stewart Brand, the Whole Earth
-    Network, and the Rise of Digital Utopianism* (Chicago: University of
-    Chicago Press, 2006), 11--40.
+- What Do Programmers Think They're Doing? Who Do They Think They Are?
+  -   Ted Chiang, "The Lifecycle of Software Objects." *Exhalation:
+      Stories* (New York: Alfred A. Knopf, 2019), 62--172
+  -   Miriam Posner, "[JavaScript Is for
+      Girls](https://logicmag.io/intelligence/javascript-is-for-girls/),"
+      Logic(s) Magazine, March 15, 2017
+  -   Richard Sennett, "The Modern Hephaestus: Ancient Weavers and Linux
+      Programmers," *The Craftsman* (New Haven: Yale University Press,
+      2008), 21--27
+  -   Excerpts from Ben Tarnoff and Moira Weigel, eds., *Voices from the
+      Valley: Tech Workers Talk about What They Do\--and How They Do It*
+      (New York: Farrar, Straus and Giroux, 2020)
+  -   Fred Turner, "The Shifting Politics of the Computational Metaphor,"
+      *From Counterculture to Cyberculture: Stewart Brand, the Whole Earth
+      Network, and the Rise of Digital Utopianism* (Chicago: University of
+      Chicago Press, 2006), 11--40
+- On "Artificial" and "Intelligence"
+  - Shannon Mattern, *A City is Not A Computer: Other Urban Intelligences* (Princeton University Press, 2021)
+- Thinking and Seeing: Visualization and Computer Vision
+  - Mary Beth Meehan and Fred Turner, *Seeing Silicon Valley: Life inside a Fraying America* (University of Chicago Press, 2021)
+  - Edward R. Tufte, *The Cognitive Style of PowerPoint: Pitching Out Corrupts Within* (Graphics Prress, 2006)
+- Agile, Plastic, Flexible, Remote: Labor Styles After Software
+  - Renyi Hong, "Road 
+  - Browse "Coding Bootcamp," MOOC, and Software Engineering Career Change Websites
+    - [Flatiron School](https://flatironschool.com/welcome-to-flatiron-school)
+    - [edX](https://www.edx.org/), Sarah D'Agostino, "[Whatever Happened to MIT and Harvard's Big EdX Profit?](https://www.insidehighered.com/news/tech-innovation/digital-teaching-learning/2023/04/28/whatever-happened-mit-and-harvards-big)" Inside Higher Education, April 28, 2093
+    - Coursera, [Coursera Resource on Coding Bootcamps](https://www.coursera.org/articles/coding-bootcamps)
+    - [LinkedIn Learning](https://www.linkedin.com/learning/)
+    - [Codecademy](https://www.codecademy.com/)
+    - [Udacity](https://www.udacity.com/)
+    - [Recurse](https://www.recurse.com/)
 
 
 # Recent Feminist Futures 
@@ -124,6 +147,25 @@ We will read feminist science fiction as lessons in reading science and fiction 
       6.  Vonda N. McIntyre
       7.  Nnedi Okorafor
       8.  Joan Slonczewski
+
+# Narrative and Information
+Introductory Undergraduate Course
+
+A story is more than just information. Think of all the ways you could narrate an ordinary day -- 
+
+A story can also contain too much information.
+
+This course introduces students to literary studies and narrative theory via a comparison between the history of narrative forms and the history of the idea of "information." The course will be theoretical in orientation, but involve substantial opportunities for closely analyzing texts.
+
+Science and Literature, the role of narrative in an "information culture"
+
+## Topics
+- Why are stories everywhere in an "information society" dominated by information technology?
+  - Brooks, Seduced by Story
+  - Gleick, The Information
+- Books ≠ Novels
+- Get a Clue: Detection, Intelligence, and Narrative
+  - Carlo Ginzburg, "Clues"
 
 # Theory, Violence, and Consent
 ## Course Description

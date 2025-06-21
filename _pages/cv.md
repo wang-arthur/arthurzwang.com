@@ -27,6 +27,25 @@ Education
 * M.St. in English and American Studies, University of Oxford, 2012
 * A.B. in English and Creative Writing, Princeton University, 2011
 
+Professional Experience and Service
+======
+## Post45 Test <img class="icon" src="/assets/images/post45-logo.svg" />
+- [_Post45 Journal_](https://post45.org/journal) (open-access, peer-reviewed journal)
+  - **Co-Editor**, 2023–present
+  - **Prize Committee**, Inaugural Essay Prizes for Contingent and Emerging Scholars, 2023–2024
+  - **Managing Editor**, 2020–2023
+  - **Associate Editor** and **Web Developer**, 2018–2019
+- [Post45](https://post45.org/about) (organization)
+  - **Technology and Open Access Officer** (elected), 2023–present
+  - **Board Member** (elected), 2022–present
+  - **Graduate Steering Committee** (elected), 2018–2020
+- Peer Reviewer, _Twentieth Century Literature_, _ISLE: Interdisciplinary Studies in Literature and Environment_
+- Volunteer, Chat with an Editor, Council of Editors of Learned Journals (CELJ), MLA 2024
+- Member, Yale English Anti-Racist Pedagogy Working Group, 2020–2022
+- Research Assistant, Amy Hungerford, 2017–2020
+
+- **Web Developer**, 2018–2019
+- 
 
 Publications
 ======
@@ -39,7 +58,6 @@ Publications
 </div>
 
 ## In Progress
-
 - _Minor Theories of Everything: On Popular Science and Contemporary Fiction_ (book manuscript)
 - “Inventing Rape Ecology: Octavia E. Butler and the Sociobiology of Sexual Violence” (invited to revise and resubmit at _PMLA_)
 - “Nothing but Mammals: Feminism, Pornography, and Sociobiology" (article manuscript)
@@ -48,7 +66,7 @@ Publications
 - "Why Not Both?" review of Rebecca B. Clark, _American Graphic: Disgust and Data in Contemporary Literature_ (Stanford University Press, 2022) (book review for _Novel: A Forum on Fiction_)
 
 ## Editorial
-- Co-Editor, "2024 Post45 Prize Essays," special issue of _Post45_ forthcoming in late 2024/early 2025
+- Co-Editor, "2024 Post45 Prize Essays," special issue of _Post45_ forthcoming in early 2025
 
 Teaching
 ======
@@ -57,6 +75,20 @@ Teaching
     {% include archive-single.html short_excerpt=true no_overlay_header=true %}
   {% endfor %}</ul>
 </div>
+
+Talks
+======
+
+## Presentations
+*Please see my [Talks Page](/talks) for a list of presentations*
+
+## Organizing and Convening
+- Organizing Committee, Post45 80/20: Postwar American Literature at 80 and Post45 at 20 (proposal submitted to the Huntington Library Research Division for a major conference co-hosted by Caltech and the Huntington), 2024
+- "[Rethinking Animal Comparison](https://call-for-papers.sas.upenn.edu/cfp/2023/02/09/mla-2024-rethinking-animal-comparison)," working group, MLA Convention, with Samantha Pergadia, January 2024
+- “Like Rape: Coercion, Comparison and Sexual Harm” roundtable, ASAP/10, with Samantha Pergadia, October 2018
+- [Public Arts and Humanities Writing Workshop](https://call-for-papers.sas.upenn.edu/cfp/2018/08/21/asap10-public-humanities-writing-workshop), ASAP/10, with Kyle Frisina, October 2018
+- [Third Annual Post45 Graduate Symposium](https://post45.org/conferences/), Yale English, with Andrew Lanham, March 2018
+- Race, Gender, and Sexuality Studies Colloquium, Yale English, with Sam Huber, 2016–2018
 
 Awards and Honors
 =====
@@ -85,35 +117,6 @@ Technologies, Tools, and Skills
 - **Other**: project management, DevOps, server monitoring and management, technical support
 
 
-Professional Experience and Service
-======
-
-## Editorial
-- [_Post45_](https://post45.org/journal) (open-access, peer-reviewed journal)
-  - **Co-Editor**, 2023–present
-  - **Prize Committee**, Inaugural Post45 Essay Prizes, 2023–2024
-  - **Managing Editor**, 2020–2023
-  - **Associate Editor** and **Web Developer**, 2018–2019
-
-- Peer Reviewer, _Twentieth Century Literature_, _ISLE: Interdisciplinary Studies in Literature and Environment_
-
-## Organizing and Convening
-- "[Rethinking Animal Comparison](https://call-for-papers.sas.upenn.edu/cfp/2023/02/09/mla-2024-rethinking-animal-comparison)," working group, MLA Convention, with Samantha Pergadia, January 2024
-- “Like Rape: Coercion, Comparison and Sexual Harm” roundtable, ASAP/10, with Samantha Pergadia, October 2018
-- [Public Arts and Humanities Writing Workshop](https://call-for-papers.sas.upenn.edu/cfp/2018/08/21/asap10-public-humanities-writing-workshop), ASAP/10, with Kyle Frisina, October 2018
-- [Third Annual Post45 Graduate Symposium](https://post45.org/conferences/), Yale English, with Andrew Lanham, March 2018
-- Race, Gender, and Sexuality Studies Colloquium, Yale English, with Sam Huber, 2016–2018
-
-## Service and Leadership
-- [Post45](https://post45.org/about) (organization)
-  - **Technology and Open Access Officer** (elected), 2023–present
-  - **Board Member** (elected), 2022–present
-  - **Graduate Steering Committee** (elected), 2018–2020
-- Volunteer, Chat with an Editor, Council of Editors of Learned Journals (CELJ), MLA 2024
-- Member, Yale English Anti-Racist Pedagogy Working Group, 2020–2022
-- Research Assistant, Amy Hungerford, 2017–2020
-
-
 Additional Training
 ======
 - **Advanced Oral History Institute**, Oral History Center, UC Berkeley Bancroft Library (online), August 2023
@@ -127,6 +130,30 @@ Additional Training
 
 References
 ======
-*Available on Request*
+*Contact Information Available on Request*
+
+Sarah Banet-Weiser
+Walter H. Annenberg Dean and Lauren Berlant Professor of Communication
+Annenberg School for Communication, University of Pennsylvania
+Research Professor, USC Annenberg School for Communication and Journalism
+sarah.banetweiser@asc.upenn.edu
+
+Amy Hungerford
+Ruth Fulton Benedict Professor of English and Comparative Literature
+Executive Vice President for Arts and Sciences
+Dean of the Faculty of Arts and Sciences
+Columbia University
+
+Annie McClanahan
+Associate Professor of English, University of California, Irvine
+
+John Durham Peters
+María Rosa Menocal Professor of English and Film and Media Studies, Yale University
+
+R. John Williams
+Associate Professor of English and Film and Media Studies, Yale University
+
+Sunny Xiang
+Associate Professor of English, Yale University
 
 </div>

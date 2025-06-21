@@ -1,18 +1,23 @@
 ---
-title: "The Game Theory of Sex"
 collection: publications
+title: The Game Theory of Sex
 permalink: /publication/game-theory-of-sex
-excerpt: ""
-date: 2022-03-01
-venue: 'American Literature'
+excerpt: ''
+date: 2022-03-01T05:00:00.000Z
+venue: American Literature
 paperurl: 'https://doi.org/10.1215/00029831-9697015'
-citation: 'Arthur Z. Wang, "The Game Theory of Sex," in "American Game Studies," ed. Patrick Jagoda and Jennifer Malkowski, special issue, <i>American Literature</i> 94, no. 1 (2022): 103–131.'
+citation: >-
+  Arthur Z. Wang, "The Game Theory of Sex," in "American Game Studies," ed.
+  Patrick Jagoda and Jennifer Malkowski, special issue, <i>American
+  Literature</i> 94, no. 1 (2022): 103–131.
 type: article
 header:
   overlay_image: /assets/images/AL-article-figure-dancing-bears.jpg
   overlay_position: bottom
   overlay_filter: 0.35
-  caption: '"An Unstable Pair," figure from Anna R. Karlin and Yuval Peres, <i>Game Theory, Alive</i> (Providence: AMS, 2017), 180'
+  caption: >-
+    "An Unstable Pair," figure from Anna R. Karlin and Yuval Peres, <i>Game
+    Theory, Alive</i> (Providence: AMS, 2017), 180
 ---
 
 <!--
@@ -25,9 +30,6 @@ Calculated sexual games play out across contemporary American popular media, fro
 <figcaption> "An Unstable Pair," figure from Anna R. Karlin and Yuval Peres, <i>Game Theory, Alive</i> (Providence: AMS, 2017), 180</figcaption>
 </fig>  
 
-
-
-<a href="https://doi.org/10.1215/00029831-9697015"><img src= "../assets/images/publications/AL-article-first-page.png"/></a>  
-
+<a href="https://doi.org/10.1215/00029831-9697015"><img src= "../assets/images/publications/AL-article-first-page.png"/></a>
 
 <a href="https://read.dukeupress.edu/american-literature/issue/94/1"><img src= "/assets/images/publications/AL-cover.png"/></a>

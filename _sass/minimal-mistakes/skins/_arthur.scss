@@ -33,13 +33,19 @@ $primary-color: #e2e1dd !default;
 $secondary-color: mix(#fff, #e2e1dd, 20%) !default;
 $border-color: mix(#fff, $text-color, 75%) !default;
 $background-color: #f2f1ed !default;
-$header-background-color: $primary-color !default;
-$subheader-background-color: $secondary-color !default;
-$footer-background-color: $primary-color !default;
+$header-background-color: rgba($primary-color, .5) !default;
+$subheader-background-color: rgba($secondary-color, .3) !default;
+$footer-background-color: rgba($primary-color, .5) !default;
 $link-color: #515999 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#fff, $text-color, 40%) !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+// background
+// $background-image-header: url('/assets/images/background/lewitt-arcs-from-four-sides-colors.svg');
+$background-image:        url('/assets/images/background/lewitt-arcs-from-adjacent-sides-colors.svg') !default;
+// $background-image-topbar: url('/assets/images/background/lewitt-arcs-from-adjacent-sides-and-corner-colors.svg') !default;
+// $background-image-footer: url('/assets/images/background/lewitt-arcs-from-adjacent-sides-colors.svg') !default;
 
 /* contrast syntax highlighting (base16) */
 $base00: #000000 !default;
@@ -99,10 +105,13 @@ $base0f: #b18a3d !default;
 h4.nav__title {
   color: $text-color !important; // override
 }
+#footer.page_footer {
+  margin-top: 0 !important;
 
-.page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
-  color: inherit;
+  .page__footer-follow .social-icons i,
+  .page__footer-follow .social-icons .svg-inline--fa  {
+    color: inherit;
+  }
 }
 
 .page__hero {
@@ -110,3 +119,30 @@ h4.nav__title {
     padding: 1.5em 0 !important;
   }
 }
+
+body {
+  background: $background-image no-repeat center center fixed;
+  background-size: cover;
+}
+
+.initial-content {
+  background-color: rgba($background-color, 0.8);
+  padding-bottom: 3em;
+}
+
+
+
+// .masthead {
+//   background: $background-image-header no-repeat center center fixed;
+//   background-size: cover;
+// }
+
+// .topbar {
+//   background: $background-image-topbar no-repeat center center fixed;
+//   background-size: cover;
+// }
+
+// .page__footer {
+//   background: $background-image-footer no-repeat center center fixed;
+//   background-size: cover;
+// }

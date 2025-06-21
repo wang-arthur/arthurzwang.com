@@ -5,25 +5,6 @@ permalink: /teaching/evaluations
 ---
 
 ## Narrative Responses
-### Leading Discussions
--   Arthur is very strong in facilitating discussion and introducing
-    points to continue to open new avenues of exploration during
-    section. His feedback on papers and assignments was also incredibly
-    helpful and thorough. He could improve his teaching by organizing
-    section a little more tightly, to ensure that all portions of the
-    section are allotted sufficient time, though he improved upon this
-    over time as the course progressed.
--   Arthur was an awesome TA. He brought in interesting creative
-    activities and lectures on supplemental content that made sections
-    more than the reading regurgitation they often become. I really
-    looked forward to each section. He was also really helpful when it
-    came to giving feedback on ideas for the essays.
--   Arthur was incredibly dedicated, helpful and never failed to bring a
-    novel approach to conceptualize the material. He was always very
-    positive and created a great environment for debate and questioning.
-    His energy and personality made me excited to come to section every
-    week!
-
 ### Accessibility and Care
 -   I really appreciated how deeply Professor Wang cared about all of
     our opinions and went above and beyond to make sure that all
@@ -82,13 +63,30 @@ permalink: /teaching/evaluations
     further. He was very engaged in section also and facilitated great
     conversation.
 
-
+### Leading Discussions
+-   Arthur is very strong in facilitating discussion and introducing
+    points to continue to open new avenues of exploration during
+    section. His feedback on papers and assignments was also incredibly
+    helpful and thorough. He could improve his teaching by organizing
+    section a little more tightly, to ensure that all portions of the
+    section are allotted sufficient time, though he improved upon this
+    over time as the course progressed.
+-   Arthur was an awesome TA. He brought in interesting creative
+    activities and lectures on supplemental content that made sections
+    more than the reading regurgitation they often become. I really
+    looked forward to each section. He was also really helpful when it
+    came to giving feedback on ideas for the essays.
+-   Arthur was incredibly dedicated, helpful and never failed to bring a
+    novel approach to conceptualize the material. He was always very
+    positive and created a great environment for debate and questioning.
+    His energy and personality made me excited to come to section every
+    week!
 
 ## Quantitative
 
 ### Fall 2023, Media, Medicine, and the Arts of Mortality (University of Pennsylvania, Annenberg School for Communication)
 
-**Ratings for "Overall quality of the instructor"**
+**Overall quality of the instructor**
 
 | Score     | 0 (poor)  | 1 (fair)  | 2 (good)  | 3 (very good) | 4 (excellent) |
 | --------  | -------   | --------  | -------   | ------------- | ------------- |
@@ -97,10 +95,11 @@ permalink: /teaching/evaluations
 
 - Mean: 3.19 / 4
 - Median & Mode: 4 / 4
+- "very good" or "excellent": 81.0%
 
 ### Fall 2018, Communicating Pain (Yale University English)
 
-**What is Your Overall Assessment of the Course?**
+**Overall Assessment of the Course**
 
 | Score | 1 (poor) | 2 (fair)  | 3 (good)  | 4 (very good) | 5 (excellent) |
 | ----- | -------  | --------  | --------  | ------------- | ------------- |
@@ -109,10 +108,11 @@ permalink: /teaching/evaluations
 
 - Mean: 4.10 / 5
 - Median: 4.5 / 5
+- "very good" or "excellent": 80%
 
 ### Fall 2017, Philosophy of Digital Media (Yale University Film and Media Studies, Teaching Fellow)
 
-**What is your overall assessment of the Teaching Fellow?**
+**Overall Assessment of the Teaching Fellow**
 
 | Score | 1 (poor) | 2 (fair)  | 3 (good)  | 4 (very good) | 5 (excellent) |
 | ----- | -------  | --------  | --------  | ------------- | ------------- |
@@ -121,3 +121,4 @@ permalink: /teaching/evaluations
 
 - Mean: 4.46 / 5
 - Median & Mode: 5 / 5
+- "very good" or "excellent": 84.6%
