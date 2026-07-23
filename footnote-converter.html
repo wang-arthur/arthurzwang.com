@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Footnote → Parenthetical Converter</title>
+  <style>
+    :root {
+      --text: #222;
+      --muted: #666;
+      --border: #ddd;
+      --accent: #345;
+      --bg: #fff;
+      --bg-alt: #f7f7f5;
+      --warn: #b45309;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      line-height: 1.5;
+    }
+    main { max-width: 900px; margin: 0 auto; }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: normal;
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+    h2 {
+      font-size: 0.85rem;
+      margin: 2rem 0 0.5rem;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .lede { color: var(--muted); margin-bottom: 1.5rem; }
+    .lede code {
+      background: var(--bg-alt);
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+    #file-input {
+      display: block;
+      width: 100%;
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px dashed var(--border);
+      background: var(--bg-alt);
+      cursor: pointer;
+      font: inherit;
+    }
+    #status {
+      min-height: 1.5em;
+      font-style: italic;
+      color: var(--muted);
+    }
+    #status.error { color: #b91c1c; font-style: normal; }
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 0.5rem 0;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.9rem;
+    }
+    button:hover { filter: brightness(1.1); }
+    #copy-status { color: var(--muted); font-size: 0.9rem; }
+    #output {
+      width: 100%;
+      min-height: 220px;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.8rem;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      background: var(--bg-alt);
+      resize: vertical;
+      white-space: pre;
+    }
+    #preview {
+      border: 1px solid var(--border);
+      padding: 1rem 1.25rem;
+      border-radius: 3px;
+      background: var(--bg);
+      font-family: Georgia, serif;
+      max-height: 500px;
+      overflow-y: auto;
+    }
+    #preview p { color: var(--text); margin: 0 0 0.75em; }
+    #messages {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+      color: var(--warn);
+    }
+    #messages ul { margin: 0.25rem 0 0 1.25rem; padding: 0; }
+    details { margin-top: 2rem; font-size: 0.9rem; color: var(--muted); }
+    details summary { cursor: pointer; }
+    details p { margin: 0.5rem 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Footnote → Parenthetical Converter</h1>
+    <p class="lede">
+      Upload a <code>.docx</code> file with Word footnotes or endnotes. This tool
+      converts them into inline double-parenthetical citations (<code>((like this))</code>)
+      and produces WordPress-ready HTML you can paste into the block editor's HTML view.
+      Nothing is uploaded &mdash; the file is processed entirely in your browser.
+    </p>
+
+    <input type="file" id="file-input" accept=".docx">
+    <div id="status"></div>
+
+    <div id="results" hidden>
+      <h2>HTML output</h2>
+      <div class="toolbar">
+        <button id="copy-btn" type="button">Copy HTML</button>
+        <span id="copy-status" aria-live="polite"></span>
+      </div>
+      <textarea id="output" readonly spellcheck="false"></textarea>
+      <div id="messages" hidden></div>
+
+      <h2>Preview</h2>
+      <div id="preview"></div>
+    </div>
+
+    <details>
+      <summary>About</summary>
+      <p>
+        Ports the <code>notesToParens.py</code> conversion pipeline from the
+        <code>post45-utils</code> repo to run client-side. Uses
+        <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a> for
+        DOCX&nbsp;&rarr;&nbsp;HTML, then consolidates split formatting tags, fixes
+        whitespace inside <code>&lt;em&gt;</code>/<code>&lt;strong&gt;</code>/etc.,
+        and replaces footnote/endnote references with the note text wrapped in
+        double parens.
+      </p>
+    </details>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.9.0/mammoth.browser.min.js"></script>
+  <script>
+    "use strict";
+
+    const FORMATTING_TAGS = ["em", "strong", "u", "i", "b", "span"];
+    const NBSP = " ";
+    const UP_ARROW = "↑";
+
+    function isWhitespaceText(n) {
+      return n && n.nodeType === Node.TEXT_NODE && /^\s*$/.test(n.textContent);
+    }
+
+    function attrsEqual(a, b) {
+      if (a.attributes.length !== b.attributes.length) return false;
+      for (const attr of a.attributes) {
+        if (b.getAttribute(attr.name) !== attr.value) return false;
+      }
+      return true;
+    }
+
+    function findNextMergeable(el, tagName) {
+      let cur = el.nextSibling;
+      while (cur && isWhitespaceText(cur)) cur = cur.nextSibling;
+      if (
+        cur &&
+        cur.nodeType === Node.ELEMENT_NODE &&
+        cur.tagName.toLowerCase() === tagName &&
+        attrsEqual(el, cur)
+      ) {
+        return cur;
+      }
+      return null;
+    }
+
+    function mergeTags(first, second) {
+      let node = first.nextSibling;
+      while (node && node !== second) {
+        const next = node.nextSibling;
+        if (isWhitespaceText(node)) first.appendChild(node);
+        node = next;
+      }
+      while (second.firstChild) first.appendChild(second.firstChild);
+      second.remove();
+    }
+
+    function consolidateFormatting(root) {
+      for (const name of FORMATTING_TAGS) {
+        while (true) {
+          let mergedAny = false;
+          for (const t of root.querySelectorAll(name)) {
+            if (!t.parentNode) continue;
+            const next = findNextMergeable(t, name);
+            if (next) {
+              mergeTags(t, next);
+              mergedAny = true;
+              break;
+            }
+          }
+          if (!mergedAny) break;
+        }
+      }
+    }
+
+    // Descend through single-child tags to find a lone text node.
+    // Mirrors BeautifulSoup's tag.string semantics — mixed-content tags
+    // return null, matching the Python's effective (buggy) behavior where
+    // trailing-space fixing silently skips mixed content.
+    function singleTextDescendant(node) {
+      let cur = node;
+      while (cur.nodeType === Node.ELEMENT_NODE) {
+        if (cur.childNodes.length !== 1) return null;
+        cur = cur.firstChild;
+      }
+      return cur.nodeType === Node.TEXT_NODE ? cur : null;
+    }
+
+    function moveTrailingSpacesOut(tag) {
+      const textNode = singleTextDescendant(tag);
+      if (!textNode) return;
+      const text = textNode.textContent;
+      const trimmed = text.replace(/ +$/, "");
+      const count = text.length - trimmed.length;
+      if (count > 0) {
+        textNode.textContent = trimmed;
+        tag.after(document.createTextNode(NBSP.repeat(count)));
+      }
+    }
+
+    function fixTagSpacing(root) {
+      for (const name of FORMATTING_TAGS) {
+        for (const t of Array.from(root.querySelectorAll(name))) {
+          const text = t.textContent;
+          if (text.length === 0) {
+            t.remove();
+          } else if (/^\s+$/.test(text)) {
+            t.replaceWith(document.createTextNode(NBSP.repeat(text.length)));
+          } else {
+            moveTrailingSpacesOut(t);
+          }
+        }
+      }
+    }
+
+    function noteIdFromLi(li) {
+      const id = li.id || "";
+      for (const prefix of ["footnote-", "endnote-"]) {
+        const idx = id.indexOf(prefix);
+        if (idx !== -1) {
+          const n = parseInt(id.substring(idx + prefix.length), 10);
+          if (!isNaN(n)) return n;
+        }
+      }
+      return null;
+    }
+
+    function collectNotes(root, doc) {
+      const notes = new Map();
+      for (const li of root.querySelectorAll("li[id]")) {
+        const noteId = noteIdFromLi(li);
+        if (noteId === null) continue;
+
+        const paragraphs = Array.from(li.querySelectorAll("p"));
+        for (const p of paragraphs) {
+          for (const a of Array.from(p.querySelectorAll("a"))) {
+            if (
+              a.childNodes.length === 1 &&
+              a.firstChild.nodeType === Node.TEXT_NODE &&
+              a.firstChild.textContent === UP_ARROW
+            ) {
+              a.remove();
+            }
+          }
+        }
+
+        const parts = paragraphs
+          .map((p) => p.textContent.trim())
+          .filter((t) => t.length > 0);
+
+        if (parts.length > 0) {
+          for (const p of paragraphs) p.remove();
+          while (li.firstChild) li.firstChild.remove();
+          li.appendChild(doc.createTextNode("(("));
+          for (let i = 0; i < parts.length; i++) {
+            li.appendChild(doc.createTextNode(parts[i]));
+            if (i < parts.length - 1) li.appendChild(doc.createElement("br"));
+          }
+          li.appendChild(doc.createTextNode("))"));
+        }
+        notes.set(noteId, li);
+      }
+      return notes;
+    }
+
+    function noteIdFromSup(sup) {
+      if (sup.childNodes.length !== 1) return null;
+      let child = sup.firstChild;
+      if (
+        child.nodeType === Node.ELEMENT_NODE &&
+        child.tagName.toLowerCase() === "sup" &&
+        child.childNodes.length > 0
+      ) {
+        child = child.firstChild;
+      }
+      if (
+        !child ||
+        child.nodeType !== Node.ELEMENT_NODE ||
+        child.tagName.toLowerCase() !== "a"
+      ) {
+        return null;
+      }
+      const href = child.getAttribute("href");
+      if (!href) return null;
+      for (const prefix of ["#endnote-", "#footnote-"]) {
+        const idx = href.indexOf(prefix);
+        if (idx !== -1) {
+          const n = parseInt(href.substring(idx + prefix.length), 10);
+          if (!isNaN(n)) return n;
+        }
+      }
+      return null;
+    }
+
+    function convertNotes(root, doc) {
+      const notes = collectNotes(root, doc);
+      const processed = new Set();
+
+      for (const sup of Array.from(root.querySelectorAll("sup"))) {
+        const noteId = noteIdFromSup(sup);
+        if (noteId === null || processed.has(noteId)) continue;
+        const li = notes.get(noteId);
+        if (!li) continue;
+
+        const frag = doc.createDocumentFragment();
+        while (li.firstChild) frag.appendChild(li.firstChild);
+        sup.replaceWith(frag);
+        processed.add(noteId);
+      }
+
+      for (const sup of Array.from(root.querySelectorAll("sup"))) {
+        if (
+          sup.childNodes.length === 1 &&
+          sup.firstChild.nodeType === Node.TEXT_NODE &&
+          /^\s+$/.test(sup.firstChild.textContent)
+        ) {
+          sup.remove();
+        }
+      }
+      for (const a of Array.from(root.querySelectorAll("a"))) {
+        if (
+          a.childNodes.length === 1 &&
+          a.firstChild.nodeType === Node.TEXT_NODE &&
+          a.firstChild.textContent === UP_ARROW
+        ) {
+          a.remove();
+        }
+      }
+      for (const ol of Array.from(root.querySelectorAll("ol"))) {
+        if (!ol.textContent.trim()) ol.remove();
+      }
+    }
+
+    async function convert(file) {
+      const buf = await file.arrayBuffer();
+      const result = await window.mammoth.convertToHtml(
+        { arrayBuffer: buf },
+        { styleMap: "u => u" }
+      );
+      // Emulate BS4/html.parser: whitespace-only text nodes between tags
+      // are collapsed to a single space on parse.
+      const normalized = result.value.replace(/>[ \t\n\r\f]{2,}</g, "> <");
+      const doc = new DOMParser().parseFromString(
+        "<!DOCTYPE html><html><body>" + normalized + "</body></html>",
+        "text/html"
+      );
+      const body = doc.body;
+      consolidateFormatting(body);
+      fixTagSpacing(body);
+      convertNotes(body, doc);
+      // Match BS4 serialization: void elements self-close (<br/> not <br>),
+      // and \xa0 renders as literal char, not &nbsp;.
+      const VOID_TAGS = /<(area|base|br|col|embed|hr|img|input|link|meta|param|source|track|wbr)([^>]*?)>/g;
+      const html = body.innerHTML
+        .replace(VOID_TAGS, "<$1$2/>")
+        .replace(/&nbsp;/g, " ");
+      return { html, messages: result.messages || [] };
+    }
+
+    const fileInput = document.getElementById("file-input");
+    const statusEl = document.getElementById("status");
+    const resultsEl = document.getElementById("results");
+    const outputEl = document.getElementById("output");
+    const previewEl = document.getElementById("preview");
+    const copyBtn = document.getElementById("copy-btn");
+    const copyStatus = document.getElementById("copy-status");
+    const messagesEl = document.getElementById("messages");
+
+    fileInput.addEventListener("change", async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      statusEl.classList.remove("error");
+      statusEl.textContent = "Converting…";
+      resultsEl.hidden = true;
+      copyStatus.textContent = "";
+      messagesEl.hidden = true;
+      messagesEl.innerHTML = "";
+
+      try {
+        const { html, messages } = await convert(file);
+        outputEl.value = html;
+        previewEl.innerHTML = html;
+
+        if (messages.length > 0) {
+          messagesEl.hidden = false;
+          const list = messages
+            .map((m) => `<li>${m.type}: ${m.message}</li>`)
+            .join("");
+          messagesEl.innerHTML =
+            `<strong>Conversion notes from mammoth (${messages.length}):</strong><ul>${list}</ul>`;
+        }
+
+        resultsEl.hidden = false;
+        statusEl.textContent = `Converted: ${file.name}`;
+      } catch (err) {
+        statusEl.classList.add("error");
+        statusEl.textContent = "Error: " + (err && err.message ? err.message : err);
+        console.error(err);
+      }
+    });
+
+    copyBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(outputEl.value);
+      } catch (err) {
+        outputEl.select();
+        document.execCommand("copy");
+      }
+      copyStatus.textContent = "Copied";
+      setTimeout(() => (copyStatus.textContent = ""), 2000);
+    });
+  </script>
+</body>
+</html>
