@@ -1,0 +1,692 @@
+---
+layout: single
+title: "Footnote → Parenthetical Converter"
+permalink: /footnote-converter/
+author_profile: false
+classes: wide
+---
+
+<style>
+  .footnote-tool {
+    --ft-text: #222;
+    --ft-muted: #666;
+    --ft-border: #ddd;
+    --ft-accent: #345;
+    --ft-bg: #fff;
+    --ft-bg-alt: #f7f7f5;
+    --ft-warn: #b45309;
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--ft-text);
+    line-height: 1.5;
+  }
+  .footnote-tool * { box-sizing: border-box; }
+  .footnote-tool h2 {
+    font-size: 0.85rem;
+    margin: 2rem 0 0.5rem;
+    color: var(--ft-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    padding: 0;
+  }
+  .footnote-tool .lede { color: var(--ft-muted); margin-bottom: 1.5rem; }
+  .footnote-tool .lede code,
+  .footnote-tool .scope-note code {
+    background: var(--ft-bg-alt);
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  .footnote-tool .scope-note {
+    border-left: 3px solid var(--ft-accent);
+    background: var(--ft-bg-alt);
+    padding: 0.75rem 1rem;
+    margin: 0 0 1.5rem;
+    font-size: 0.9rem;
+    color: var(--ft-text);
+  }
+  .footnote-tool .scope-note code {
+    background: var(--ft-bg);
+  }
+  .footnote-tool .scope-note > *:first-child { margin-top: 0; }
+  .footnote-tool .scope-note > *:last-child { margin-bottom: 0; }
+  .footnote-tool .scope-note ul { margin: 0.5rem 0 0.5rem 1.25rem; padding: 0; }
+  .footnote-tool #ft-file-input {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px dashed var(--ft-border);
+    background: var(--ft-bg-alt);
+    cursor: pointer;
+    font: inherit;
+  }
+  .footnote-tool #ft-status {
+    min-height: 1.5em;
+    font-style: italic;
+    color: var(--ft-muted);
+  }
+  .footnote-tool #ft-status.ft-error { color: #b91c1c; font-style: normal; }
+  .footnote-tool .ft-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.5rem 0;
+  }
+  .footnote-tool button {
+    padding: 0.5rem 1rem;
+    background: var(--ft-accent);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.9rem;
+  }
+  .footnote-tool button:hover { filter: brightness(1.1); }
+  .footnote-tool #ft-copy-status { color: var(--ft-muted); font-size: 0.9rem; }
+  .footnote-tool #ft-output {
+    width: 100%;
+    min-height: 220px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.8rem;
+    padding: 0.75rem;
+    border: 1px solid var(--ft-border);
+    border-radius: 3px;
+    background: var(--ft-bg-alt);
+    resize: vertical;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .footnote-tool #ft-preview {
+    border: 1px solid var(--ft-border);
+    padding: 1rem 1.25rem;
+    border-radius: 3px;
+    background: var(--ft-bg);
+    font-family: Georgia, serif;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  .footnote-tool #ft-preview p { color: var(--ft-text); margin: 0 0 0.75em; }
+  .footnote-tool #ft-messages {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--ft-warn);
+  }
+  .footnote-tool #ft-messages ul { margin: 0.25rem 0 0 1.25rem; padding: 0; }
+  .footnote-tool .ft-preview-caveat {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--ft-warn);
+    margin-left: 0.5rem;
+  }
+  .footnote-tool .ft-image-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--ft-border);
+  }
+  .footnote-tool .ft-image-row:last-child { border-bottom: none; }
+  .footnote-tool .ft-image-row .ft-thumb {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--ft-bg-alt);
+    border: 1px solid var(--ft-border);
+    flex-shrink: 0;
+  }
+  .footnote-tool .ft-image-row .ft-thumb img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .footnote-tool .ft-image-row .ft-meta { flex: 1; font-size: 0.9rem; }
+  .footnote-tool .ft-image-row .ft-meta .ft-label {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.85rem;
+    color: var(--ft-muted);
+  }
+  .footnote-tool .ft-image-row .ft-meta .ft-filename { color: var(--ft-text); }
+  .footnote-tool .ft-image-row a.ft-download {
+    padding: 0.4rem 0.8rem;
+    background: var(--ft-bg-alt);
+    border: 1px solid var(--ft-border);
+    border-radius: 3px;
+    color: var(--ft-accent);
+    text-decoration: none;
+    font-size: 0.85rem;
+  }
+  .footnote-tool .ft-image-row a.ft-download:hover { background: var(--ft-border); }
+  .footnote-tool details {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--ft-muted);
+  }
+  .footnote-tool details summary { cursor: pointer; }
+  .footnote-tool details p { margin: 0.5rem 0; }
+</style>
+
+<div class="footnote-tool">
+  <p class="lede">
+    Upload a <code>.docx</code> file with footnotes or endnotes. This tool
+    converts them into inline double-parenthetical citations (<code>((like this))</code>)
+    and produces WordPress-ready HTML you can paste into a Post.
+    Nothing is uploaded &mdash; the file is processed entirely in your browser.
+  </p>
+
+  <div class="scope-note">
+    <p><strong>Scope:</strong> the tool primarily handles footnote/endnote conversion. It also:</p>
+    <ul>
+      <li>removes embedded images, which should be uploaded separately rather than pasted into the WordPress post. See the Extracted Images section below to download images from the document, or use higher-resolution files from the author if available.</li>
+      <li>converts left-indented paragraphs to <code>&lt;blockquote&gt;</code>.</li>
+    </ul>
+    <p>Everything else &mdash; headings, lists, character formatting, alignment,
+    unusual layouts &mdash; passes through with minimal cleanup, so please spot-check the output before sharing proofs with the author. The underlying <code>.docx</code>&nbsp;&rarr;&nbsp;HTML
+    conversion is done by <a href="https://github.com/mwilliamson/mammoth.js">mammoth.js</a>.</p>
+  </div>
+
+  <input type="file" id="ft-file-input" accept=".docx">
+  <div id="ft-status"></div>
+
+  <div id="ft-results" hidden>
+    <h2>HTML output</h2>
+    <div class="ft-toolbar">
+      <button id="ft-copy-btn" type="button">Copy HTML</button>
+      <span id="ft-copy-status" aria-live="polite"></span>
+    </div>
+    <textarea id="ft-output" readonly spellcheck="false"></textarea>
+    <div id="ft-messages" hidden></div>
+
+    <div id="ft-images-section" hidden>
+      <h2>Extracted images</h2>
+      <p class="lede" style="margin-bottom: 0.5rem;">
+        Images have been replaced with <code>[PLACEHOLDER FOR IMAGE N]</code>
+        markers in the HTML above. Re-upload each image directly in WordPress at
+        the corresponding spot &mdash; that ensures proper hosting, resizing, and
+        alt text.
+      </p>
+      <div id="ft-images"></div>
+    </div>
+
+    <h2>Preview <span class="ft-preview-caveat">— visual check only; copy from the HTML box above (the preview loses formatting)</span></h2>
+    <div id="ft-preview"></div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mammoth@1.9.0/mammoth.browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script>
+  (function () {
+    "use strict";
+
+    const FORMATTING_TAGS = ["em", "strong", "u", "i", "b", "span"];
+    const NBSP = " ";
+    const UP_ARROW = "↑";
+
+    function isWhitespaceText(n) {
+      return n && n.nodeType === Node.TEXT_NODE && /^\s*$/.test(n.textContent);
+    }
+
+    function attrsEqual(a, b) {
+      if (a.attributes.length !== b.attributes.length) return false;
+      for (const attr of a.attributes) {
+        if (b.getAttribute(attr.name) !== attr.value) return false;
+      }
+      return true;
+    }
+
+    function findNextMergeable(el, tagName) {
+      let cur = el.nextSibling;
+      while (cur && isWhitespaceText(cur)) cur = cur.nextSibling;
+      if (
+        cur &&
+        cur.nodeType === Node.ELEMENT_NODE &&
+        cur.tagName.toLowerCase() === tagName &&
+        attrsEqual(el, cur)
+      ) {
+        return cur;
+      }
+      return null;
+    }
+
+    function mergeTags(first, second) {
+      let node = first.nextSibling;
+      while (node && node !== second) {
+        const next = node.nextSibling;
+        if (isWhitespaceText(node)) first.appendChild(node);
+        node = next;
+      }
+      while (second.firstChild) first.appendChild(second.firstChild);
+      second.remove();
+    }
+
+    function consolidateFormatting(root) {
+      for (const name of FORMATTING_TAGS) {
+        while (true) {
+          let mergedAny = false;
+          for (const t of root.querySelectorAll(name)) {
+            if (!t.parentNode) continue;
+            const next = findNextMergeable(t, name);
+            if (next) {
+              mergeTags(t, next);
+              mergedAny = true;
+              break;
+            }
+          }
+          if (!mergedAny) break;
+        }
+      }
+    }
+
+    // Descend through single-child tags to find a lone text node.
+    // Mirrors BeautifulSoup's tag.string semantics — mixed-content tags
+    // return null, matching the Python's effective (buggy) behavior where
+    // trailing-space fixing silently skips mixed content.
+    function singleTextDescendant(node) {
+      let cur = node;
+      while (cur.nodeType === Node.ELEMENT_NODE) {
+        if (cur.childNodes.length !== 1) return null;
+        cur = cur.firstChild;
+      }
+      return cur.nodeType === Node.TEXT_NODE ? cur : null;
+    }
+
+    function moveTrailingSpacesOut(tag) {
+      const textNode = singleTextDescendant(tag);
+      if (!textNode) return;
+      const text = textNode.textContent;
+      const trimmed = text.replace(/ +$/, "");
+      const count = text.length - trimmed.length;
+      if (count > 0) {
+        textNode.textContent = trimmed;
+        tag.after(document.createTextNode(NBSP.repeat(count)));
+      }
+    }
+
+    function fixTagSpacing(root) {
+      for (const name of FORMATTING_TAGS) {
+        for (const t of Array.from(root.querySelectorAll(name))) {
+          const text = t.textContent;
+          if (text.length === 0) {
+            t.remove();
+          } else if (/^\s+$/.test(text)) {
+            t.replaceWith(document.createTextNode(NBSP.repeat(text.length)));
+          } else {
+            moveTrailingSpacesOut(t);
+          }
+        }
+      }
+    }
+
+    function noteIdFromLi(li) {
+      const id = li.id || "";
+      for (const prefix of ["footnote-", "endnote-"]) {
+        const idx = id.indexOf(prefix);
+        if (idx !== -1) {
+          const n = parseInt(id.substring(idx + prefix.length), 10);
+          if (!isNaN(n)) return n;
+        }
+      }
+      return null;
+    }
+
+    function collectNotes(root, doc) {
+      const notes = new Map();
+      for (const li of root.querySelectorAll("li[id]")) {
+        const noteId = noteIdFromLi(li);
+        if (noteId === null) continue;
+
+        const paragraphs = Array.from(li.querySelectorAll("p"));
+        for (const p of paragraphs) {
+          for (const a of Array.from(p.querySelectorAll("a"))) {
+            if (
+              a.childNodes.length === 1 &&
+              a.firstChild.nodeType === Node.TEXT_NODE &&
+              a.firstChild.textContent === UP_ARROW
+            ) {
+              a.remove();
+            }
+          }
+        }
+
+        const parts = paragraphs
+          .map((p) => p.textContent.trim())
+          .filter((t) => t.length > 0);
+
+        if (parts.length > 0) {
+          for (const p of paragraphs) p.remove();
+          while (li.firstChild) li.firstChild.remove();
+          li.appendChild(doc.createTextNode("(("));
+          for (let i = 0; i < parts.length; i++) {
+            li.appendChild(doc.createTextNode(parts[i]));
+            if (i < parts.length - 1) li.appendChild(doc.createElement("br"));
+          }
+          li.appendChild(doc.createTextNode("))"));
+        }
+        notes.set(noteId, li);
+      }
+      return notes;
+    }
+
+    function noteIdFromSup(sup) {
+      if (sup.childNodes.length !== 1) return null;
+      let child = sup.firstChild;
+      if (
+        child.nodeType === Node.ELEMENT_NODE &&
+        child.tagName.toLowerCase() === "sup" &&
+        child.childNodes.length > 0
+      ) {
+        child = child.firstChild;
+      }
+      if (
+        !child ||
+        child.nodeType !== Node.ELEMENT_NODE ||
+        child.tagName.toLowerCase() !== "a"
+      ) {
+        return null;
+      }
+      const href = child.getAttribute("href");
+      if (!href) return null;
+      for (const prefix of ["#endnote-", "#footnote-"]) {
+        const idx = href.indexOf(prefix);
+        if (idx !== -1) {
+          const n = parseInt(href.substring(idx + prefix.length), 10);
+          if (!isNaN(n)) return n;
+        }
+      }
+      return null;
+    }
+
+    function convertNotes(root, doc) {
+      const notes = collectNotes(root, doc);
+      const processed = new Set();
+
+      for (const sup of Array.from(root.querySelectorAll("sup"))) {
+        const noteId = noteIdFromSup(sup);
+        if (noteId === null || processed.has(noteId)) continue;
+        const li = notes.get(noteId);
+        if (!li) continue;
+
+        const frag = doc.createDocumentFragment();
+        while (li.firstChild) frag.appendChild(li.firstChild);
+        sup.replaceWith(frag);
+        processed.add(noteId);
+      }
+
+      for (const sup of Array.from(root.querySelectorAll("sup"))) {
+        if (
+          sup.childNodes.length === 1 &&
+          sup.firstChild.nodeType === Node.TEXT_NODE &&
+          /^\s+$/.test(sup.firstChild.textContent)
+        ) {
+          sup.remove();
+        }
+      }
+      for (const a of Array.from(root.querySelectorAll("a"))) {
+        if (
+          a.childNodes.length === 1 &&
+          a.firstChild.nodeType === Node.TEXT_NODE &&
+          a.firstChild.textContent === UP_ARROW
+        ) {
+          a.remove();
+        }
+      }
+      for (const ol of Array.from(root.querySelectorAll("ol"))) {
+        if (!ol.textContent.trim()) ol.remove();
+      }
+    }
+
+    function extForContentType(ct) {
+      if (!ct) return "png";
+      const sub = ct.split("/")[1] || "png";
+      return sub.split("+")[0].split(";")[0].trim() || "png";
+    }
+
+    // Alt-attribute marker so we can find and swap <img> elements back
+    // to a placeholder. Uses a Private Use Area char so it can't collide
+    // with real prose.
+    const IMAGE_PLACEHOLDER_MARKER = "";
+
+    // Detect Word paragraphs that look like block quotes: paragraphs with a
+    // meaningful LEFT indent (indent.start) but not just first-line indent.
+    // Academic-humanities authors typically indent block quotes ~1" (1440 twips).
+    // 360 twips (~0.25") is the trigger to catch shallower cases too.
+    const BLOCK_QUOTE_INDENT_TWIPS = 360;
+    const BLOCK_QUOTE_STYLE_ID = "BQAutoDetected";
+    const BLOCK_QUOTE_STYLE_NAME = "Block Quote Auto";
+
+    function buildTransformDocument() {
+      return window.mammoth.transforms.paragraph((paragraph) => {
+        const indent = paragraph.indent;
+        if (!indent) return paragraph;
+        const start = parseInt(indent.start || "0", 10);
+        if (!(start >= BLOCK_QUOTE_INDENT_TWIPS)) return paragraph;
+        // Skip if it's already a heading/title or a list item.
+        if (paragraph.styleId && /heading|title/i.test(paragraph.styleId)) return paragraph;
+        if (paragraph.numbering) return paragraph;
+        return Object.assign({}, paragraph, {
+          styleId: BLOCK_QUOTE_STYLE_ID,
+          styleName: BLOCK_QUOTE_STYLE_NAME,
+        });
+      });
+    }
+
+    async function convert(file) {
+      const buf = await file.arrayBuffer();
+      const images = [];
+      const convertImage = window.mammoth.images.imgElement((image) =>
+        image.read("base64").then((b64) => {
+          const idx = images.length + 1;
+          const contentType = image.contentType || "image/png";
+          images.push({
+            index: idx,
+            contentType,
+            base64: b64,
+            dataUrl: "data:" + contentType + ";base64," + b64,
+            filename: `image-${idx}.${extForContentType(contentType)}`,
+          });
+          return { alt: `${IMAGE_PLACEHOLDER_MARKER}${idx}${IMAGE_PLACEHOLDER_MARKER}` };
+        })
+      );
+
+      const styleMap = [
+        "u => u",
+        `p[style-name='${BLOCK_QUOTE_STYLE_NAME}'] => blockquote > p:fresh`,
+      ];
+
+      const result = await window.mammoth.convertToHtml(
+        { arrayBuffer: buf },
+        {
+          styleMap,
+          convertImage,
+          transformDocument: buildTransformDocument(),
+        }
+      );
+      // Emulate BS4/html.parser: whitespace-only text nodes between tags
+      // are collapsed to a single space on parse.
+      const normalized = result.value.replace(/>[ \t\n\r\f]{2,}</g, "> <");
+      const doc = new DOMParser().parseFromString(
+        "<!DOCTYPE html><html><body>" + normalized + "</body></html>",
+        "text/html"
+      );
+      const body = doc.body;
+      consolidateFormatting(body);
+      fixTagSpacing(body);
+      convertNotes(body, doc);
+      // Replace each <img> with a <strong> placeholder so no image data
+      // lands in the HTML the editor pastes into WordPress.
+      const IMG_ALT_RE = new RegExp(IMAGE_PLACEHOLDER_MARKER + "(\\d+)" + IMAGE_PLACEHOLDER_MARKER);
+      for (const img of Array.from(body.querySelectorAll("img"))) {
+        const alt = img.getAttribute("alt") || "";
+        const m = alt.match(IMG_ALT_RE);
+        const idx = m ? m[1] : "?";
+        const strong = doc.createElement("strong");
+        strong.textContent = `[PLACEHOLDER FOR IMAGE ${idx}]`;
+        img.replaceWith(strong);
+      }
+      // Match BS4 serialization: void elements self-close (<br/> not <br>),
+      // and \xa0 renders as literal char, not &nbsp;. (No <img> in output.)
+      const VOID_TAGS = /<(area|base|br|col|embed|hr|input|link|meta|param|source|track|wbr)([^>]*?)>/g;
+      const html = body.innerHTML
+        .replace(VOID_TAGS, "<$1$2/>")
+        .replace(/&nbsp;/g, " ");
+      return { html, messages: result.messages || [], images };
+    }
+
+    const fileInput = document.getElementById("ft-file-input");
+    const statusEl = document.getElementById("ft-status");
+    const resultsEl = document.getElementById("ft-results");
+    const outputEl = document.getElementById("ft-output");
+    const previewEl = document.getElementById("ft-preview");
+    const copyBtn = document.getElementById("ft-copy-btn");
+    const copyStatus = document.getElementById("ft-copy-status");
+    const messagesEl = document.getElementById("ft-messages");
+    const imagesSection = document.getElementById("ft-images-section");
+    const imagesEl = document.getElementById("ft-images");
+
+    function renderImages(images, docBaseName) {
+      imagesEl.innerHTML = "";
+      if (images.length === 0) {
+        imagesSection.hidden = true;
+        return;
+      }
+
+      if (images.length > 1) {
+        const toolbar = document.createElement("div");
+        toolbar.className = "ft-toolbar";
+        const zipBtn = document.createElement("button");
+        zipBtn.type = "button";
+        zipBtn.textContent = `Download all ${images.length} images as ZIP`;
+        const zipStatus = document.createElement("span");
+        zipStatus.style.color = "var(--ft-muted)";
+        zipStatus.style.fontSize = "0.9rem";
+        toolbar.appendChild(zipBtn);
+        toolbar.appendChild(zipStatus);
+        imagesEl.appendChild(toolbar);
+
+        zipBtn.addEventListener("click", async () => {
+          zipBtn.disabled = true;
+          zipStatus.textContent = "Building ZIP…";
+          try {
+            const zip = new JSZip();
+            for (const img of images) {
+              zip.file(img.filename, img.base64, { base64: true });
+            }
+            const blob = await zip.generateAsync({ type: "blob" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = `${docBaseName}-images.zip`;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+            zipStatus.textContent = "Downloaded";
+          } catch (err) {
+            zipStatus.textContent = "ZIP error: " + err.message;
+            console.error(err);
+          } finally {
+            zipBtn.disabled = false;
+          }
+        });
+      }
+
+      for (const img of images) {
+        const row = document.createElement("div");
+        row.className = "ft-image-row";
+
+        const thumb = document.createElement("div");
+        thumb.className = "ft-thumb";
+        const thumbImg = document.createElement("img");
+        thumbImg.src = img.dataUrl;
+        thumbImg.alt = "";
+        thumb.appendChild(thumbImg);
+
+        const meta = document.createElement("div");
+        meta.className = "ft-meta";
+        const label = document.createElement("div");
+        label.className = "ft-label";
+        label.textContent = `[image ${img.index}]`;
+        const fname = document.createElement("div");
+        fname.className = "ft-filename";
+        fname.textContent = `${img.filename} (${img.contentType})`;
+        meta.appendChild(label);
+        meta.appendChild(fname);
+
+        const dl = document.createElement("a");
+        dl.className = "ft-download";
+        dl.href = img.dataUrl;
+        dl.download = img.filename;
+        dl.textContent = "Download";
+
+        row.appendChild(thumb);
+        row.appendChild(meta);
+        row.appendChild(dl);
+        imagesEl.appendChild(row);
+      }
+
+      imagesSection.hidden = false;
+    }
+
+    fileInput.addEventListener("change", async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      statusEl.classList.remove("ft-error");
+      statusEl.textContent = "Converting…";
+      resultsEl.hidden = true;
+      copyStatus.textContent = "";
+      messagesEl.hidden = true;
+      messagesEl.innerHTML = "";
+      imagesSection.hidden = true;
+      imagesEl.innerHTML = "";
+
+      try {
+        const { html, messages, images } = await convert(file);
+        outputEl.value = html;
+        previewEl.innerHTML = html;
+
+        if (messages.length > 0) {
+          messagesEl.hidden = false;
+          const list = messages
+            .map((m) => `<li>${m.type}: ${m.message}</li>`)
+            .join("");
+          messagesEl.innerHTML =
+            `<strong>Conversion notes (${messages.length}):</strong><ul>${list}</ul>`;
+        }
+
+        const docBaseName = file.name.replace(/\.docx$/i, "") || "document";
+        renderImages(images, docBaseName);
+
+        resultsEl.hidden = false;
+        const imgSuffix = images.length
+          ? ` (${images.length} image${images.length > 1 ? "s" : ""} extracted)`
+          : "";
+        statusEl.textContent = `Converted: ${file.name}${imgSuffix}`;
+      } catch (err) {
+        statusEl.classList.add("ft-error");
+        statusEl.textContent = "Error: " + (err && err.message ? err.message : err);
+        console.error(err);
+      }
+    });
+
+    copyBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(outputEl.value);
+      } catch (err) {
+        outputEl.select();
+        document.execCommand("copy");
+      }
+      copyStatus.textContent = "Copied";
+      setTimeout(() => (copyStatus.textContent = ""), 2000);
+    });
+  })();
+</script>
