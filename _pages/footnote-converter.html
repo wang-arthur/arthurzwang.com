@@ -338,6 +338,22 @@ classes: wide
       return null;
     }
 
+    // Trim leading/trailing whitespace (incl. NBSP) from the first and last
+    // text nodes under el, descending into nested inline tags.
+    function trimEdgeWhitespace(el) {
+      const walker = el.ownerDocument.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const texts = [];
+      while (walker.nextNode()) texts.push(walker.currentNode);
+      for (const t of texts) {
+        t.textContent = t.textContent.replace(/^\s+/, "");
+        if (t.textContent.length > 0) break;
+      }
+      for (let i = texts.length - 1; i >= 0; i--) {
+        texts[i].textContent = texts[i].textContent.replace(/\s+$/, "");
+        if (texts[i].textContent.length > 0) break;
+      }
+    }
+
     function collectNotes(root, doc) {
       const notes = new Map();
       for (const li of root.querySelectorAll("li[id]")) {
@@ -357,16 +373,17 @@ classes: wide
           }
         }
 
-        const parts = paragraphs
-          .map((p) => p.textContent.trim())
-          .filter((t) => t.length > 0);
+        // Keep each paragraph's inline markup (em, strong, links) rather
+        // than flattening to textContent.
+        const parts = paragraphs.filter((p) => p.textContent.trim().length > 0);
+        for (const p of parts) trimEdgeWhitespace(p);
 
         if (parts.length > 0) {
           for (const p of paragraphs) p.remove();
           while (li.firstChild) li.firstChild.remove();
           li.appendChild(doc.createTextNode("(("));
           for (let i = 0; i < parts.length; i++) {
-            li.appendChild(doc.createTextNode(parts[i]));
+            while (parts[i].firstChild) li.appendChild(parts[i].firstChild);
             if (i < parts.length - 1) li.appendChild(doc.createElement("br"));
           }
           li.appendChild(doc.createTextNode("))"));
